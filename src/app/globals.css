@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design tokens ─────────────────────────────────────────── */
+:root {
+  color-scheme: light;
+
+  /* Core palette */
+  --c-white:      #ffffff;
+  --c-paper:      #f8fafc;
+  --c-line:       #e2e8f0;
+  --c-sand:       #cbd5e1;
+  --c-ink:        #0b1424;
+  --c-ink-60:     rgba(11, 20, 36, 0.60);
+  --c-ink-30:     rgba(11, 20, 36, 0.30);
+  --c-blue:       #374151;
+  --c-blue-lt:    #f3f4f6;
+
+  /* Typography */
+  --font-display: var(--font-inter), 'Inter', ui-sans-serif, sans-serif;
+  --font-body:    var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Spacing rhythm */
+  --space-section: clamp(3.5rem, 6vw, 6rem);
+}
+
+/* ─── Reset & base ──────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--c-white);
+  color: var(--c-ink);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--c-ink);
+  color: white;
+}
+
+img { -webkit-user-drag: none; }
+
+/* ─── Scrollbar (webkit) ────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--c-paper); }
+::-webkit-scrollbar-thumb { background: var(--c-sand); border-radius: 3px; }
+
+/* ─── Utility layer ─────────────────────────────────────────── */
+@layer components {
+
+  /* Layout shell */
+  .shell {
+    @apply mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Eyebrow label */
+  .label {
+    font-family: var(--font-body);
+    @apply text-[10px] font-bold uppercase tracking-[0.28em] text-edl-500;
+  }
+
+  /* Display headline — Plus Jakarta Sans bold, modern */
+  .display {
+    font-family: var(--font-display);
+    @apply font-extrabold tracking-[-0.03em] leading-[1.0];
+  }
+
+  /* Divider line */
+  .rule {
+    @apply border-t border-edl-line;
+  }
+
+  /* Primary CTA — dark charcoal fill */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2
+           bg-edl-blue text-white
+           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           transition-all duration-200
+           hover:bg-edl-800;
+  }
+
+  /* Dark CTA — ink fill */
+  .btn-ink {
+    @apply inline-flex items-center justify-center gap-2
+           bg-edl-ink text-white
+           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           transition-all duration-200
+           hover:bg-edl-800;
+  }
+
+  /* Secondary CTA — ghost */
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2
+           border border-edl-ink text-edl-ink
+           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           transition-all duration-200
+           hover:bg-edl-ink hover:text-white;
+  }
+
+  /* White ghost */
+  .btn-ghost-white {
+    @apply inline-flex items-center justify-center gap-2
+           border border-white/60 text-white
+           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           transition-all duration-200
+           hover:bg-white hover:text-edl-ink;
+  }
+
+  /* Product card */
+  .surface-card {
+    @apply bg-white border border-edl-line transition-all duration-300;
+  }
+
+  /* Form control */
+  .field {
+    @apply h-11 w-full border border-edl-line bg-white px-4
+           text-sm text-edl-ink outline-none
+           transition-all duration-150
+           placeholder:text-edl-400
+           focus:border-edl-blue focus:ring-0;
+  }
+
+  .field-select {
+    @apply field appearance-none bg-white pr-9;
+  }
+}
+
+/* ─── Animations ────────────────────────────────────────────── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.animate-fade-up   { animation: fade-up  0.55s ease both; }
+.animate-fade-in   { animation: fade-in  0.4s  ease both; }
+.delay-100 { animation-delay: 0.10s; }
+.delay-200 { animation-delay: 0.20s; }
+.delay-300 { animation-delay: 0.30s; }
+.delay-400 { animation-delay: 0.40s; }
