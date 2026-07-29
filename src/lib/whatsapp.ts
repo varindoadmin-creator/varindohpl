@@ -11,7 +11,15 @@ export function buildWhatsAppUrl(message: string) {
 }
 
 export function buildProductEnquiryMessage() {
-  return 'Halo Admin Varindo, saya ingin bertanya mengenai produk EDL.';
+  return [
+    'Halo Admin Varindo, saya tertarik dengan produk berikut:',
+    '',
+    'Produk:',
+    'Kode:',
+    'Harga:',
+    '',
+    'Terima kasih.',
+  ].join('\n');
 }
 
 export function buildSampleRequestMessage(product?: Product) {
