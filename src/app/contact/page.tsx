@@ -54,8 +54,8 @@ export default function ContactPage() {
                 </div>
                 <div className="bg-white px-6 py-5">
                   <p className="label mb-2">{t('contact', 'email', lang)}</p>
-                  <a href="mailto:varindo.admin@gmail.com" className="text-[13px] text-edl-blue underline underline-offset-2 hover:text-edl-800 transition-colors">
-                    varindo.admin@gmail.com
+                  <a href="mailto:contact@varindo.co.id" className="text-[13px] text-edl-blue underline underline-offset-2 hover:text-edl-800 transition-colors">
+                    contact@varindo.co.id
                   </a>
                 </div>
               </div>
