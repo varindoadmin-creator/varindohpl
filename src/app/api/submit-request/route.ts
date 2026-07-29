@@ -127,16 +127,16 @@ export async function POST(req: NextRequest) {
     // quote/sample requests if one row fails.
     await insertRows(rows);
 
-    // Send email notification (non-blocking — don't fail the response if email errors)
-    sendRequestNotification({ type, name, phone, address, items: body.items, samples: body.samples })
-      .catch((e) => console.error('[submit-request] Email notification failed:', e));
+    // Wait for SMTP acceptance so a successful response means the request
+    // notification was accepted by the configured mail server.
+    await sendRequestNotification({ type, name, phone, address, items: body.items, samples: body.samples });
 
     return NextResponse.json({ success: true });
 
   } catch (err) {
-    console.error('[submit-request] Supabase insert failed:', err);
+    console.error('[submit-request] Request submission failed:', err);
     return NextResponse.json(
-      { success: false, error: 'Could not save request. Please try again.' },
+      { success: false, error: 'Could not complete request submission. Please try again.' },
       { status: 500 }
     );
   }

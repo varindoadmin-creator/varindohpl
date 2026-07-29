@@ -125,12 +125,16 @@ export async function sendChatTranscript(messages: ChatMessage[], lang: string):
 
 export async function sendRequestNotification(params: NotifyParams): Promise<void> {
   const transporter = getTransporter();
-  if (!transporter) return; // silently skip if SMTP not configured
+  if (!transporter) throw new Error('SMTP is not configured');
 
-  await transporter.sendMail({
+  const info = await transporter.sendMail({
     from:    `"Varindo Website" <${process.env.SMTP_USER}>`,
     to:      NOTIFY_TO,
     subject: `[${LABEL[params.type]}] ${params.name || 'New request'} — varindo.co.id`,
     html:    buildHtml(params),
   });
+
+  if (!info.accepted?.length || info.rejected?.length) {
+    throw new Error(`SMTP did not accept the recipient: ${info.response || 'unknown response'}`);
+  }
 }
