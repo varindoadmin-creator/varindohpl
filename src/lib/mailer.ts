@@ -2,7 +2,6 @@ import nodemailer from 'nodemailer';
 
 const NOTIFY_TO =
   process.env.REQUEST_NOTIFICATION_EMAIL ||
-  process.env.SMTP_USER ||
   'contact@varindo.co.id';
 
 function getTransporter() {
