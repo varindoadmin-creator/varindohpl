@@ -1,8 +1,6 @@
 import nodemailer from 'nodemailer';
 
-const NOTIFY_TO =
-  process.env.REQUEST_NOTIFICATION_EMAIL ||
-  'contact@varindo.co.id';
+const REQUEST_NOTIFY_TO = 'varindo.admin@gmail.com';
 
 function getTransporter() {
   const host = process.env.SMTP_HOST;
@@ -117,7 +115,7 @@ export async function sendChatTranscript(messages: ChatMessage[], lang: string):
 
   await transporter.sendMail({
     from:    `"Varindo VIA" <${process.env.SMTP_USER}>`,
-    to:      NOTIFY_TO,
+    to:      REQUEST_NOTIFY_TO,
     subject: `[VIA Transcript] ${userMessages.length} msg — ${new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' })}`,
     html,
   });
@@ -129,7 +127,7 @@ export async function sendRequestNotification(params: NotifyParams): Promise<voi
 
   const info = await transporter.sendMail({
     from:    `"Varindo Website" <${process.env.SMTP_USER}>`,
-    to:      NOTIFY_TO,
+    to:      REQUEST_NOTIFY_TO,
     subject: `[${LABEL[params.type]}] ${params.name || 'New request'} — varindo.co.id`,
     html:    buildHtml(params),
   });
