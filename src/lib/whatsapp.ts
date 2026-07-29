@@ -1,5 +1,4 @@
 import type { Product } from '@/types/product';
-import { formatIDR } from './utils';
 
 const DEFAULT_WA_NUMBER = '62811945224';
 
@@ -11,22 +10,8 @@ export function buildWhatsAppUrl(message: string) {
   return `https://wa.me/${getWhatsAppNumber()}?text=${encodeURIComponent(message)}`;
 }
 
-export function buildProductEnquiryMessage(product: Product) {
-  const lines = [
-    'Halo Admin Varindo, saya tertarik dengan produk berikut:',
-    '',
-    `Produk: ${product.name}`,
-    `Kode: ${product.code}`,
-    `Harga: ${formatIDR(product.price)} (Termasuk PPN)`
-  ];
-
-  if (product.isPromoItem && typeof product.promoPrice === 'number') {
-    lines.push(`Promo: ${formatIDR(product.promoPrice)} (Termasuk PPN)`);
-  }
-
-  lines.push('', 'Terima kasih.');
-
-  return lines.join('\n');
+export function buildProductEnquiryMessage() {
+  return 'Halo Admin Varindo, saya ingin bertanya mengenai produk EDL.';
 }
 
 export function buildSampleRequestMessage(product?: Product) {
