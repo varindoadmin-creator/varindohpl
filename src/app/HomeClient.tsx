@@ -63,7 +63,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
             </div>
 
             <div className="relative min-h-[400px] overflow-hidden lg:m-4 lg:ml-0 lg:rounded-[1.5rem]">
-              <div className="absolute inset-0 bg-[url('/hero-1.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/hero-edl-wt-62.jpg')] bg-cover bg-center" />
               <div className="absolute inset-0 bg-gradient-to-t from-edl-ink/20 via-transparent to-white/10" />
               <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between rounded-2xl border border-white/40 bg-white/80 p-5 shadow-lg backdrop-blur-md">
                 <div>
