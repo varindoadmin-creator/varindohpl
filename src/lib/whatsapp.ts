@@ -1,4 +1,5 @@
 import type { Product } from '@/types/product';
+import { formatIDR } from './utils';
 
 const DEFAULT_WA_NUMBER = '62811945224';
 
@@ -10,13 +11,13 @@ export function buildWhatsAppUrl(message: string) {
   return `https://wa.me/${getWhatsAppNumber()}?text=${encodeURIComponent(message)}`;
 }
 
-export function buildProductEnquiryMessage() {
+export function buildProductEnquiryMessage(product: Product) {
   return [
     'Halo Admin Varindo, saya tertarik dengan produk berikut:',
     '',
-    'Produk:',
-    'Kode:',
-    'Harga:',
+    `Produk: *${product.name}*`,
+    `Kode: *${product.code}*`,
+    `Harga: *${formatIDR(product.price)}* (Termasuk PPN)`,
     '',
     'Terima kasih.',
   ].join('\n');

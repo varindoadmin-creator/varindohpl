@@ -10,7 +10,7 @@ import { t } from '@/lib/i18n';
 
 export function ProductDetailClient({ product }: { product: Product }) {
   const { lang } = useLang();
-  const enquiryUrl = buildWhatsAppUrl(buildProductEnquiryMessage());
+  const enquiryUrl = buildWhatsAppUrl(buildProductEnquiryMessage(product));
 
   const specs = [
     [t('detail', 'specCode', lang),          product.code],
