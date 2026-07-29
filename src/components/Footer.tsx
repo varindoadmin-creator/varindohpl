@@ -93,7 +93,7 @@ export function Footer() {
             </p>
             <p className="text-[13px] text-edl-400">
               <span className="block text-edl-500 text-[10px] tracking-[0.16em] uppercase mb-1">Email</span>
-              contact@varindo.co.id
+              varindo.admin@gmail.com
             </p>
           </address>
         </div>

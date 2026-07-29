@@ -103,7 +103,7 @@ export default function PrivacyPage() {
                 <p>Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami:</p>
                 <div className="mt-4 border border-edl-line bg-edl-50 p-5 space-y-2">
                   <p><span className="font-medium text-edl-ink">CV. Varindo Forma Hutama</span></p>
-                  <p>Email: <a href="mailto:contact@varindo.co.id" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">contact@varindo.co.id</a></p>
+                  <p>Email: <a href="mailto:varindo.admin@gmail.com" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.admin@gmail.com</a></p>
                   <p>WhatsApp: 0811 945 224</p>
                   <p>Website: <a href="https://varindo.co.id" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.co.id</a></p>
                 </div>
@@ -186,7 +186,7 @@ export default function PrivacyPage() {
                 <p>If you have any questions about this privacy policy, please contact us:</p>
                 <div className="mt-4 border border-edl-line bg-edl-50 p-5 space-y-2">
                   <p><span className="font-medium text-edl-ink">CV. Varindo Forma Hutama</span></p>
-                  <p>Email: <a href="mailto:contact@varindo.co.id" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">contact@varindo.co.id</a></p>
+                  <p>Email: <a href="mailto:varindo.admin@gmail.com" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.admin@gmail.com</a></p>
                   <p>WhatsApp: 0811 945 224</p>
                   <p>Website: <a href="https://varindo.co.id" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.co.id</a></p>
                 </div>
