@@ -10,24 +10,26 @@ const collectionItems = [
   { key: 'new-arrivals', href: '/collections/new-arrivals' },
   { key: 'best-sellers', href: '/collections/best-sellers' },
   { key: 'woods',        href: '/collections/woods' },
-  { key: 'patterns',     href: '/collections/patterns' },
   { key: 'solids',       href: '/collections/solids' },
-  { key: 'stone',        href: '/collections/stone' },
-  { key: 'marble',       href: '/collections/marble' },
+  { key: 'ecru-core',    href: '/collections/ecru-core' },
+  { key: 'patterns',     href: '/collections/patterns' },
+  { key: 'marble-stone', href: '/collections/marble-stone' },
   { key: 'metal',        href: '/collections/metal' },
-  { key: 'aptico',       href: '/collections/aptico' },
+  { key: 'colour-core',  href: '/collections/colour-core' },
+  { key: 'aptico-matt',  href: '/collections/aptico-matt' },
 ];
 
 const collectionLabels: Record<string, { id: string; en: string }> = {
   'new-arrivals': { id: 'Produk Terbaru',  en: 'New Arrivals' },
   'best-sellers': { id: 'Produk Terlaris', en: 'Best Sellers' },
   'woods':        { id: 'Woods',           en: 'Woods' },
-  'patterns':     { id: 'Patterns',        en: 'Patterns' },
   'solids':       { id: 'Solids',          en: 'Solids' },
-  'stone':        { id: 'Stone',           en: 'Stone' },
-  'marble':       { id: 'Marble',          en: 'Marble' },
+  'ecru-core':    { id: 'Ecru Core',       en: 'Ecru Core' },
+  'patterns':     { id: 'Patterns',        en: 'Patterns' },
+  'marble-stone': { id: 'Marble & Stone',  en: 'Marble & Stone' },
   'metal':        { id: 'Metal',           en: 'Metal' },
-  'aptico':       { id: 'Aptico',          en: 'Aptico' },
+  'colour-core':  { id: 'Colour Core',     en: 'Colour Core' },
+  'aptico-matt':  { id: 'Aptico-Matt',     en: 'Aptico-Matt' },
 };
 
 function LangSwitcher() {
@@ -104,13 +106,13 @@ export function Header() {
   return (
     <>
       {/* Announcement bar — EDL blue */}
-      <div className="bg-edl-blue text-white text-center py-2 px-4">
-        <p className="text-[10px] tracking-[0.22em] uppercase font-bold text-white/90">
+      <div className="bg-[#f5e6df] text-center py-2 px-4">
+        <p className="text-[10px] tracking-[0.22em] uppercase font-bold text-[#8f5145]">
           {t('nav', 'announcementBar', lang)}
         </p>
       </div>
 
-      <header className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${scrolled ? 'shadow-[0_1px_0_rgba(11,20,36,0.10)]' : ''}`}>
+      <header className={`sticky top-0 z-50 bg-[#fbfaf6]/95 backdrop-blur-xl transition-shadow duration-300 ${scrolled ? 'shadow-[0_12px_40px_rgba(32,48,42,0.07)]' : ''}`}>
         <div className="rule" />
 
         <div className="shell">
@@ -123,9 +125,8 @@ export function Header() {
               <div className="h-8 w-px bg-edl-line" />
               <img src="/edl-logo.png" alt="EDL"
                 style={{ width: '44px' }} className="h-auto object-contain" />
-              <span className="hidden sm:flex flex-col leading-none pl-3 border-l border-edl-line">
-                <span className="text-[8px] font-bold tracking-[0.3em] uppercase text-edl-blue">Authorized</span>
-                <span className="text-[10px] font-bold tracking-[0.12em] uppercase text-edl-ink">EDL Dealer</span>
+              <span className="hidden sm:block border-l border-edl-line pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-edl-700">
+                Authorized<br />Dealer
               </span>
             </Link>
 

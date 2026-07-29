@@ -48,7 +48,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL TITAN III — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -84,6 +86,54 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL CRYSTAL GREY — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
+    "slug": "da-3062d-dotti-berry",
+    "code": "DA 3062D",
+    "name": "DA 3062D - EDL HPL 4'x8' | DOTTI BERRY",
+    "design": "DOTTI BERRY",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL DOTTI BERRY — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "da-5671b-black-square-block",
+    "code": "DA 5671B",
+    "name": "DA 5671B - EDL HPL 4'x8' | BLACK SQUARE BLOCK",
+    "design": "BLACK SQUARE BLOCK",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BLACK SQUARE BLOCK — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "da-6062d-dotti-black",
+    "code": "DA 6062D",
+    "name": "DA 6062D - EDL HPL 4'x8' | DOTTI BLACK",
+    "design": "DOTTI BLACK",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL DOTTI BLACK — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
     "slug": "da-7180c-crystal-black",
     "code": "DA 7180C",
     "name": "DA 7180C - EDL HPL 4'x8' | CRYSTAL BLACK",
@@ -116,28 +166,245 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL CRYSTAL SATIN — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
-    "slug": "dc-3342lun-cinder-basalt",
-    "code": "DC 3342LUN",
-    "name": "DC 3342LUN - EDL HPL 1300x3050 | CINDER BASALT",
-    "design": "CINDER BASALT",
+    "slug": "da-9713d-glacist-black",
+    "code": "DA 9713D",
+    "name": "DA 9713D - EDL HPL 4'x8' | GLACIST BLACK",
+    "design": "GLACIST BLACK",
     "brand": "EDL",
-    "collection": "Stone",
-    "category": "Stone",
-    "size": "1300 x 3050 mm",
+    "collection": "Pattern",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
-    "price": 1100000,
+    "price": 730000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL CINDER BASALT — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL GLACIST BLACK — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "db-1204n-phantom-black",
+    "code": "DB 1204N",
+    "name": "DB 1204N - EDL HPL 4'x8' | PHANTOM BLACK",
+    "design": "PHANTOM BLACK",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL PHANTOM BLACK — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-2739b-earth-alu-brush",
+    "code": "DB 2739B",
+    "name": "DB 2739B - EDL HPL 4'x8' | EARTH ALU BRUSH",
+    "design": "EARTH ALU BRUSH",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL EARTH ALU BRUSH — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-3649b-ivory-brush",
+    "code": "DB 3649B",
+    "name": "DB 3649B - EDL HPL 4'x8' | IVORY BRUSH",
+    "design": "IVORY BRUSH",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL IVORY BRUSH — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-4009xt-line-black",
+    "code": "DB 4009XT",
+    "name": "DB 4009XT - EDL HPL 4'x8' | LINE BLACK",
+    "design": "LINE BLACK",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LINE BLACK — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7001xt-barley-grey-line",
+    "code": "DB 7001XT",
+    "name": "DB 7001XT - EDL HPL 4'x8' | BARLEY GREY LINE",
+    "design": "BARLEY GREY LINE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW",
+      "BESTSELLER"
+    ],
+    "description": "EDL BARLEY GREY LINE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7002xt-polish-grey-line",
+    "code": "DB 7002XT",
+    "name": "DB 7002XT - EDL HPL 4'x8' | POLISH GREY LINE",
+    "design": "POLISH GREY LINE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL POLISH GREY LINE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7003xt-steely-grey-line",
+    "code": "DB 7003XT",
+    "name": "DB 7003XT - EDL HPL 4'x8' | STEELY GREY LINE",
+    "design": "STEELY GREY LINE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL STEELY GREY LINE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7004xt-pixie-dust-line",
+    "code": "DB 7004XT",
+    "name": "DB 7004XT - EDL HPL 4'x8' | PIXIE DUST LINE",
+    "design": "PIXIE DUST LINE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL PIXIE DUST LINE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7005xt-dusty-blue-line",
+    "code": "DB 7005XT",
+    "name": "DB 7005XT - EDL HPL 4'x8' | DUSTY BLUE LINE",
+    "design": "DUSTY BLUE LINE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL DUSTY BLUE LINE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7009xt-line-white",
+    "code": "DB 7009XT",
+    "name": "DB 7009XT - EDL HPL 4'x8' | LINE WHITE",
+    "design": "LINE WHITE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Solid",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LINE WHITE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7147sm-cream-graphic",
+    "code": "DB 7147SM",
+    "name": "DB 7147SM - EDL HPL 4'x8' | CREAM GRAPHIC",
+    "design": "CREAM GRAPHIC",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CREAM GRAPHIC — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "db-7149sm-dark-graphic",
+    "code": "DB 7149SM",
+    "name": "DB 7149SM - EDL HPL 4'x8' | DARK GRAPHIC",
+    "design": "DARK GRAPHIC",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL DARK GRAPHIC — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "dc-4545lun-shiro",
     "code": "DC 4545LUN",
-    "name": "DC 4545LUN - EDL HPL 1300x3050 | SHIRO",
+    "name": "DC 4545LUN - EDL HPL 4'x10' | SHIRO",
     "design": "SHIRO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
@@ -145,7 +412,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SHIRO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL SHIRO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dcw-3142wj-torino-pine",
@@ -153,7 +420,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DCW 3142WJ - EDL HPL 4'x8' | TORINO PINE",
     "design": "TORINO PINE",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -161,7 +428,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL TORINO PINE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL TORINO PINE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dcw-4906wc-eastern-alder",
@@ -169,7 +436,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DCW 4906WC - EDL HPL 4'x8' | EASTERN ALDER",
     "design": "EASTERN ALDER",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -177,7 +444,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL EASTERN ALDER — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL EASTERN ALDER — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dcw-4907vc-western-alder",
@@ -185,15 +452,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DCW 4907VC - EDL HPL 4'x8' | WESTERN ALDER",
     "design": "WESTERN ALDER",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL WESTERN ALDER — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL WESTERN ALDER — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dcw-5471vc-silk-wood",
@@ -201,15 +468,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DCW 5471VC - EDL HPL 4'x8' | SILK WOOD",
     "design": "SILK WOOD",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SILK WOOD — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL SILK WOOD — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dcw-6826vc-sycamore",
@@ -217,15 +484,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DCW 6826VC - EDL HPL 4'x8' | SYCAMORE",
     "design": "SYCAMORE",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SYCAMORE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL SYCAMORE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dcw-7404vc-italian-chestnut",
@@ -233,15 +500,33 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DCW 7404VC - EDL HPL 4'x8' | ITALIAN CHESTNUT",
     "design": "ITALIAN CHESTNUT",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL ITALIAN CHESTNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL ITALIAN CHESTNUT — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "ddm-0910mt-chrome-matt",
+    "code": "DDM 0910MT",
+    "name": "DDM 0910MT - EDL HPL 4'x8' | CHROME MATT",
+    "design": "CHROME MATT",
+    "brand": "EDL",
+    "collection": "Metal",
+    "category": "Metal",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 4400000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CHROME MATT — a metallic HPL surface for contemporary premium interior projects."
   },
   {
     "slug": "ddm-0920mt-alloy-matt",
@@ -262,6 +547,24 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL ALLOY MATT — a metallic HPL surface for contemporary premium interior projects."
   },
   {
+    "slug": "ddm-0930mt-stainless-matt",
+    "code": "DDM 0930MT",
+    "name": "DDM 0930MT - EDL HPL 4'x8' | STAINLESS MATT",
+    "design": "STAINLESS MATT",
+    "brand": "EDL",
+    "collection": "Metal",
+    "category": "Metal",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 4400000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL STAINLESS MATT — a metallic HPL surface for contemporary premium interior projects."
+  },
+  {
     "slug": "ddm-0950mt-brass-matt",
     "code": "DDM 0950MT",
     "name": "DDM 0950MT - EDL HPL 4'x8' | BRASS MATT",
@@ -280,12 +583,30 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL BRASS MATT — a metallic HPL surface for contemporary premium interior projects."
   },
   {
-    "slug": "dh-1596qt-malta-sottile",
-    "code": "DH 1596QT",
-    "name": "DH 1596QT - EDL HPL 4'x8' | MALTA SOTTILE",
-    "design": "MALTA SOTTILE",
+    "slug": "ddm-0960mt-hazel-bronze-matt",
+    "code": "DDM 0960MT",
+    "name": "DDM 0960MT - EDL HPL 4'x8' | HAZEL BRONZE MATT",
+    "design": "HAZEL BRONZE MATT",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Metal",
+    "category": "Metal",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 4400000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL HAZEL BRONZE MATT — a metallic HPL surface for contemporary premium interior projects."
+  },
+  {
+    "slug": "dh-1101qt-rola-cloud",
+    "code": "DH 1101QT",
+    "name": "DH 1101QT - EDL HPL 4'x8' | ROLA CLOUD",
+    "design": "ROLA CLOUD",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -295,7 +616,228 @@ export const edlProductsFromCsv: Product[] = [
     "badges": [
       "NEW"
     ],
-    "description": "EDL MALTA SOTTILE — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL ROLA CLOUD — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1102qt-rola-shell",
+    "code": "DH 1102QT",
+    "name": "DH 1102QT - EDL HPL 4'x8' | ROLA SHELL",
+    "design": "ROLA SHELL",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL ROLA SHELL — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1103qt-rola-slate",
+    "code": "DH 1103QT",
+    "name": "DH 1103QT - EDL HPL 4'x8' | ROLA SLATE",
+    "design": "ROLA SLATE",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL ROLA SLATE — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1105qt-rola-terra",
+    "code": "DH 1105QT",
+    "name": "DH 1105QT - EDL HPL 4'x8' | ROLA TERRA",
+    "design": "ROLA TERRA",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL ROLA TERRA — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1259qt-clay-trench",
+    "code": "DH 1259QT",
+    "name": "DH 1259QT - EDL HPL 4'x8' | CLAY TRENCH",
+    "design": "CLAY TRENCH",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CLAY TRENCH — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1260qt-clay-blush",
+    "code": "DH 1260QT",
+    "name": "DH 1260QT - EDL HPL 4'x8' | CLAY BLUSH",
+    "design": "CLAY BLUSH",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CLAY BLUSH — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1261qt-clay-dust",
+    "code": "DH 1261QT",
+    "name": "DH 1261QT - EDL HPL 4'x8' | CLAY DUST",
+    "design": "CLAY DUST",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CLAY DUST — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1262qt-clay-meyer",
+    "code": "DH 1262QT",
+    "name": "DH 1262QT - EDL HPL 4'x8' | CLAY MEYER",
+    "design": "CLAY MEYER",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CLAY MEYER — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1300qt-universal-chalk",
+    "code": "DH 1300QT",
+    "name": "DH 1300QT - EDL HPL 4'x8' | UNIVERSAL CHALK",
+    "design": "UNIVERSAL CHALK",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL UNIVERSAL CHALK — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1301qt-universal-sand",
+    "code": "DH 1301QT",
+    "name": "DH 1301QT - EDL HPL 4'x8' | UNIVERSAL SAND",
+    "design": "UNIVERSAL SAND",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL UNIVERSAL SAND — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1302qt-universal-pewter",
+    "code": "DH 1302QT",
+    "name": "DH 1302QT - EDL HPL 4'x8' | UNIVERSAL PEWTER",
+    "design": "UNIVERSAL PEWTER",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL UNIVERSAL PEWTER — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1303qt-universal-earth",
+    "code": "DH 1303QT",
+    "name": "DH 1303QT - EDL HPL 4'x8' | UNIVERSAL EARTH",
+    "design": "UNIVERSAL EARTH",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL UNIVERSAL EARTH — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1596qt-malta-sottile",
+    "code": "DH 1596QT",
+    "name": "DH 1596QT - EDL HPL 4'x8' | MALTA SOTTILE",
+    "design": "MALTA SOTTILE",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 01596D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MALTA SOTTILE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dh-1597qt-malta-fondo",
@@ -303,35 +845,160 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DH 1597QT - EDL HPL 4'x8' | MALTA FONDO",
     "design": "MALTA FONDO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 01597D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 780000,
     "currency": "IDR",
     "active": true,
     "badges": [
       "NEW"
     ],
-    "description": "EDL MALTA FONDO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL MALTA FONDO — a premium HPL decorative surface manufactured in Austria."
   },
   {
-    "slug": "dht-1597qt-malta-fondo",
-    "code": "DHT 1597QT",
-    "name": "DHT 1597QT - EDL HPL 1300x3050 | MALTA FONDO",
-    "design": "MALTA FONDO",
+    "slug": "dh-1598qt-malta-chiara",
+    "code": "DH 1598QT",
+    "name": "DH 1598QT - EDL HPL 4'x8' | MALTA CHIARA",
+    "design": "MALTA CHIARA",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 01598D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MALTA CHIARA — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dh-1599qt-malta-lieve",
+    "code": "DH 1599QT",
+    "name": "DH 1599QT - EDL HPL 4'x8' | MALTA LIEVE",
+    "design": "MALTA LIEVE",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 01599D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MALTA LIEVE — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dht-1596qt-malta-sottile-10ft",
+    "code": "DHT 1596QT",
+    "name": "DHT 1596QT - EDL HPL 4'x10' | MALTA SOTTILE (10FT)",
+    "design": "MALTA SOTTILE (10FT)",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "10Ft",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 01596D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 920000,
     "currency": "IDR",
     "active": true,
     "badges": [
       "NEW"
     ],
-    "description": "EDL MALTA FONDO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL MALTA SOTTILE (10FT) — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dht-1597qt-malta-fondo",
+    "code": "DHT 1597QT",
+    "name": "DHT 1597QT - EDL HPL 4'x10' | MALTA FONDO",
+    "design": "MALTA FONDO",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1300 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 01597D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 920000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MALTA FONDO — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dht-1598qt-malta-chiara-10ft",
+    "code": "DHT 1598QT",
+    "name": "DHT 1598QT - EDL HPL 4'x10' | MALTA CHIARA (10FT)",
+    "design": "MALTA CHIARA (10FT)",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "10Ft",
+    "size": "1300 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 01598D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 920000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MALTA CHIARA (10FT) — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dht-1599qt-malta-lieve-10ft",
+    "code": "DHT 1599QT",
+    "name": "DHT 1599QT - EDL HPL 4'x10' | MALTA LIEVE (10FT)",
+    "design": "MALTA LIEVE (10FT)",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "10Ft",
+    "size": "1300 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 01599D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 920000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MALTA LIEVE (10FT) — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dma-2866-rose-gold-mirror",
@@ -366,20 +1033,79 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL POLISHED GREY MIRROR — a metallic HPL surface for contemporary premium interior projects."
   },
   {
+    "slug": "dmc-0766l-luna-alu",
+    "code": "DMC 0766L",
+    "name": "DMC 0766L - EDL HPL 4'x8' | LUNA ALU",
+    "design": "LUNA ALU",
+    "brand": "EDL",
+    "collection": "Metal",
+    "category": "Metal",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.5mm",
+    "price": 6900000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LUNA ALU — a metallic HPL surface for contemporary premium interior projects."
+  },
+  {
+    "slug": "dmc-0866l-luna-rose-gold",
+    "code": "DMC 0866L",
+    "name": "DMC 0866L - EDL HPL 4'x8' | LUNA ROSE GOLD",
+    "design": "LUNA ROSE GOLD",
+    "brand": "EDL",
+    "collection": "Metal",
+    "category": "Metal",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.5mm",
+    "price": 6900000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LUNA ROSE GOLD — a metallic HPL surface for contemporary premium interior projects."
+  },
+  {
+    "slug": "dmc-0966l-luna-polished-grey",
+    "code": "DMC 0966L",
+    "name": "DMC 0966L - EDL HPL 4'x8' | LUNA POLISHED GREY",
+    "design": "LUNA POLISHED GREY",
+    "brand": "EDL",
+    "collection": "Metal",
+    "category": "Metal",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.5mm",
+    "price": 6900000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LUNA POLISHED GREY — a metallic HPL surface for contemporary premium interior projects."
+  },
+  {
     "slug": "dms-2048xm-pearl-calacatta-matt",
     "code": "DMS 2048XM",
     "name": "DMS 2048XM - EDL HPL 4'x8' | PEARL CALACATTA-MATT",
     "design": "PEARL CALACATTA-MATT",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02048",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PEARL CALACATTA-MATT — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL PEARL CALACATTA-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2300xm-antico-rosso-matt",
@@ -387,15 +1113,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2300XM - EDL HPL 4'x8' | ANTICO ROSSO-MATT",
     "design": "ANTICO ROSSO-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02300",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL ANTICO ROSSO-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL ANTICO ROSSO-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2320xm-nero-rosso-matt",
@@ -403,15 +1134,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2320XM - EDL HPL 4'x8' | NERO ROSSO-MATT",
     "design": "NERO ROSSO-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02320SM",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NERO ROSSO-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL NERO ROSSO-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2390xm-royal-carrara-matt",
@@ -419,15 +1155,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2390XM - EDL HPL 4'x8' | ROYAL CARRARA-MATT",
     "design": "ROYAL CARRARA-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02390",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL ROYAL CARRARA-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL ROYAL CARRARA-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2396xm-nero-moraine-matt",
@@ -435,15 +1176,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2396XM - EDL HPL 4'x8' | NERO MORAINE-MATT",
     "design": "NERO MORAINE-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02396",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NERO MORAINE-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL NERO MORAINE-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2557xm-lavant-matt",
@@ -451,15 +1197,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2557XM - EDL HPL 4'x8' | LAVANT-MATT",
     "design": "LAVANT-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02557",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LAVANT-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL LAVANT-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2558xm-dark-lavant-matt",
@@ -467,15 +1218,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2558XM - EDL HPL 4'x8' | DARK LAVANT-MATT",
     "design": "DARK LAVANT-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02558",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DARK LAVANT-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL DARK LAVANT-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2576xm-bianco-venatino-matt",
@@ -483,15 +1239,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2576XM - EDL HPL 4'x8' | BIANCO VENATINO-MATT",
     "design": "BIANCO VENATINO-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSM 02576",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BIANCO VENATINO-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL BIANCO VENATINO-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2584xm-pierz-matt",
@@ -499,15 +1260,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2584XM - EDL HPL 4'x8' | PIERZ-MATT",
     "design": "PIERZ-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02584D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 750000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PIERZ-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL PIERZ-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2586xm-cabana-matt",
@@ -515,7 +1281,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2586XM - EDL HPL 4'x8' | CABANA-MATT",
     "design": "CABANA-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -523,23 +1289,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL CABANA-MATT — a marble-effect HPL for elegant and refined interior spaces."
-  },
-  {
-    "slug": "dms-2587xm-dark-muse-matt",
-    "code": "DMS 2587XM",
-    "name": "DMS 2587XM - EDL HPL 4'x8' | DARK MUSE-MATT",
-    "design": "DARK MUSE-MATT",
-    "brand": "EDL",
-    "collection": "Marble",
-    "category": "Marble Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 750000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL DARK MUSE-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL CABANA-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dms-2588xm-noa-marble-matt",
@@ -547,7 +1297,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DMS 2588XM - EDL HPL 4'x8' | NOA MARBLE-MATT",
     "design": "NOA MARBLE-MATT",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -555,7 +1305,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NOA MARBLE-MATT — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL NOA MARBLE-MATT — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dpc-2121g-bianco-g",
@@ -563,15 +1313,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DPC 2121G - EDL HPL 4'x8' | BIANCO-G",
     "design": "BIANCO-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Colour Core",
     "category": "Melavaio Gloss",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BIANCO-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL BIANCO-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dpc-2122g-tera-marble-g",
@@ -579,15 +1329,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DPC 2122G - EDL HPL 4'x8' | TERA MARBLE-G",
     "design": "TERA MARBLE-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Colour Core",
     "category": "Melavaio Gloss",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL TERA MARBLE-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL TERA MARBLE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dpc-3131vc-bianco-v",
@@ -595,15 +1345,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DPC 3131VC - EDL HPL 4'x8' | BIANCO-V",
     "design": "BIANCO-V",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Colour Core",
     "category": "Melavaio Matt",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BIANCO-V — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL BIANCO-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dpc-3132vc-tera-marble-v",
@@ -611,15 +1361,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DPC 3132VC - EDL HPL 4'x8' | TERA MARBLE-V",
     "design": "TERA MARBLE-V",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Colour Core",
     "category": "Melavaio Matt",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL TERA MARBLE-V — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL TERA MARBLE-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dpc-4613vc-ajax-dawn-v",
@@ -627,87 +1377,65 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DPC 4613VC - EDL HPL 4'x8' | AJAX DAWN-V",
     "design": "AJAX DAWN-V",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Colour Core",
     "category": "Melavaio Matt",
     "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
+    "thickness": "0.9mm",
     "price": 2300000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL AJAX DAWN-V — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL AJAX DAWN-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ds-3364lun-luserna-grigio",
     "code": "DS 3364LUN",
-    "name": "DS 3364LUN - EDL HPL 1300x3050 | LUSERNA GRIGIO",
+    "name": "DS 3364LUN - EDL HPL 4'x10' | LUSERNA GRIGIO",
     "design": "LUSERNA GRIGIO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 03364R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LUSERNA GRIGIO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL LUSERNA GRIGIO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ds-3366lun-luserna-nero",
     "code": "DS 3366LUN",
-    "name": "DS 3366LUN - EDL HPL 1300x3050 | LUSERNA NERO",
+    "name": "DS 3366LUN - EDL HPL 4'x10' | LUSERNA NERO",
     "design": "LUSERNA NERO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 03366R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LUSERNA NERO — a stone-effect HPL surface for premium interior applications."
-  },
-  {
-    "slug": "ds-3411lun-voyage-copper",
-    "code": "DS 3411LUN",
-    "name": "DS 3411LUN - EDL HPL 1300x3050 | VOYAGE COPPER",
-    "design": "VOYAGE COPPER",
-    "brand": "EDL",
-    "collection": "Stone",
-    "category": "Stone",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL VOYAGE COPPER — a stone-effect HPL surface for premium interior applications."
-  },
-  {
-    "slug": "ds-3412lun-voyage-bronze",
-    "code": "DS 3412LUN",
-    "name": "DS 3412LUN - EDL HPL 1300x3050 | VOYAGE BRONZE",
-    "design": "VOYAGE BRONZE",
-    "brand": "EDL",
-    "collection": "Stone",
-    "category": "Stone",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL VOYAGE BRONZE — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL LUSERNA NERO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ds-3413lun-voyage-silver",
     "code": "DS 3413LUN",
-    "name": "DS 3413LUN - EDL HPL 1300x3050 | VOYAGE SILVER",
+    "name": "DS 3413LUN - EDL HPL 4'x10' | VOYAGE SILVER",
     "design": "VOYAGE SILVER",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
@@ -715,115 +1443,198 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL VOYAGE SILVER — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL VOYAGE SILVER — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsd-2204sma-natural-concrete",
     "code": "DSD 2204SMA",
-    "name": "DSD 2204SMA - EDL HPL 1320x3050 | NATURAL CONCRETE",
+    "name": "DSD 2204SMA - EDL HPL 4'x10' | NATURAL CONCRETE",
     "design": "NATURAL CONCRETE",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL NATURAL CONCRETE — a marble-effect HPL for elegant and refined interior spaces."
+    "badges": [],
+    "description": "EDL NATURAL CONCRETE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsd-2272sma-yin-marble",
     "code": "DSD 2272SMA",
-    "name": "DSD 2272SMA - EDL HPL 1320x3050 | YIN MARBLE",
+    "name": "DSD 2272SMA - EDL HPL 4'x10' | YIN MARBLE",
     "design": "YIN MARBLE",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02272D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL YIN MARBLE — a marble-effect HPL for elegant and refined interior spaces."
+    "badges": [],
+    "description": "EDL YIN MARBLE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsd-2273sma-yang-marble",
     "code": "DSD 2273SMA",
-    "name": "DSD 2273SMA - EDL HPL 1320x3050 | YANG MARBLE",
+    "name": "DSD 2273SMA - EDL HPL 4'x10' | YANG MARBLE",
     "design": "YANG MARBLE",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02273D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL YANG MARBLE — a marble-effect HPL for elegant and refined interior spaces."
+    "badges": [],
+    "description": "EDL YANG MARBLE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsd-6260sma-bagnara",
     "code": "DSD 6260SMA",
-    "name": "DSD 6260SMA - EDL HPL 1320x3050 | BAGNARA",
+    "name": "DSD 6260SMA - EDL HPL 4'x10' | BAGNARA",
     "design": "BAGNARA",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL BAGNARA — a marble-effect HPL for elegant and refined interior spaces."
+    "badges": [],
+    "description": "EDL BAGNARA — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsd-6261sma-carnico",
     "code": "DSD 6261SMA",
-    "name": "DSD 6261SMA - EDL HPL 1320x3050 | CARNICO",
+    "name": "DSD 6261SMA - EDL HPL 4'x10' | CARNICO",
     "design": "CARNICO",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL CARNICO — a marble-effect HPL for elegant and refined interior spaces."
+    "badges": [],
+    "description": "EDL CARNICO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsd-8509sma-marble-bianco",
     "code": "DSD 8509SMA",
-    "name": "DSD 8509SMA - EDL HPL 1320x3050 | MARBLE BIANCO",
+    "name": "DSD 8509SMA - EDL HPL 4'x10' | MARBLE BIANCO",
     "design": "MARBLE BIANCO",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08509D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL MARBLE BIANCO — a marble-effect HPL for elegant and refined interior spaces."
+    "badges": [],
+    "description": "EDL MARBLE BIANCO — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dsf-5031ntl-iron-wood",
+    "code": "DSF 5031NTL",
+    "name": "DSF 5031NTL - EDL HPL 4'x10' | IRON WOOD",
+    "design": "IRON WOOD",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL IRON WOOD — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dsf-5084ntl-drift-wood",
+    "code": "DSF 5084NTL",
+    "name": "DSF 5084NTL - EDL HPL 4'x10' | DRIFT WOOD",
+    "design": "DRIFT WOOD",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL DRIFT WOOD — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dsf-5226ntl-moss-wood",
+    "code": "DSF 5226NTL",
+    "name": "DSF 5226NTL - EDL HPL 4'x10' | MOSS WOOD",
+    "design": "MOSS WOOD",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL MOSS WOOD — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dsf-5401ntl-frost-wood",
+    "code": "DSF 5401NTL",
+    "name": "DSF 5401NTL - EDL HPL 4'x10' | FROST WOOD",
+    "design": "FROST WOOD",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL FROST WOOD — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dsf-5927ntl-fog-wood",
+    "code": "DSF 5927NTL",
+    "name": "DSF 5927NTL - EDL HPL 4'x10' | FOG WOOD",
+    "design": "FOG WOOD",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL FOG WOOD — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "dsk-5450sm-dark-ash",
@@ -835,6 +1646,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "ES 05450D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -867,6 +1682,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "ES 05770D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -883,6 +1702,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "DSS 07030",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -918,7 +1742,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 650000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL COTTON FLUFF — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -995,6 +1821,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "ES 07774D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -1027,6 +1857,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "ES 07776D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -1034,216 +1868,225 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL FOCUS GREY — a versatile solid-colour HPL for clean modern interiors."
   },
   {
+    "slug": "dsk-7778sm-web-grey",
+    "code": "DSK 7778SM",
+    "name": "DSK 7778SM - EDL HPL 4'x8' | WEB GREY",
+    "design": "WEB GREY",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.7mm",
+    "price": 650000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL WEB GREY — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
     "slug": "dsl-2250stu-moonscape-grey",
     "code": "DSL 2250STU",
-    "name": "DSL 2250STU - EDL HPL 1320x3050 | MOONSCAPE GREY",
+    "name": "DSL 2250STU - EDL HPL 4'x10' | MOONSCAPE GREY",
     "design": "MOONSCAPE GREY",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02250R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL MOONSCAPE GREY — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL MOONSCAPE GREY — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2251stu-moonscape-white",
     "code": "DSL 2251STU",
-    "name": "DSL 2251STU - EDL HPL 1320x3050 | MOONSCAPE WHITE",
+    "name": "DSL 2251STU - EDL HPL 4'x10' | MOONSCAPE WHITE",
     "design": "MOONSCAPE WHITE",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02251R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL MOONSCAPE WHITE — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL MOONSCAPE WHITE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2280stu-urbanstone-chalk",
     "code": "DSL 2280STU",
-    "name": "DSL 2280STU - EDL HPL 1320x3050 | URBANSTONE CHALK",
+    "name": "DSL 2280STU - EDL HPL 4'x10' | URBANSTONE CHALK",
     "design": "URBANSTONE CHALK",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02280D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL URBANSTONE CHALK — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL URBANSTONE CHALK — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2281stu-urbanstone-clay",
     "code": "DSL 2281STU",
-    "name": "DSL 2281STU - EDL HPL 1320x3050 | URBANSTONE CLAY",
+    "name": "DSL 2281STU - EDL HPL 4'x10' | URBANSTONE CLAY",
     "design": "URBANSTONE CLAY",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02281D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL URBANSTONE CLAY — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL URBANSTONE CLAY — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2301stu-artwall-anthracite",
     "code": "DSL 2301STU",
-    "name": "DSL 2301STU - EDL HPL 1320x3050 | ARTWALL ANTHRACITE",
+    "name": "DSL 2301STU - EDL HPL 4'x10' | ARTWALL ANTHRACITE",
     "design": "ARTWALL ANTHRACITE",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02301R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL ARTWALL ANTHRACITE — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL ARTWALL ANTHRACITE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2302stu-artwall",
     "code": "DSL 2302STU",
-    "name": "DSL 2302STU - EDL HPL 1320x3050 | ARTWALL",
+    "name": "DSL 2302STU - EDL HPL 4'x10' | ARTWALL",
     "design": "ARTWALL",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02302R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL ARTWALL — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL ARTWALL — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2303stu-organic-stone",
     "code": "DSL 2303STU",
-    "name": "DSL 2303STU - EDL HPL 1320x3050 | ORGANIC STONE",
+    "name": "DSL 2303STU - EDL HPL 4'x10' | ORGANIC STONE",
     "design": "ORGANIC STONE",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL ORGANIC STONE — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL ORGANIC STONE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2304stu-artwall-grey",
     "code": "DSL 2304STU",
-    "name": "DSL 2304STU - EDL HPL 1320x3050 | ARTWALL GREY",
+    "name": "DSL 2304STU - EDL HPL 4'x10' | ARTWALL GREY",
     "design": "ARTWALL GREY",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02304R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL ARTWALL GREY — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL ARTWALL GREY — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2309stu-veneto-crystal",
     "code": "DSL 2309STU",
-    "name": "DSL 2309STU - EDL HPL 1320x3050 | VENETO CRYSTAL",
+    "name": "DSL 2309STU - EDL HPL 4'x10' | VENETO CRYSTAL",
     "design": "VENETO CRYSTAL",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02309R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL VENETO CRYSTAL — a stone-effect HPL surface for premium interior applications."
+    "badges": [],
+    "description": "EDL VENETO CRYSTAL — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dsl-2321stu-quartzite",
     "code": "DSL 2321STU",
-    "name": "DSL 2321STU - EDL HPL 1320x3050 | QUARTZITE",
+    "name": "DSL 2321STU - EDL HPL 4'x10' | QUARTZITE",
     "design": "QUARTZITE",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 02321R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
-    "description": "EDL QUARTZITE — a stone-effect HPL surface for premium interior applications."
-  },
-  {
-    "slug": "dst-5080sm-orange-peel",
-    "code": "DST 5080SM",
-    "name": "DST 5080SM - EDL HPL 4'x8' | ORANGE PEEL",
-    "design": "ORANGE PEEL",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Fine Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 650000,
-    "currency": "IDR",
-    "active": true,
     "badges": [],
-    "description": "EDL ORANGE PEEL — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
-    "slug": "dst-5130sm-florida-pink",
-    "code": "DST 5130SM",
-    "name": "DST 5130SM - EDL HPL 4'x8' | FLORIDA PINK",
-    "design": "FLORIDA PINK",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Fine Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 650000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL FLORIDA PINK — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL QUARTZITE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dst-5260sm-light-orchid",
@@ -1287,6 +2130,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "DSS 05380",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -1338,7 +2186,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 650000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL TERRACOTTA — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -1392,25 +2242,28 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dsw-2106sma-clear-maple",
     "code": "DSW 2106SMA",
-    "name": "DSW 2106SMA - EDL HPL 1320x3050 | CLEAR MAPLE",
+    "name": "DSW 2106SMA - EDL HPL 4'x10' | CLEAR MAPLE",
     "design": "CLEAR MAPLE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 02106D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL CLEAR MAPLE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-3861sma-light-mediterranean",
     "code": "DSW 3861SMA",
-    "name": "DSW 3861SMA - EDL HPL 1320x3050 | LIGHT MEDITERRANEAN",
+    "name": "DSW 3861SMA - EDL HPL 4'x10' | LIGHT MEDITERRANEAN",
     "design": "LIGHT MEDITERRANEAN",
     "brand": "EDL",
     "collection": "Wood",
@@ -1420,123 +2273,141 @@ export const edlProductsFromCsv: Product[] = [
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL LIGHT MEDITERRANEAN — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-4289ntl-mediterranean",
     "code": "DSW 4289NTL",
-    "name": "DSW 4289NTL - EDL HPL 1320x3050 | MEDITERRANEAN",
+    "name": "DSW 4289NTL - EDL HPL 4'x10' | MEDITERRANEAN",
     "design": "MEDITERRANEAN",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 04289D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL MEDITERRANEAN — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-4451sma-lorca-oak",
     "code": "DSW 4451SMA",
-    "name": "DSW 4451SMA - EDL HPL 1320x3050 | LORCA OAK",
+    "name": "DSW 4451SMA - EDL HPL 4'x10' | LORCA OAK",
     "design": "LORCA OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 04451D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
     "badges": [
-      "NEW"
+      "BESTSELLER"
     ],
     "description": "EDL LORCA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6225sma-memphis-classic",
     "code": "DSW 6225SMA",
-    "name": "DSW 6225SMA - EDL HPL 1320x3050 | MEMPHIS CLASSIC",
+    "name": "DSW 6225SMA - EDL HPL 4'x10' | MEMPHIS CLASSIC",
     "design": "MEMPHIS CLASSIC",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06225D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL MEMPHIS CLASSIC — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6282flw-cosmopolitan",
     "code": "DSW 6282FLW",
-    "name": "DSW 6282FLW - EDL HPL 1320x3050 | COSMOPOLITAN",
+    "name": "DSW 6282FLW - EDL HPL 4'x10' | COSMOPOLITAN",
     "design": "COSMOPOLITAN",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06282R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL COSMOPOLITAN — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6289flw-mapuche-beige",
     "code": "DSW 6289FLW",
-    "name": "DSW 6289FLW - EDL HPL 1320x3050 | MAPUCHE BEIGE",
+    "name": "DSW 6289FLW - EDL HPL 4'x10' | MAPUCHE BEIGE",
     "design": "MAPUCHE BEIGE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06289R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL MAPUCHE BEIGE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6304flw-etna-oak",
     "code": "DSW 6304FLW",
-    "name": "DSW 6304FLW - EDL HPL 1320x3050 | ETNA OAK",
+    "name": "DSW 6304FLW - EDL HPL 4'x10' | ETNA OAK",
     "design": "ETNA OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06304R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL ETNA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6305sma-smart-ash-light",
     "code": "DSW 6305SMA",
-    "name": "DSW 6305SMA - EDL HPL 1320x3050 | SMART ASH LIGHT",
+    "name": "DSW 6305SMA - EDL HPL 4'x10' | SMART ASH LIGHT",
     "design": "SMART ASH LIGHT",
     "brand": "EDL",
     "collection": "Wood",
@@ -1546,15 +2417,13 @@ export const edlProductsFromCsv: Product[] = [
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL SMART ASH LIGHT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6306sma-smart-ash",
     "code": "DSW 6306SMA",
-    "name": "DSW 6306SMA - EDL HPL 1320x3050 | SMART ASH",
+    "name": "DSW 6306SMA - EDL HPL 4'x10' | SMART ASH",
     "design": "SMART ASH",
     "brand": "EDL",
     "collection": "Wood",
@@ -1564,87 +2433,99 @@ export const edlProductsFromCsv: Product[] = [
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL SMART ASH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6307flw-smart-ash-dark",
     "code": "DSW 6307FLW",
-    "name": "DSW 6307FLW - EDL HPL 1320x3050 | SMART ASH DARK",
+    "name": "DSW 6307FLW - EDL HPL 4'x10' | SMART ASH DARK",
     "design": "SMART ASH DARK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06307R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL SMART ASH DARK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6313flw-exquisite-dark",
     "code": "DSW 6313FLW",
-    "name": "DSW 6313FLW - EDL HPL 1320x3050 | EXQUISITE DARK",
+    "name": "DSW 6313FLW - EDL HPL 4'x10' | EXQUISITE DARK",
     "design": "EXQUISITE DARK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06313R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
     "badges": [
-      "NEW"
+      "BESTSELLER"
     ],
     "description": "EDL EXQUISITE DARK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6314flw-exquisite-light",
     "code": "DSW 6314FLW",
-    "name": "DSW 6314FLW - EDL HPL 1320x3050 | EXQUISITE LIGHT",
+    "name": "DSW 6314FLW - EDL HPL 4'x10' | EXQUISITE LIGHT",
     "design": "EXQUISITE LIGHT",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06314R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL EXQUISITE LIGHT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6315ntl-elegance-brown",
     "code": "DSW 6315NTL",
-    "name": "DSW 6315NTL - EDL HPL 1320x3050 | ELEGANCE BROWN",
+    "name": "DSW 6315NTL - EDL HPL 4'x10' | ELEGANCE BROWN",
     "design": "ELEGANCE BROWN",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06315D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL ELEGANCE BROWN — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6316ntl-elegance-grey",
     "code": "DSW 6316NTL",
-    "name": "DSW 6316NTL - EDL HPL 1320x3050 | ELEGANCE GREY",
+    "name": "DSW 6316NTL - EDL HPL 4'x10' | ELEGANCE GREY",
     "design": "ELEGANCE GREY",
     "brand": "EDL",
     "collection": "Wood",
@@ -1654,15 +2535,13 @@ export const edlProductsFromCsv: Product[] = [
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL ELEGANCE GREY — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6317ntl-elegance-natural",
     "code": "DSW 6317NTL",
-    "name": "DSW 6317NTL - EDL HPL 1320x3050 | ELEGANCE NATURAL",
+    "name": "DSW 6317NTL - EDL HPL 4'x10' | ELEGANCE NATURAL",
     "design": "ELEGANCE NATURAL",
     "brand": "EDL",
     "collection": "Wood",
@@ -1672,105 +2551,118 @@ export const edlProductsFromCsv: Product[] = [
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL ELEGANCE NATURAL — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6319flw-supreme-black",
     "code": "DSW 6319FLW",
-    "name": "DSW 6319FLW - EDL HPL 1320x3050 | SUPREME BLACK",
+    "name": "DSW 6319FLW - EDL HPL 4'x10' | SUPREME BLACK",
     "design": "SUPREME BLACK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 06319",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL SUPREME BLACK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6320flw-supreme-white",
     "code": "DSW 6320FLW",
-    "name": "DSW 6320FLW - EDL HPL 1320x3050 | SUPREME WHITE",
+    "name": "DSW 6320FLW - EDL HPL 4'x10' | SUPREME WHITE",
     "design": "SUPREME WHITE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06320R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL SUPREME WHITE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6321sma-endless-oak-natural",
     "code": "DSW 6321SMA",
-    "name": "DSW 6321SMA - EDL HPL 1320x3050 | ENDLESS OAK NATURAL",
+    "name": "DSW 6321SMA - EDL HPL 4'x10' | ENDLESS OAK NATURAL",
     "design": "ENDLESS OAK NATURAL",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06321D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL ENDLESS OAK NATURAL — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6348flw-aura-maple",
     "code": "DSW 6348FLW",
-    "name": "DSW 6348FLW - EDL HPL 1320x3050 | AURA MAPLE",
+    "name": "DSW 6348FLW - EDL HPL 4'x10' | AURA MAPLE",
     "design": "AURA MAPLE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Flow",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06348R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL AURA MAPLE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-6358sma-endless-oak-black",
     "code": "DSW 6358SMA",
-    "name": "DSW 6358SMA - EDL HPL 1320x3050 | ENDLESS OAK BLACK",
+    "name": "DSW 6358SMA - EDL HPL 4'x10' | ENDLESS OAK BLACK",
     "design": "ENDLESS OAK BLACK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Smart",
     "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 06358D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL ENDLESS OAK BLACK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dsw-9275sma-amundsen-oak",
     "code": "DSW 9275SMA",
-    "name": "DSW 9275SMA - EDL HPL 1320x3050 | AMUNDSEN OAK",
+    "name": "DSW 9275SMA - EDL HPL 4'x10' | AMUNDSEN OAK",
     "design": "AMUNDSEN OAK",
     "brand": "EDL",
     "collection": "Wood",
@@ -1780,50 +2672,16 @@ export const edlProductsFromCsv: Product[] = [
     "price": 990000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL AMUNDSEN OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dv-3346mt-marmo-canova",
-    "code": "DV 3346MT",
-    "name": "DV 3346MT - EDL HPL 1300x3050 | MARMO CANOVA",
-    "design": "MARMO CANOVA",
-    "brand": "EDL",
-    "collection": "Stone",
-    "category": "Stone",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL MARMO CANOVA — a stone-effect HPL surface for premium interior applications."
-  },
-  {
-    "slug": "dv-3379ub-atena-grigio",
-    "code": "DV 3379UB",
-    "name": "DV 3379UB - EDL HPL 1300x3050 | ATENA GRIGIO",
-    "design": "ATENA GRIGIO",
-    "brand": "EDL",
-    "collection": "Stone",
-    "category": "Stone",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL ATENA GRIGIO — a stone-effect HPL surface for premium interior applications."
   },
   {
     "slug": "dv-3451mt-black-kandia",
     "code": "DV 3451MT",
-    "name": "DV 3451MT - EDL HPL 1300x3050 | BLACK KANDIA",
+    "name": "DV 3451MT - EDL HPL 4'x10' | BLACK KANDIA",
     "design": "BLACK KANDIA",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
@@ -1831,7 +2689,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BLACK KANDIA — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL BLACK KANDIA — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dwa-2855a-light-ash",
@@ -1839,15 +2697,17 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DWA 2855A - EDL HPL 4'x8' | LIGHT ASH",
     "design": "LIGHT ASH",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Solid",
     "category": "Ashwood",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
-    "description": "EDL LIGHT ASH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LIGHT ASH — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "dwa-2856a-dark-ash",
@@ -1855,26 +2715,92 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DWA 2856A - EDL HPL 4'x8' | DARK ASH",
     "design": "DARK ASH",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Solid",
     "category": "Ashwood",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "DEW 04517",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL DARK ASH — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dwa-2857a-lyon-ash",
+    "code": "DWA 2857A",
+    "name": "DWA 2857A - EDL HPL 4'x8' | LYON ASH",
+    "design": "LYON ASH",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Unisurface",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
-    "description": "EDL DARK ASH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LYON ASH — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dwa-2858a-berlin-ash",
+    "code": "DWA 2858A",
+    "name": "DWA 2858A - EDL HPL 4'x8' | BERLIN ASH",
+    "design": "BERLIN ASH",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Unisurface",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL BERLIN ASH — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "dwa-2859a-basel-ash",
+    "code": "DWA 2859A",
+    "name": "DWA 2859A - EDL HPL 4'x8' | BASEL ASH",
+    "design": "BASEL ASH",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Unisurface",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL BASEL ASH — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "dwc-3642at-light-macquarie-maple",
     "code": "DWC 3642AT",
-    "name": "DWC 3642AT - EDL HPL 1300x3050 | LIGHT MACQUARIE MAPLE",
+    "name": "DWC 3642AT - EDL HPL 4'x10' | LIGHT MACQUARIE MAPLE",
     "design": "LIGHT MACQUARIE MAPLE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03642D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1884,29 +2810,41 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3643at-macquarie-maple",
     "code": "DWC 3643AT",
-    "name": "DWC 3643AT - EDL HPL 1300x3050 | MACQUARIE MAPLE",
+    "name": "DWC 3643AT - EDL HPL 4'x10' | MACQUARIE MAPLE",
     "design": "MACQUARIE MAPLE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03643",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL MACQUARIE MAPLE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwc-3644at-grey-macquarie-maple",
     "code": "DWC 3644AT",
-    "name": "DWC 3644AT - EDL HPL 1300x3050 | GREY MACQUARIE MAPLE",
+    "name": "DWC 3644AT - EDL HPL 4'x10' | GREY MACQUARIE MAPLE",
     "design": "GREY MACQUARIE MAPLE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03644D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1916,13 +2854,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3645at-light-albatross-teak",
     "code": "DWC 3645AT",
-    "name": "DWC 3645AT - EDL HPL 1300x3050 | LIGHT ALBATROSS TEAK",
+    "name": "DWC 3645AT - EDL HPL 4'x10' | LIGHT ALBATROSS TEAK",
     "design": "LIGHT ALBATROSS TEAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03645D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1932,13 +2875,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3646at-albatross-teak",
     "code": "DWC 3646AT",
-    "name": "DWC 3646AT - EDL HPL 1300x3050 | ALBATROSS TEAK",
+    "name": "DWC 3646AT - EDL HPL 4'x10' | ALBATROSS TEAK",
     "design": "ALBATROSS TEAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03646",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1948,13 +2896,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3647at-brown-albatross-teak",
     "code": "DWC 3647AT",
-    "name": "DWC 3647AT - EDL HPL 1300x3050 | BROWN ALBATROSS TEAK",
+    "name": "DWC 3647AT - EDL HPL 4'x10' | BROWN ALBATROSS TEAK",
     "design": "BROWN ALBATROSS TEAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03647",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1964,13 +2917,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3650at-light-shagbark-hickory",
     "code": "DWC 3650AT",
-    "name": "DWC 3650AT - EDL HPL 1300x3050 | LIGHT SHAGBARK HICKORY",
+    "name": "DWC 3650AT - EDL HPL 4'x10' | LIGHT SHAGBARK HICKORY",
     "design": "LIGHT SHAGBARK HICKORY",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03650D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1980,13 +2938,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3651at-brown-shagbark-hickory",
     "code": "DWC 3651AT",
-    "name": "DWC 3651AT - EDL HPL 1300x3050 | BROWN SHAGBARK HICKORY",
+    "name": "DWC 3651AT - EDL HPL 4'x10' | BROWN SHAGBARK HICKORY",
     "design": "BROWN SHAGBARK HICKORY",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03651",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -1996,13 +2959,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3652at-grey-shagbark-hickory",
     "code": "DWC 3652AT",
-    "name": "DWC 3652AT - EDL HPL 1300x3050 | GREY SHAGBARK HICKORY",
+    "name": "DWC 3652AT - EDL HPL 4'x10' | GREY SHAGBARK HICKORY",
     "design": "GREY SHAGBARK HICKORY",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03652D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2012,13 +2980,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3653at-light-bolzano-elm",
     "code": "DWC 3653AT",
-    "name": "DWC 3653AT - EDL HPL 1300x3050 | LIGHT BOLZANO ELM",
+    "name": "DWC 3653AT - EDL HPL 4'x10' | LIGHT BOLZANO ELM",
     "design": "LIGHT BOLZANO ELM",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03653D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2028,45 +3001,64 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3655at-brown-bolzano-elm",
     "code": "DWC 3655AT",
-    "name": "DWC 3655AT - EDL HPL 1300x3050 | BROWN BOLZANO ELM",
+    "name": "DWC 3655AT - EDL HPL 4'x10' | BROWN BOLZANO ELM",
     "design": "BROWN BOLZANO ELM",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03655D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL BROWN BOLZANO ELM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwc-3656at-bolzano-elm",
     "code": "DWC 3656AT",
-    "name": "DWC 3656AT - EDL HPL 1300x3050 | BOLZANO ELM",
+    "name": "DWC 3656AT - EDL HPL 4'x10' | BOLZANO ELM",
     "design": "BOLZANO ELM",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03656",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL BOLZANO ELM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwc-3657at-california-teak",
     "code": "DWC 3657AT",
-    "name": "DWC 3657AT - EDL HPL 1300x3050 | CALIFORNIA TEAK",
+    "name": "DWC 3657AT - EDL HPL 4'x10' | CALIFORNIA TEAK",
     "design": "CALIFORNIA TEAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03657",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2076,13 +3068,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3658at-light-rodez-oak",
     "code": "DWC 3658AT",
-    "name": "DWC 3658AT - EDL HPL 1300x3050 | LIGHT RODEZ OAK",
+    "name": "DWC 3658AT - EDL HPL 4'x10' | LIGHT RODEZ OAK",
     "design": "LIGHT RODEZ OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03658D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2092,29 +3089,41 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3659at-rodez-oak",
     "code": "DWC 3659AT",
-    "name": "DWC 3659AT - EDL HPL 1300x3050 | RODEZ OAK",
+    "name": "DWC 3659AT - EDL HPL 4'x10' | RODEZ OAK",
     "design": "RODEZ OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03659",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL RODEZ OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwc-3672at-harma-ash",
     "code": "DWC 3672AT",
-    "name": "DWC 3672AT - EDL HPL 1300x3050 | HARMA ASH",
+    "name": "DWC 3672AT - EDL HPL 4'x10' | HARMA ASH",
     "design": "HARMA ASH",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03672",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2124,13 +3133,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3673at-dark-harma-ash",
     "code": "DWC 3673AT",
-    "name": "DWC 3673AT - EDL HPL 1300x3050 | DARK HARMA ASH",
+    "name": "DWC 3673AT - EDL HPL 4'x10' | DARK HARMA ASH",
     "design": "DARK HARMA ASH",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03673",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2140,13 +3154,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3676at-dark-veyre-oak",
     "code": "DWC 3676AT",
-    "name": "DWC 3676AT - EDL HPL 1300x3050 | DARK VEYRE OAK",
+    "name": "DWC 3676AT - EDL HPL 4'x10' | DARK VEYRE OAK",
     "design": "DARK VEYRE OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03676",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2156,13 +3175,18 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3678at-light-veyre-oak",
     "code": "DWC 3678AT",
-    "name": "DWC 3678AT - EDL HPL 1300x3050 | LIGHT VEYRE OAK",
+    "name": "DWC 3678AT - EDL HPL 4'x10' | LIGHT VEYRE OAK",
     "design": "LIGHT VEYRE OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03678",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
@@ -2172,18 +3196,59 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwc-3679at-veyre-oak",
     "code": "DWC 3679AT",
-    "name": "DWC 3679AT - EDL HPL 1300x3050 | VEYRE OAK",
+    "name": "DWC 3679AT - EDL HPL 4'x10' | VEYRE OAK",
     "design": "VEYRE OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03679",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 980000,
     "currency": "IDR",
     "active": true,
     "badges": [],
     "description": "EDL VEYRE OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwd-3258m-saler-oak",
+    "code": "DWD 3258M",
+    "name": "DWD 3258M - EDL HPL 4'x8' | SALER OAK",
+    "design": "SALER OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL SALER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwd-3259m-moka-saler-oak",
+    "code": "DWD 3259M",
+    "name": "DWD 3259M - EDL HPL 4'x8' | MOKA SALER OAK",
+    "design": "MOKA SALER OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL MOKA SALER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwe-2642sc-light-walk-the-line",
@@ -2195,6 +3260,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02642",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2227,6 +3297,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02692",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2275,6 +3350,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09003",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2291,27 +3371,18 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09004R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL VIRGINIA WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dwe-9006l-white-alder",
-    "code": "DWE 9006L",
-    "name": "DWE 9006L - EDL HPL 4'x8' | WHITE ALDER",
-    "design": "WHITE ALDER",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Legno",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL WHITE ALDER — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwe-9007l-hipster-oak",
@@ -2323,6 +3394,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09007R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2355,6 +3431,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09011R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2371,6 +3452,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09014",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2419,6 +3505,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09019R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2435,59 +3526,18 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09021R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL RAW HIPSTER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dwe-9029l-grey-veltriner-oak",
-    "code": "DWE 9029L",
-    "name": "DWE 9029L - EDL HPL 4'x8' | GREY VELTRINER OAK",
-    "design": "GREY VELTRINER OAK",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Legno",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL GREY VELTRINER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dwe-9033l-white-aged-pine",
-    "code": "DWE 9033L",
-    "name": "DWE 9033L - EDL HPL 4'x8' | WHITE AGED PINE",
-    "design": "WHITE AGED PINE",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Legno",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL WHITE AGED PINE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dwe-9034l-aged-pine",
-    "code": "DWE 9034L",
-    "name": "DWE 9034L - EDL HPL 4'x8' | AGED PINE",
-    "design": "AGED PINE",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Legno",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL AGED PINE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwe-9066l-warm-aquiles-walnut",
@@ -2499,6 +3549,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09066R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2515,10 +3570,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09067",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL AQUILES WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2531,6 +3593,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09071",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2547,6 +3614,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09072",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2563,6 +3635,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09077",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2579,6 +3656,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09078",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2595,6 +3677,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Legno",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 09079R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -2630,7 +3717,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL NATURAL MAPLE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2643,10 +3732,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03125R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL NATURAL WENGE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2659,6 +3755,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03126",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -2698,10 +3799,10 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL GREYISH WENGE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "dwk-3155at-white-seora-oak",
-    "code": "DWK 3155AT",
-    "name": "DWK 3155AT - EDL HPL 4'x8' | WHITE SEORA OAK",
-    "design": "WHITE SEORA OAK",
+    "slug": "dwk-3153at-light-seora-oak",
+    "code": "DWK 3153AT",
+    "name": "DWK 3153AT - EDL HPL 4'x8' | LIGHT SEORA OAK",
+    "design": "LIGHT SEORA OAK",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Natural Matt",
@@ -2711,6 +3812,45 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
+    "description": "EDL LIGHT SEORA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwk-3154at-beige-seora-oak",
+    "code": "DWK 3154AT",
+    "name": "DWK 3154AT - EDL HPL 4'x8' | BEIGE SEORA OAK",
+    "design": "BEIGE SEORA OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Natural Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BEIGE SEORA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwk-3155at-white-seora-oak",
+    "code": "DWK 3155AT",
+    "name": "DWK 3155AT - EDL HPL 4'x8' | WHITE SEORA OAK",
+    "design": "WHITE SEORA OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Natural Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03155",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL WHITE SEORA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2723,6 +3863,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03157",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -2755,10 +3900,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03163R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL CIFRA WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2771,10 +3923,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03165R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL PANCHO WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2787,10 +3946,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03168R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL MOCCA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2803,10 +3969,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03169R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL ANTIQUE OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2835,6 +4008,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03173R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -2856,6 +4034,22 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL FAINT BEECH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwk-3175at-light-pancho-walnut",
+    "code": "DWK 3175AT",
+    "name": "DWK 3175AT - EDL HPL 4'x8' | LIGHT PANCHO WALNUT",
+    "design": "LIGHT PANCHO WALNUT",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Natural Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL LIGHT PANCHO WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwk-3183at-stylish-teak",
@@ -2883,6 +4077,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03185",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -2915,6 +4114,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03195",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -2934,7 +4138,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL HARRIS WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2982,7 +4188,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL GREY COMBI-WOOD — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -2995,10 +4203,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03295",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL BROWN COMBI-WOOD — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -3011,6 +4226,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Natural Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03296",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3020,29 +4240,41 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwl-4367lx-rovere-rhone",
     "code": "DWL 4367LX",
-    "name": "DWL 4367LX - EDL HPL 1300x3050 | ROVERE RHONE",
+    "name": "DWL 4367LX - EDL HPL 4'x10' | ROVERE RHONE",
     "design": "ROVERE RHONE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Larix",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 04367",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL ROVERE RHONE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwl-4517lx-rovere-carbone",
     "code": "DWL 4517LX",
-    "name": "DWL 4517LX - EDL HPL 1300x3050 | ROVERE CARBONE",
+    "name": "DWL 4517LX - EDL HPL 4'x10' | ROVERE CARBONE",
     "design": "ROVERE CARBONE",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Larix",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 04517D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
@@ -3050,31 +4282,20 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL ROVERE CARBONE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "dwl-4518lx-nocino",
-    "code": "DWL 4518LX",
-    "name": "DWL 4518LX - EDL HPL 1300x3050 | NOCINO",
-    "design": "NOCINO",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Larix",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL NOCINO — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "dwl-4519lx-rovere-asburgo",
     "code": "DWL 4519LX",
-    "name": "DWL 4519LX - EDL HPL 1300x3050 | ROVERE ASBURGO",
+    "name": "DWL 4519LX - EDL HPL 4'x10' | ROVERE ASBURGO",
     "design": "ROVERE ASBURGO",
     "brand": "EDL",
     "collection": "Wood",
     "category": "Larix",
     "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 04519D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 1100000,
     "currency": "IDR",
     "active": true,
@@ -3084,7 +4305,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwl-4527lx-noce-cendre",
     "code": "DWL 4527LX",
-    "name": "DWL 4527LX - EDL HPL 1300x3050 | NOCE CENDRE",
+    "name": "DWL 4527LX - EDL HPL 4'x10' | NOCE CENDRE",
     "design": "NOCE CENDRE",
     "brand": "EDL",
     "collection": "Wood",
@@ -3098,20 +4319,73 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL NOCE CENDRE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "dwl-4533lx-segato-tinto",
-    "code": "DWL 4533LX",
-    "name": "DWL 4533LX - EDL HPL 1300x3050 | SEGATO TINTO",
-    "design": "SEGATO TINTO",
+    "slug": "dwm-3963l-tailor-oak",
+    "code": "DWM 3963L",
+    "name": "DWM 3963L - EDL HPL 4'x8' | TAILOR OAK",
+    "design": "TAILOR OAK",
     "brand": "EDL",
     "collection": "Wood",
-    "category": "Larix",
-    "size": "1300 x 3050 mm",
+    "category": "Legno",
+    "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
-    "price": 1100000,
+    "edgebandCode": "EW 03963D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
-    "description": "EDL SEGATO TINTO — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL TAILOR OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwm-3964l-chai-tailor-oak",
+    "code": "DWM 3964L",
+    "name": "DWM 3964L - EDL HPL 4'x8' | CHAI TAILOR OAK",
+    "design": "CHAI TAILOR OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Legno",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03964D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL CHAI TAILOR OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwm-3965l-brulee-tailor-oak",
+    "code": "DWM 3965L",
+    "name": "DWM 3965L - EDL HPL 4'x8' | BRULEE TAILOR OAK",
+    "design": "BRULEE TAILOR OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Legno",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "DEW 03965",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL BRULEE TAILOR OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwt-3701w-medium-montfort-elm",
@@ -3139,6 +4413,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03702",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3155,6 +4434,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03703",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3171,6 +4455,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03704",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3187,6 +4476,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03705",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3203,6 +4497,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03706",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3219,10 +4518,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03707",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL KATOVIK NOCE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -3235,10 +4541,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03708D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL DARK KATOVIK NOCE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -3251,6 +4564,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03711",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3267,6 +4585,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03712",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3283,11 +4606,58 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03713",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
     "description": "EDL CHIFFON ACACIA — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwt-3771w-brown-bondi-birch",
+    "code": "DWT 3771W",
+    "name": "DWT 3771W - EDL HPL 4'x8' | BROWN BONDI BIRCH",
+    "design": "BROWN BONDI BIRCH",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Aleppo",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03771D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BROWN BONDI BIRCH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwt-3772w-neutral-webster-oak",
+    "code": "DWT 3772W",
+    "name": "DWT 3772W - EDL HPL 4'x8' | NEUTRAL WEBSTER OAK",
+    "design": "NEUTRAL WEBSTER OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Aleppo",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03772D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL NEUTRAL WEBSTER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwt-3773w-bondi-birch",
@@ -3299,11 +4669,39 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03773D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "BESTSELLER"
+    ],
+    "description": "EDL BONDI BIRCH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwt-3775w-dark-webster-oak",
+    "code": "DWT 3775W",
+    "name": "DWT 3775W - EDL HPL 4'x8' | DARK WEBSTER OAK",
+    "design": "DARK WEBSTER OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Aleppo",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "DEW 03775",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BONDI BIRCH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL DARK WEBSTER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwt-3776w-webster-oak",
@@ -3315,11 +4713,39 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03776D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "BESTSELLER"
+    ],
+    "description": "EDL WEBSTER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwt-3777w-dark-bondi-birch",
+    "code": "DWT 3777W",
+    "name": "DWT 3777W - EDL HPL 4'x8' | DARK BONDI BIRCH",
+    "design": "DARK BONDI BIRCH",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Aleppo",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03777R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL WEBSTER OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL DARK BONDI BIRCH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwt-3801w-soft-sylvan-walnut",
@@ -3331,6 +4757,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03801",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3347,6 +4778,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03802",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3363,6 +4799,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03803",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3379,6 +4820,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03804",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3395,6 +4841,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03805D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3411,6 +4862,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03806",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3427,6 +4883,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03807D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3443,6 +4904,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03808",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3459,6 +4925,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03809",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3475,6 +4946,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03901D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3507,10 +4983,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03903",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL MILAN OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -3523,32 +5006,39 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aleppo",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03904D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "BESTSELLER"
+    ],
+    "description": "EDL DARK VINTAGE OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwt-4234ev-ash-sonoma-oak",
+    "code": "DWT 4234EV",
+    "name": "DWT 4234EV - EDL HPL 4'x8' | ASH SONOMA OAK",
+    "design": "ASH SONOMA OAK",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Embossed",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DARK VINTAGE OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dwv-4445ae-lamphun-teak",
-    "code": "DWV 4445AE",
-    "name": "DWV 4445AE - EDL HPL 1300x3050 | LAMPHUN TEAK",
-    "design": "LAMPHUN TEAK",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aleve",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL LAMPHUN TEAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL ASH SONOMA OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "dwv-4516ae-habsburg-oak",
     "code": "DWV 4516AE",
-    "name": "DWV 4516AE - EDL HPL 1300x3050 | HABSBURG OAK",
+    "name": "DWV 4516AE - EDL HPL 4'x10' | HABSBURG OAK",
     "design": "HABSBURG OAK",
     "brand": "EDL",
     "collection": "Wood",
@@ -3564,7 +5054,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwv-4538ae-white-elm",
     "code": "DWV 4538AE",
-    "name": "DWV 4538AE - EDL HPL 1300x3050 | WHITE ELM",
+    "name": "DWV 4538AE - EDL HPL 4'x10' | WHITE ELM",
     "design": "WHITE ELM",
     "brand": "EDL",
     "collection": "Wood",
@@ -3580,7 +5070,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwv-4585ae-rovere-rock",
     "code": "DWV 4585AE",
-    "name": "DWV 4585AE - EDL HPL 1300x3050 | ROVERE ROCK",
+    "name": "DWV 4585AE - EDL HPL 4'x10' | ROVERE ROCK",
     "design": "ROVERE ROCK",
     "brand": "EDL",
     "collection": "Wood",
@@ -3596,7 +5086,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwv-4586ae-rovere-texas",
     "code": "DWV 4586AE",
-    "name": "DWV 4586AE - EDL HPL 1300x3050 | ROVERE TEXAS",
+    "name": "DWV 4586AE - EDL HPL 4'x10' | ROVERE TEXAS",
     "design": "ROVERE TEXAS",
     "brand": "EDL",
     "collection": "Wood",
@@ -3612,7 +5102,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwv-4587ae-rovere-slavonia",
     "code": "DWV 4587AE",
-    "name": "DWV 4587AE - EDL HPL 1300x3050 | ROVERE SLAVONIA",
+    "name": "DWV 4587AE - EDL HPL 4'x10' | ROVERE SLAVONIA",
     "design": "ROVERE SLAVONIA",
     "brand": "EDL",
     "collection": "Wood",
@@ -3628,7 +5118,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dwv-4588ae-rovere-versailles",
     "code": "DWV 4588AE",
-    "name": "DWV 4588AE - EDL HPL 1300x3050 | ROVERE VERSAILLES",
+    "name": "DWV 4588AE - EDL HPL 4'x10' | ROVERE VERSAILLES",
     "design": "ROVERE VERSAILLES",
     "brand": "EDL",
     "collection": "Wood",
@@ -3642,38 +5132,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL ROVERE VERSAILLES — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "dwv-4605ae-ciliego-avoia",
-    "code": "DWV 4605AE",
-    "name": "DWV 4605AE - EDL HPL 1300x3050 | CILIEGO AVOIA",
-    "design": "CILIEGO AVOIA",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aleve",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL CILIEGO AVOIA — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "dwv-4616ae-noce-carya-dark",
-    "code": "DWV 4616AE",
-    "name": "DWV 4616AE - EDL HPL 1300x3050 | NOCE CARYA DARK",
-    "design": "NOCE CARYA DARK",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aleve",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL NOCE CARYA DARK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "dww-2672fa-straw-ash",
     "code": "DWW 2672FA",
     "name": "DWW 2672FA - EDL HPL 4'x8' | STRAW ASH",
@@ -3683,6 +5141,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02672",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3699,6 +5162,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09005",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3715,6 +5183,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09026",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3731,10 +5204,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09038",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL DANISH WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -3747,6 +5227,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09056",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3763,6 +5248,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09057",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3779,6 +5269,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09058",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3795,6 +5290,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Embossed",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 09059",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -3946,6 +5446,22 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL DARK KATTHULT-SM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
+    "slug": "dwx-4412pg-fuyu",
+    "code": "DWX 4412PG",
+    "name": "DWX 4412PG - EDL HPL 4'x8' | FUYU",
+    "design": "FUYU",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "PianoGloss",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL FUYU — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
     "slug": "dwx-5504ht-dark-harvard-oak",
     "code": "DWX 5504HT",
     "name": "DWX 5504HT - EDL HPL 4'x8' | DARK HARVARD OAK",
@@ -3962,12 +5478,44 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL DARK HARVARD OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
+    "slug": "dwx-8211pg-choco-silk-g",
+    "code": "DWX 8211PG",
+    "name": "DWX 8211PG - EDL HPL 4'x8' | CHOCO SILK-G",
+    "design": "CHOCO SILK-G",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "PianoGloss",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL CHOCO SILK-G — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "dwx-9090pg-natsu",
+    "code": "DWX 9090PG",
+    "name": "DWX 9090PG - EDL HPL 4'x8' | NATSU",
+    "design": "NATSU",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "PianoGloss",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL NATSU — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
     "slug": "dx-1557pg-lavant-g",
     "code": "DX 1557PG",
     "name": "DX 1557PG - EDL HPL 4'x8' | LAVANT-G",
     "design": "LAVANT-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -3975,7 +5523,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LAVANT-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL LAVANT-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-1558pg-dark-lavant-g",
@@ -3983,7 +5531,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 1558PG - EDL HPL 4'x8' | DARK LAVANT-G",
     "design": "DARK LAVANT-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -3991,7 +5539,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DARK LAVANT-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL DARK LAVANT-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-1576pg-bianco-venatino-g",
@@ -3999,7 +5547,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 1576PG - EDL HPL 4'x8' | BIANCO VENATINO-G",
     "design": "BIANCO VENATINO-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4007,7 +5555,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BIANCO VENATINO-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL BIANCO VENATINO-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-1584pg-pierz-g",
@@ -4015,15 +5563,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 1584PG - EDL HPL 4'x8' | PIERZ-G",
     "design": "PIERZ-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "EP 01584D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 780000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PIERZ-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL PIERZ-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-1586pg-cabana-g",
@@ -4031,7 +5584,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 1586PG - EDL HPL 4'x8' | CABANA-G",
     "design": "CABANA-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4039,7 +5592,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL CABANA-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL CABANA-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-1587pg-dark-muse-g",
@@ -4047,7 +5600,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 1587PG - EDL HPL 4'x8' | DARK MUSE-G",
     "design": "DARK MUSE-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4055,7 +5608,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DARK MUSE-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL DARK MUSE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-1588pg-noa-marble-g",
@@ -4063,7 +5616,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 1588PG - EDL HPL 4'x8' | NOA MARBLE-G",
     "design": "NOA MARBLE-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4071,7 +5624,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NOA MARBLE-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL NOA MARBLE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-3048pg-pearl-calacatta-g",
@@ -4079,7 +5632,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 3048PG - EDL HPL 4'x8' | PEARL CALACATTA-G",
     "design": "PEARL CALACATTA-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4087,7 +5640,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PEARL CALACATTA-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL PEARL CALACATTA-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-8300pg-antico-rosso-g",
@@ -4095,7 +5648,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 8300PG - EDL HPL 4'x8' | ANTICO ROSSO-G",
     "design": "ANTICO ROSSO-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4103,7 +5656,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL ANTICO ROSSO-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL ANTICO ROSSO-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-8320pg-nero-rosso-g",
@@ -4111,7 +5664,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 8320PG - EDL HPL 4'x8' | NERO ROSSO-G",
     "design": "NERO ROSSO-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4119,7 +5672,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NERO ROSSO-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL NERO ROSSO-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-8390pg-royal-carrara-g",
@@ -4127,7 +5680,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 8390PG - EDL HPL 4'x8' | ROYAL CARRARA-G",
     "design": "ROYAL CARRARA-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4135,23 +5688,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL ROYAL CARRARA-G — a marble-effect HPL for elegant and refined interior spaces."
-  },
-  {
-    "slug": "dx-8395pg-bianco-carrara-g",
-    "code": "DX 8395PG",
-    "name": "DX 8395PG - EDL HPL 4'x8' | BIANCO CARRARA-G",
-    "design": "BIANCO CARRARA-G",
-    "brand": "EDL",
-    "collection": "Marble",
-    "category": "Marble Gloss",
-    "size": "1220 x 2440 mm",
-    "thickness": "1.0mm",
-    "price": 780000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL BIANCO CARRARA-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL ROYAL CARRARA-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dx-8396pg-nero-moraine-g",
@@ -4159,7 +5696,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DX 8396PG - EDL HPL 4'x8' | NERO MORAINE-G",
     "design": "NERO MORAINE-G",
     "brand": "EDL",
-    "collection": "Marble",
+    "collection": "Marble & Stone",
     "category": "Marble Gloss",
     "size": "1220 x 2440 mm",
     "thickness": "1.0mm",
@@ -4167,12 +5704,66 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NERO MORAINE-G — a marble-effect HPL for elegant and refined interior spaces."
+    "description": "EDL NERO MORAINE-G — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dy-2351m-deva-aura",
+    "code": "DY 2351M",
+    "name": "DY 2351M - EDL HPL 4'x8' | DEVA AURA",
+    "design": "DEVA AURA",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL DEVA AURA — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dy-2352m-deva-silva",
+    "code": "DY 2352M",
+    "name": "DY 2352M - EDL HPL 4'x8' | DEVA SILVA",
+    "design": "DEVA SILVA",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL DEVA SILVA — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "dy-2353m-deva-ochre",
+    "code": "DY 2353M",
+    "name": "DY 2353M - EDL HPL 4'x8' | DEVA OCHRE",
+    "design": "DEVA OCHRE",
+    "brand": "EDL",
+    "collection": "Marble & Stone",
+    "category": "Stone",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 780000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL DEVA OCHRE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dyg-2409pg-classic-black",
     "code": "DYG 2409PG",
-    "name": "DYG 2409PG - EDL HPL 1300x3050 | CLASSIC BLACK",
+    "name": "DYG 2409PG - EDL HPL 4'x10' | CLASSIC BLACK",
     "design": "CLASSIC BLACK",
     "brand": "EDL",
     "collection": "Solid",
@@ -4188,7 +5779,7 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dyg-2709pg-classic-white",
     "code": "DYG 2709PG",
-    "name": "DYG 2709PG - EDL HPL 1300x3050 | CLASSIC WHITE",
+    "name": "DYG 2709PG - EDL HPL 4'x10' | CLASSIC WHITE",
     "design": "CLASSIC WHITE",
     "brand": "EDL",
     "collection": "Solid",
@@ -4218,9 +5809,29 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL CLASSIC WHITE (MAGNETIC) — a versatile solid-colour HPL for clean modern interiors."
   },
   {
+    "slug": "dym-7776sm-focus-grey-magnetic",
+    "code": "DYM 7776SM",
+    "name": "DYM 7776SM - EDL HPL 4'x8' | FOCUS GREY (MAGNETIC)",
+    "design": "FOCUS GREY (MAGNETIC)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.0mm",
+    "edgebandCode": "ES 07776D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 3200000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL FOCUS GREY (MAGNETIC) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
     "slug": "dyn-0400n-noir",
     "code": "DYN 0400N",
-    "name": "DYN 0400N - EDL HPL 1300x3050 | NOIR",
+    "name": "DYN 0400N - EDL HPL 4'x10' | NOIR",
     "design": "NOIR",
     "brand": "EDL",
     "collection": "Solid",
@@ -4236,13 +5847,17 @@ export const edlProductsFromCsv: Product[] = [
   {
     "slug": "dyn-5709n-style-white",
     "code": "DYN 5709N",
-    "name": "DYN 5709N - EDL HPL 1300x3050 | STYLE WHITE",
+    "name": "DYN 5709N - EDL HPL 4'x10' | STYLE WHITE",
     "design": "STYLE WHITE",
     "brand": "EDL",
     "collection": "Solid",
     "category": "Textured",
-    "size": "1220 x 2440 mm",
+    "size": "1300 x 3050 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "ES 05709D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 780000,
     "currency": "IDR",
     "active": true,
@@ -4255,7 +5870,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 7121PG - EDL HPL 4'x8' | WHITE COSMIC",
     "design": "WHITE COSMIC",
     "brand": "EDL",
-    "collection": "Pattern",
+    "collection": "Marble & Stone",
     "category": "Abstract",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -4263,23 +5878,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL WHITE COSMIC — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
-    "slug": "dz-7122pg-black-cosmic",
-    "code": "DZ 7122PG",
-    "name": "DZ 7122PG - EDL HPL 4'x8' | BLACK COSMIC",
-    "design": "BLACK COSMIC",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Abstract",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 780000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL BLACK COSMIC — a decorative HPL surface for feature walls and distinctive interior panels."
+    "description": "EDL WHITE COSMIC — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8260j-perla-travertino",
@@ -4287,15 +5886,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8260J - EDL HPL 4'x8' | PERLA TRAVERTINO",
     "design": "PERLA TRAVERTINO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08260R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 780000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PERLA TRAVERTINO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL PERLA TRAVERTINO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8270j-travertino",
@@ -4303,15 +5907,17 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8270J - EDL HPL 4'x8' | TRAVERTINO",
     "design": "TRAVERTINO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
     "price": 780000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
-    "description": "EDL TRAVERTINO — a stone-effect HPL surface for premium interior applications."
+    "badges": [
+      "BESTSELLER"
+    ],
+    "description": "EDL TRAVERTINO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8280j-nero-travertino",
@@ -4319,7 +5925,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8280J - EDL HPL 4'x8' | NERO TRAVERTINO",
     "design": "NERO TRAVERTINO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -4327,7 +5933,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NERO TRAVERTINO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL NERO TRAVERTINO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8290j-chiaro-travertino",
@@ -4335,15 +5941,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8290J - EDL HPL 4'x8' | CHIARO TRAVERTINO",
     "design": "CHIARO TRAVERTINO",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08290R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 780000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL CHIARO TRAVERTINO — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL CHIARO TRAVERTINO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8915j-light-lamina",
@@ -4351,7 +5962,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8915J - EDL HPL 4'x8' | LIGHT LAMINA",
     "design": "LIGHT LAMINA",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -4359,7 +5970,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LIGHT LAMINA — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL LIGHT LAMINA — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8916j-rosa-stone",
@@ -4367,15 +5978,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8916J - EDL HPL 4'x8' | ROSA STONE",
     "design": "ROSA STONE",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08916R",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 780000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL ROSA STONE — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL ROSA STONE — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "dz-8935j-dark-lamina",
@@ -4383,7 +5999,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DZ 8935J - EDL HPL 4'x8' | DARK LAMINA",
     "design": "DARK LAMINA",
     "brand": "EDL",
-    "collection": "Stone",
+    "collection": "Marble & Stone",
     "category": "Stone",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -4391,7 +6007,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DARK LAMINA — a stone-effect HPL surface for premium interior applications."
+    "description": "EDL DARK LAMINA — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecg-0001cc-cool-white-g",
@@ -4399,7 +6015,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECG 0001CC - EDL HPL 4'x8' | COOL WHITE-G",
     "design": "COOL WHITE-G",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4407,7 +6023,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL COOL WHITE-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL COOL WHITE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecg-0002cc-snow-white-g",
@@ -4415,7 +6031,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECG 0002CC - EDL HPL 4'x8' | SNOW WHITE-G",
     "design": "SNOW WHITE-G",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4423,7 +6039,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SNOW WHITE-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL SNOW WHITE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecg-0008cc-lace-white-g",
@@ -4431,7 +6047,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECG 0008CC - EDL HPL 4'x8' | LACE WHITE-G",
     "design": "LACE WHITE-G",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4439,7 +6055,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LACE WHITE-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL LACE WHITE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecg-0011vc-cool-white-v",
@@ -4447,7 +6063,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECG 0011VC - EDL HPL 4'x8' | COOL WHITE-V",
     "design": "COOL WHITE-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4455,7 +6071,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL COOL WHITE-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL COOL WHITE-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecg-0022vc-snow-white-v",
@@ -4463,7 +6079,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECG 0022VC - EDL HPL 4'x8' | SNOW WHITE-V",
     "design": "SNOW WHITE-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4471,7 +6087,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SNOW WHITE-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL SNOW WHITE-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecg-0088vc-lace-white-v",
@@ -4479,7 +6095,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECG 0088VC - EDL HPL 4'x8' | LACE WHITE-V",
     "design": "LACE WHITE-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4487,23 +6103,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL LACE WHITE-V — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
-    "slug": "ecv-0005cc-max-black-g",
-    "code": "ECV 0005CC",
-    "name": "ECV 0005CC - EDL HPL 4'x8' | MAX BLACK-G",
-    "design": "MAX BLACK-G",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Melavaio",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.9mm",
-    "price": 2000000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL MAX BLACK-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL LACE WHITE-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-1311vc-strawberry-milk-v",
@@ -4511,7 +6111,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 1311VC - EDL HPL 4'x8' | STRAWBERRY MILK-V",
     "design": "STRAWBERRY MILK-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4519,7 +6119,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL STRAWBERRY MILK-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL STRAWBERRY MILK-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-1380vc-expresso-brown-v",
@@ -4527,7 +6127,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 1380VC - EDL HPL 4'x8' | EXPRESSO BROWN-V",
     "design": "EXPRESSO BROWN-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4535,7 +6135,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL EXPRESSO BROWN-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL EXPRESSO BROWN-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-1741vc-baby-lemonade-v",
@@ -4543,7 +6143,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 1741VC - EDL HPL 4'x8' | BABY LEMONADE-V",
     "design": "BABY LEMONADE-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4551,7 +6151,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BABY LEMONADE-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL BABY LEMONADE-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-1761vc-aroma-green-v",
@@ -4559,7 +6159,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 1761VC - EDL HPL 4'x8' | AROMA GREEN-V",
     "design": "AROMA GREEN-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4567,7 +6167,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL AROMA GREEN-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL AROMA GREEN-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-1762vc-pistachio-green-v",
@@ -4575,7 +6175,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 1762VC - EDL HPL 4'x8' | PISTACHIO GREEN-V",
     "design": "PISTACHIO GREEN-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4583,39 +6183,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PISTACHIO GREEN-V — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
-    "slug": "ecv-2231cc-strawberry-milk-g",
-    "code": "ECV 2231CC",
-    "name": "ECV 2231CC - EDL HPL 4'x8' | STRAWBERRY MILK-G",
-    "design": "STRAWBERRY MILK-G",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Melavaio",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.9mm",
-    "price": 2000000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL STRAWBERRY MILK-G — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
-    "slug": "ecv-2235cc-passion-red-g",
-    "code": "ECV 2235CC",
-    "name": "ECV 2235CC - EDL HPL 4'x8' | PASSION RED-G",
-    "design": "PASSION RED-G",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Melavaio",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.9mm",
-    "price": 2000000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL PASSION RED-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL PISTACHIO GREEN-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-2274cc-baby-lemonade-g",
@@ -4623,7 +6191,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 2274CC - EDL HPL 4'x8' | BABY LEMONADE-G",
     "design": "BABY LEMONADE-G",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4631,7 +6199,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BABY LEMONADE-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL BABY LEMONADE-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-2276cc-pistachio-green-g",
@@ -4639,7 +6207,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 2276CC - EDL HPL 4'x8' | PISTACHIO GREEN-G",
     "design": "PISTACHIO GREEN-G",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4647,7 +6215,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PISTACHIO GREEN-G — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL PISTACHIO GREEN-G — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "ecv-3117vc-pearl-grey-v",
@@ -4655,7 +6223,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ECV 3117VC - EDL HPL 4'x8' | PEARL GREY-V",
     "design": "PEARL GREY-V",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Colour Core",
     "category": "Melavaio",
     "size": "1220 x 2440 mm",
     "thickness": "0.9mm",
@@ -4663,7 +6231,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PEARL GREY-V — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL PEARL GREY-V — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "eeg-0101pg-piano-white",
@@ -4778,22 +6346,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL CARBONITE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "eep-5212pg-pale-violet-red",
-    "code": "EEP 5212PG",
-    "name": "EEP 5212PG - EDL HPL 4'x8' | PALE VIOLET RED",
-    "design": "PALE VIOLET RED",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "PianoGloss",
-    "size": "1220 x 2440 mm",
-    "thickness": "1.0mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL PALE VIOLET RED — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
     "slug": "eep-5252pg-rum",
     "code": "EEP 5252PG",
     "name": "EEP 5252PG - EDL HPL 4'x8' | RUM",
@@ -4824,6 +6376,22 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL ROUGE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "eep-6090pg-sakura-pink",
+    "code": "EEP 6090PG",
+    "name": "EEP 6090PG - EDL HPL 4'x8' | SAKURA PINK",
+    "design": "SAKURA PINK",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "PianoGloss",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.0mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL SAKURA PINK — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "eep-6242pg-chartreuse",
@@ -5066,6 +6634,22 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL WHITE GALAXY — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
+    "slug": "egg-4000z-black-firenze",
+    "code": "EGG 4000Z",
+    "name": "EGG 4000Z - EDL HPL 4'x8' | BLACK FIRENZE",
+    "design": "BLACK FIRENZE",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 700000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BLACK FIRENZE — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
     "slug": "elb-8000dl-latigo",
     "code": "ELB 8000DL",
     "name": "ELB 8000DL - EDL HPL 4'x8' | LATIGO",
@@ -5158,7 +6742,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL NOBLE LUX — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -5251,6 +6837,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08095D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -5267,6 +6858,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08097D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -5283,10 +6879,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08098D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL SARTORIA — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -5347,10 +6950,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08110D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL CROCHET DAWN — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -5395,10 +7005,17 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEP 08117",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL STITCH — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -5411,6 +7028,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEP 08118",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -5427,11 +7049,64 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEP 08119",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
     "badges": [],
     "description": "EDL STITCH CLOVE — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "els-8120d-itaca-kin",
+    "code": "ELS 8120D",
+    "name": "ELS 8120D - EDL HPL 4'x8' | ITACA KIN",
+    "design": "ITACA KIN",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Textile",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL ITACA KIN — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "els-8121d-itaca-kiri",
+    "code": "ELS 8121D",
+    "name": "ELS 8121D - EDL HPL 4'x8' | ITACA KIRI",
+    "design": "ITACA KIRI",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Textile",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL ITACA KIRI — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "els-8122d-itaca-sumi",
+    "code": "ELS 8122D",
+    "name": "ELS 8122D - EDL HPL 4'x8' | ITACA SUMI",
+    "design": "ITACA SUMI",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Textile",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 730000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL ITACA SUMI — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "els-8195r-gray-wool",
@@ -5443,6 +7118,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08195D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
@@ -5475,75 +7155,16 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textile",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EP 08199D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 730000,
     "currency": "IDR",
     "active": true,
     "badges": [],
     "description": "EDL BROWN WOOL — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
-    "slug": "els-9277sl-smoky-stitched-leather",
-    "code": "ELS 9277SL",
-    "name": "ELS 9277SL - EDL HPL 4'x8' | SMOKY STITCHED LEATHER",
-    "design": "SMOKY STITCHED LEATHER",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Leather",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL SMOKY STITCHED LEATHER — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
-    "slug": "els-9329sl-grey-stitched-leather",
-    "code": "ELS 9329SL",
-    "name": "ELS 9329SL - EDL HPL 4'x8' | GREY STITCHED LEATHER",
-    "design": "GREY STITCHED LEATHER",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Leather",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL GREY STITCHED LEATHER — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
-    "slug": "els-9355sl-cocoa-stitched-leather",
-    "code": "ELS 9355SL",
-    "name": "ELS 9355SL - EDL HPL 4'x8' | COCOA STITCHED LEATHER",
-    "design": "COCOA STITCHED LEATHER",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Leather",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL COCOA STITCHED LEATHER — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
-    "slug": "els-9379sl-ash-stitched-leather",
-    "code": "ELS 9379SL",
-    "name": "ELS 9379SL - EDL HPL 4'x8' | ASH STITCHED LEATHER",
-    "design": "ASH STITCHED LEATHER",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Leather",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL ASH STITCHED LEATHER — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "els-9380sl-black-cambric",
@@ -5622,7 +7243,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 2000000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL GOLD BRUSH — a metallic HPL surface for contemporary premium interior projects."
   },
   {
@@ -5747,12 +7370,15 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Nuance",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSS 02174",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 810000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL CALM GREY — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -5765,12 +7391,15 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Nuance",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSS 02358",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 810000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL RASPBERRY FIELDS — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -5786,9 +7415,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 810000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL AMBER SUNSET — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -5801,12 +7428,15 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Nuance",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSS 02380",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 810000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL DRIFTING HAZE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -5822,9 +7452,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 810000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL TRANQUIL TIDE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -5841,9 +7469,29 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [
-      "NEW"
+      "BESTSELLER"
     ],
     "description": "EDL SERENE MEADOW — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ens-2822v-mindful-cream",
+    "code": "ENS 2822V",
+    "name": "ENS 2822V - EDL HPL 4'x8' | MINDFUL CREAM",
+    "design": "MINDFUL CREAM",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Nuance",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "DSS 02822",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 810000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL MINDFUL CREAM — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "ens-2832v-pearl-horizon",
@@ -5858,9 +7506,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 810000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL PEARL HORIZON — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -5873,13 +7519,58 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Nuance",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DSS 02838",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 810000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL SOOTHING STORM — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ens-2862v-oyster-grey",
+    "code": "ENS 2862V",
+    "name": "ENS 2862V - EDL HPL 4'x8' | OYSTER GREY",
+    "design": "OYSTER GREY",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Nuance",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "DSS 02862",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 810000,
     "currency": "IDR",
     "active": true,
     "badges": [
-      "NEW"
+      "BESTSELLER"
     ],
-    "description": "EDL SOOTHING STORM — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL OYSTER GREY — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ens-2867v-nude-blush",
+    "code": "ENS 2867V",
+    "name": "ENS 2867V - EDL HPL 4'x8' | NUDE BLUSH",
+    "design": "NUDE BLUSH",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Nuance",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "DSS 02867",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 810000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL NUDE BLUSH — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "ers-1704hg-taurus",
@@ -5958,7 +7649,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 800000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL AQUARIUS — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -6015,15 +7708,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ERS 2810G - EDL HPL 4'x8' | PEARL BIANCO",
     "design": "PEARL BIANCO",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Pattern",
     "category": "Textured",
     "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
+    "thickness": "1.0mm",
     "price": 800000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL PEARL BIANCO — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL PEARL BIANCO — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "ers-4005g-funky-black",
@@ -6031,15 +7724,47 @@ export const edlProductsFromCsv: Product[] = [
     "name": "ERS 4005G - EDL HPL 4'x8' | FUNKY BLACK",
     "design": "FUNKY BLACK",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Pattern",
     "category": "Textured",
     "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
+    "thickness": "1.0mm",
     "price": 800000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL FUNKY BLACK — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL FUNKY BLACK — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "ers-4018pg-anthurium",
+    "code": "ERS 4018PG",
+    "name": "ERS 4018PG - EDL HPL 4'x8' | ANTHURIUM",
+    "design": "ANTHURIUM",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Gloss",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.0mm",
+    "price": 800000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL ANTHURIUM — a decorative HPL surface for feature walls and distinctive interior panels."
+  },
+  {
+    "slug": "ers-7122pg-black-cosmic",
+    "code": "ERS 7122PG",
+    "name": "ERS 7122PG - EDL HPL 4'x8' | BLACK COSMIC",
+    "design": "BLACK COSMIC",
+    "brand": "EDL",
+    "collection": "Pattern",
+    "category": "Abstract",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.0mm",
+    "price": 800000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BLACK COSMIC — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "esf-5020t-fruit-green",
@@ -6099,6 +7824,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textured",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "DSS 00110",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -6298,22 +8028,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL JAFFA ORANGE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "esf-6000t-dove-white",
-    "code": "ESF 6000T",
-    "name": "ESF 6000T - EDL HPL 4'x8' | DOVE WHITE",
-    "design": "DOVE WHITE",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Textured",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 650000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL DOVE WHITE — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
     "slug": "esf-6020t-graphite",
     "code": "ESF 6020T",
     "name": "ESF 6020T - EDL HPL 4'x8' | GRAPHITE",
@@ -6346,22 +8060,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL VANILLA — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "esf-6080t-blush-rose",
-    "code": "ESF 6080T",
-    "name": "ESF 6080T - EDL HPL 4'x8' | BLUSH ROSE",
-    "design": "BLUSH ROSE",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Textured",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 650000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL BLUSH ROSE — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
     "slug": "esf-6240t-lawn-green",
     "code": "ESF 6240T",
     "name": "ESF 6240T - EDL HPL 4'x8' | LAWN GREEN",
@@ -6392,22 +8090,6 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL STONE GREY — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
-    "slug": "esf-6350t-rustic-beige",
-    "code": "ESF 6350T",
-    "name": "ESF 6350T - EDL HPL 4'x8' | RUSTIC BEIGE",
-    "design": "RUSTIC BEIGE",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Textured",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 650000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL RUSTIC BEIGE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "esf-6360t-sand-beige",
@@ -6483,6 +8165,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textured",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "DSS 06510",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -6595,6 +8281,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textured",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "DSS 06850",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 650000,
     "currency": "IDR",
     "active": true,
@@ -6682,10 +8372,10 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL THE WHITE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "esg-5160n-i-white",
-    "code": "ESG 5160N",
-    "name": "ESG 5160N - EDL HPL 4'x8' | I-WHITE",
-    "design": "I-WHITE",
+    "slug": "esg-5230n-dark-magenta",
+    "code": "ESG 5230N",
+    "name": "ESG 5230N - EDL HPL 4'x8' | DARK MAGENTA",
+    "design": "DARK MAGENTA",
     "brand": "EDL",
     "collection": "Solid",
     "category": "Textured",
@@ -6695,7 +8385,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL I-WHITE — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL DARK MAGENTA — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "esg-5266n-handy-grey",
@@ -6787,6 +8477,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Textured",
     "size": "1220 x 2440 mm",
     "thickness": "0.7mm",
+    "edgebandCode": "ES 05709D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 600000,
     "currency": "IDR",
     "active": true,
@@ -6890,22 +8584,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL GREY WHITE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "esg-5725n-daffodil",
-    "code": "ESG 5725N",
-    "name": "ESG 5725N - EDL HPL 4'x8' | DAFFODIL",
-    "design": "DAFFODIL",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Textured",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 600000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL DAFFODIL — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
     "slug": "esg-5726n-mild-beige",
     "code": "ESG 5726N",
     "name": "ESG 5726N - EDL HPL 4'x8' | MILD BEIGE",
@@ -6966,7 +8644,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 600000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL IRISH ALMOND — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -7030,7 +8710,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 600000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL PUMICE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -7073,8 +8755,8 @@ export const edlProductsFromCsv: Product[] = [
     "brand": "EDL",
     "collection": "Solid",
     "category": "Smart",
-    "size": "1250 x 2500 mm",
-    "thickness": "0.8mm",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.7mm",
     "price": 600000,
     "currency": "IDR",
     "active": true,
@@ -7082,15 +8764,15 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL CARRIBEAN — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "esg-6280t-helio-grey",
-    "code": "ESG 6280T",
-    "name": "ESG 6280T - EDL HPL 4'x8' | HELIO GREY",
+    "slug": "esg-6280n-helio-grey",
+    "code": "ESG 6280N",
+    "name": "ESG 6280N - EDL HPL 4'x8' | HELIO GREY",
     "design": "HELIO GREY",
     "brand": "EDL",
     "collection": "Solid",
-    "category": "Smart",
-    "size": "1250 x 2500 mm",
-    "thickness": "0.8mm",
+    "category": "Textured",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.7mm",
     "price": 600000,
     "currency": "IDR",
     "active": true,
@@ -7105,8 +8787,8 @@ export const edlProductsFromCsv: Product[] = [
     "brand": "EDL",
     "collection": "Solid",
     "category": "Smart",
-    "size": "1250 x 2500 mm",
-    "thickness": "0.8mm",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.7mm",
     "price": 600000,
     "currency": "IDR",
     "active": true,
@@ -7121,8 +8803,8 @@ export const edlProductsFromCsv: Product[] = [
     "brand": "EDL",
     "collection": "Solid",
     "category": "Smart",
-    "size": "1250 x 2500 mm",
-    "thickness": "0.8mm",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.7mm",
     "price": 600000,
     "currency": "IDR",
     "active": true,
@@ -7130,84 +8812,334 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL STORM — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "ess-5206sma-muted-olive",
-    "code": "ESS 5206SMA",
-    "name": "ESS 5206SMA - EDL HPL 1250x2500 | MUTED OLIVE",
-    "design": "MUTED OLIVE",
+    "slug": "ess-4030sma-smoke-grey-8ft",
+    "code": "ESS 4030SMA",
+    "name": "ESS 4030SMA - EDL HPL 4'x8' | SMOKE GREY (8FT)",
+    "design": "SMOKE GREY (8FT)",
     "brand": "EDL",
     "collection": "Solid",
     "category": "Smart",
-    "size": "1320 x 3050 mm",
+    "size": "1250 x 2500 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "ES 04030D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 720000,
     "currency": "IDR",
     "active": true,
     "badges": [],
+    "description": "EDL SMOKE GREY (8FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-4054sma-midnight-grey-8ft",
+    "code": "ESS 4054SMA",
+    "name": "ESS 4054SMA - EDL HPL 4'x8' | MIDNIGHT GREY (8FT)",
+    "design": "MIDNIGHT GREY (8FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 04054D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL MIDNIGHT GREY (8FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-4401sma-unique-white-8ft",
+    "code": "ESS 4401SMA",
+    "name": "ESS 4401SMA - EDL HPL 4'x8' | UNIQUE WHITE (8FT)",
+    "design": "UNIQUE WHITE (8FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 04401D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL UNIQUE WHITE (8FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-5206sma-muted-olive",
+    "code": "ESS 5206SMA",
+    "name": "ESS 5206SMA - EDL HPL 4'x8' | MUTED OLIVE",
+    "design": "MUTED OLIVE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 05206D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL MUTED OLIVE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "ess-5207sma-moss-green",
     "code": "ESS 5207SMA",
-    "name": "ESS 5207SMA - EDL HPL 1250x2500 | MOSS GREEN",
+    "name": "ESS 5207SMA - EDL HPL 4'x8' | MOSS GREEN",
     "design": "MOSS GREEN",
     "brand": "EDL",
-    "collection": "Pattern",
+    "collection": "Solid",
     "category": "Abstract",
-    "size": "1220 x 2440 mm",
+    "size": "1250 x 2500 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "ES 05207D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 720000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL MOSS GREEN — a decorative HPL surface for feature walls and distinctive interior panels."
+    "description": "EDL MOSS GREEN — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "ess-5224sma-burnt-clay",
     "code": "ESS 5224SMA",
-    "name": "ESS 5224SMA - EDL HPL 1250x2500 | BURNT CLAY",
+    "name": "ESS 5224SMA - EDL HPL 4'x8' | BURNT CLAY",
     "design": "BURNT CLAY",
     "brand": "EDL",
-    "collection": "Pattern",
+    "collection": "Solid",
     "category": "Abstract",
-    "size": "1220 x 2440 mm",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 05224D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BURNT CLAY — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-5225sma-almost-blue",
+    "code": "ESS 5225SMA",
+    "name": "ESS 5225SMA - EDL HPL 4'x8' | ALMOST BLUE",
+    "design": "ALMOST BLUE",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 05225D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL ALMOST BLUE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-5236sma-mustard-gold",
+    "code": "ESS 5236SMA",
+    "name": "ESS 5236SMA - EDL HPL 4'x8' | MUSTARD GOLD",
+    "design": "MUSTARD GOLD",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
     "thickness": "0.8mm",
     "price": 720000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL BURNT CLAY — a decorative HPL surface for feature walls and distinctive interior panels."
+    "description": "EDL MUSTARD GOLD — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "ess-6084sma-daylight",
     "code": "ESS 6084SMA",
-    "name": "ESS 6084SMA - EDL HPL 1250x2500 | DAYLIGHT",
+    "name": "ESS 6084SMA - EDL HPL 4'x8' | DAYLIGHT",
     "design": "DAYLIGHT",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Solid",
     "category": "Aspen",
-    "size": "1220 x 2440 mm",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 06084D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL DAYLIGHT — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-6153sma-moonlight-grey-8ft",
+    "code": "ESS 6153SMA",
+    "name": "ESS 6153SMA - EDL HPL 4'x8' | MOONLIGHT GREY (8FT)",
+    "design": "MOONLIGHT GREY (8FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
     "thickness": "0.8mm",
     "price": 720000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DAYLIGHT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL MOONLIGHT GREY (8FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "ess-9270sma-cloudy-brown-8ft",
+    "code": "ESS 9270SMA",
+    "name": "ESS 9270SMA - EDL HPL 4'x8' | CLOUDY BROWN (8FT)",
+    "design": "CLOUDY BROWN (8FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "Smart",
+    "size": "1250 x 2500 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 09270D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 720000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL CLOUDY BROWN (8FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "est-4030sma-smoke-grey-10ft",
+    "code": "EST 4030SMA",
+    "name": "EST 4030SMA - EDL HPL 4'x10' | SMOKE GREY (10FT)",
+    "design": "SMOKE GREY (10FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 04030D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL SMOKE GREY (10FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "est-4054sma-midnight-grey-10ft",
+    "code": "EST 4054SMA",
+    "name": "EST 4054SMA - EDL HPL 4'x10' | MIDNIGHT GREY (10FT)",
+    "design": "MIDNIGHT GREY (10FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 04054D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL MIDNIGHT GREY (10FT) — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "est-4401sma-unique-white",
     "code": "EST 4401SMA",
-    "name": "EST 4401SMA - EDL HPL 1320x3050 | UNIQUE WHITE",
+    "name": "EST 4401SMA - EDL HPL 4'x10' | UNIQUE WHITE",
     "design": "UNIQUE WHITE",
     "brand": "EDL",
-    "collection": "Wood",
+    "collection": "Solid",
     "category": "Aspen",
-    "size": "1220 x 2440 mm",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 04401D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL UNIQUE WHITE — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "est-6084sma-daylight-10ft",
+    "code": "EST 6084SMA",
+    "name": "EST 6084SMA - EDL HPL 4'x10' | DAYLIGHT (10FT)",
+    "design": "DAYLIGHT (10FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 06084D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL DAYLIGHT (10FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "est-6153sma-moonlight-grey-10ft",
+    "code": "EST 6153SMA",
+    "name": "EST 6153SMA - EDL HPL 4'x10' | MOONLIGHT GREY (10FT)",
+    "design": "MOONLIGHT GREY (10FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
     "thickness": "0.8mm",
     "price": 890000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL UNIQUE WHITE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL MOONLIGHT GREY (10FT) — a versatile solid-colour HPL for clean modern interiors."
+  },
+  {
+    "slug": "est-9270sma-cloudy-brown-10ft",
+    "code": "EST 9270SMA",
+    "name": "EST 9270SMA - EDL HPL 4'x10' | CLOUDY BROWN (10FT)",
+    "design": "CLOUDY BROWN (10FT)",
+    "brand": "EDL",
+    "collection": "Solid",
+    "category": "10Ft",
+    "size": "1320 x 3050 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "ES 09270D",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
+    "price": 890000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL CLOUDY BROWN (10FT) — a versatile solid-colour HPL for clean modern interiors."
   },
   {
     "slug": "ewd-2542nt-english-oak",
@@ -7222,24 +9154,10 @@ export const edlProductsFromCsv: Product[] = [
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL ENGLISH OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "ewd-3452t-natural-elm",
-    "code": "EWD 3452T",
-    "name": "EWD 3452T - EDL HPL 4'x8' | NATURAL ELM",
-    "design": "NATURAL ELM",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aspen",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL NATURAL ELM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewd-3562t-regency-cherry",
@@ -7272,22 +9190,6 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL AFRICAN WOOD — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "ewd-4682nt-meridian-ash",
-    "code": "EWD 4682NT",
-    "name": "EWD 4682NT - EDL HPL 4'x8' | MERIDIAN ASH",
-    "design": "MERIDIAN ASH",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aspen",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL MERIDIAN ASH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewd-9070t-elm",
@@ -7354,22 +9256,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL VIRGINIA BEECH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewd-9920nt-santhia",
-    "code": "EWD 9920NT",
-    "name": "EWD 9920NT - EDL HPL 4'x8' | SANTHIA",
-    "design": "SANTHIA",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Super Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL SANTHIA — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "ewd-9970nt-urban-elm",
     "code": "EWD 9970NT",
     "name": "EWD 9970NT - EDL HPL 4'x8' | URBAN ELM",
@@ -7386,52 +9272,100 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL URBAN ELM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewd-9980nt-salinas-oak",
-    "code": "EWD 9980NT",
-    "name": "EWD 9980NT - EDL HPL 4'x8' | SALINAS OAK",
-    "design": "SALINAS OAK",
+    "slug": "ewn-6257smt-jazz-oak",
+    "code": "EWN 6257SMT",
+    "name": "EWN 6257SMT - EDL HPL 4'x8' | JAZZ OAK",
+    "design": "JAZZ OAK",
     "brand": "EDL",
     "collection": "Wood",
-    "category": "Super Matt",
+    "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SALINAS OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL JAZZ OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewn-6865r-grandis-teak",
-    "code": "EWN 6865R",
-    "name": "EWN 6865R - EDL HPL 4'x8' | GRANDIS TEAK",
-    "design": "GRANDIS TEAK",
+    "slug": "ewn-6258smt-dark-jazz-oak",
+    "code": "EWN 6258SMT",
+    "name": "EWN 6258SMT - EDL HPL 4'x8' | DARK JAZZ OAK",
+    "design": "DARK JAZZ OAK",
     "brand": "EDL",
     "collection": "Wood",
-    "category": "Super Matt",
+    "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL GRANDIS TEAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL DARK JAZZ OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewn-6866r-dark-grandis-teak",
-    "code": "EWN 6866R",
-    "name": "EWN 6866R - EDL HPL 4'x8' | DARK GRANDIS TEAK",
-    "design": "DARK GRANDIS TEAK",
+    "slug": "ewn-6259smt-grey-jazz-oak",
+    "code": "EWN 6259SMT",
+    "name": "EWN 6259SMT - EDL HPL 4'x8' | GREY JAZZ OAK",
+    "design": "GREY JAZZ OAK",
     "brand": "EDL",
     "collection": "Wood",
-    "category": "Super Matt",
+    "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL DARK GRANDIS TEAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+    "description": "EDL GREY JAZZ OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "ewn-6262smt-brown-prim-pine",
+    "code": "EWN 6262SMT",
+    "name": "EWN 6262SMT - EDL HPL 4'x8' | BROWN PRIM PINE",
+    "design": "BROWN PRIM PINE",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL BROWN PRIM PINE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "ewn-6263smt-light-prim-pine",
+    "code": "EWN 6263SMT",
+    "name": "EWN 6263SMT - EDL HPL 4'x8' | LIGHT PRIM PINE",
+    "design": "LIGHT PRIM PINE",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL LIGHT PRIM PINE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "ewn-6265smt-prim-pine",
+    "code": "EWN 6265SMT",
+    "name": "EWN 6265SMT - EDL HPL 4'x8' | PRIM PINE",
+    "design": "PRIM PINE",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL PRIM PINE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewn-6875r-augusta-walnut",
@@ -7443,6 +9377,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Super Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 06875",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7459,6 +9398,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Super Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 06876",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7491,6 +9435,10 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Super Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 06890",
+    "edgebandSizes": [
+      "23 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7514,22 +9462,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL DUERO WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewn-6951r-nomad",
-    "code": "EWN 6951R",
-    "name": "EWN 6951R - EDL HPL 4'x8' | NOMAD",
-    "design": "NOMAD",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Super Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL NOMAD — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "ewn-6952r-brix",
     "code": "EWN 6952R",
     "name": "EWN 6952R - EDL HPL 4'x8' | BRIX",
@@ -7546,54 +9478,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL BRIX — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewn-6953r-warm-walnut",
-    "code": "EWN 6953R",
-    "name": "EWN 6953R - EDL HPL 4'x8' | WARM WALNUT",
-    "design": "WARM WALNUT",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Fine Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL WARM WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "ewn-7119r-legno-oak",
-    "code": "EWN 7119R",
-    "name": "EWN 7119R - EDL HPL 4'x8' | LEGNO OAK",
-    "design": "LEGNO OAK",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Fine Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL LEGNO OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "ewn-7448r-kirschbaum",
-    "code": "EWN 7448R",
-    "name": "EWN 7448R - EDL HPL 4'x8' | KIRSCHBAUM",
-    "design": "KIRSCHBAUM",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Fine Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL KIRSCHBAUM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "ewp-1339m-ontaria-oak",
     "code": "EWP 1339M",
     "name": "EWP 1339M - EDL HPL 4'x8' | ONTARIA OAK",
@@ -7603,6 +9487,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 01339",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7619,11 +9508,48 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 01340",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
     "description": "EDL CALGARY OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "ewp-1342m-light-atina-walnut",
+    "code": "EWP 1342M",
+    "name": "EWP 1342M - EDL HPL 4'x8' | LIGHT ATINA WALNUT",
+    "design": "LIGHT ATINA WALNUT",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL LIGHT ATINA WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
+  },
+  {
+    "slug": "ewp-1343m-atina-walnut",
+    "code": "EWP 1343M",
+    "name": "EWP 1343M - EDL HPL 4'x8' | ATINA WALNUT",
+    "design": "ATINA WALNUT",
+    "brand": "EDL",
+    "collection": "Wood",
+    "category": "Fine Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 710000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL ATINA WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewp-1465m-moca-albatross-teak",
@@ -7683,6 +9609,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02682",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7715,6 +9646,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03240",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7731,6 +9667,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Fine Matt",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 03241",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -7834,22 +9775,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL AUSTRIAN CHERRY — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewp-4003m-indian-ebony",
-    "code": "EWP 4003M",
-    "name": "EWP 4003M - EDL HPL 4'x8' | INDIAN EBONY",
-    "design": "INDIAN EBONY",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aspen",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL INDIAN EBONY — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "eww-1023n-white-ashwood",
     "code": "EWW 1023N",
     "name": "EWW 1023N - EDL HPL 4'x8' | WHITE ASHWOOD",
@@ -7880,22 +9805,6 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL TECTONA — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "eww-2312n-lorriane-walnut",
-    "code": "EWW 2312N",
-    "name": "EWW 2312N - EDL HPL 4'x8' | LORRIANE WALNUT",
-    "design": "LORRIANE WALNUT",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aspen",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 680000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL LORRIANE WALNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "eww-3020n-dark-erable",
@@ -8026,38 +9935,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL GOLDEN MAPLE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "eww-4402t-equidae",
-    "code": "EWW 4402T",
-    "name": "EWW 4402T - EDL HPL 4'x8' | EQUIDAE",
-    "design": "EQUIDAE",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aspen",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 680000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL EQUIDAE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "ewy-2552m-line-chestnut",
-    "code": "EWY 2552M",
-    "name": "EWY 2552M - EDL HPL 4'x8' | LINE CHESTNUT",
-    "design": "LINE CHESTNUT",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aspen",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL LINE CHESTNUT — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "ewy-2725ev-light-wajar-oak",
     "code": "EWY 2725EV",
     "name": "EWY 2725EV - EDL HPL 4'x8' | LIGHT WAJAR OAK",
@@ -8083,6 +9960,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aspen",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02726",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -8099,6 +9981,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aspen",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02728",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -8115,6 +10002,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aspen",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "DEW 02729",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -8131,6 +10023,11 @@ export const edlProductsFromCsv: Product[] = [
     "category": "Aspen",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
+    "edgebandCode": "EW 03358D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 710000,
     "currency": "IDR",
     "active": true,
@@ -8230,7 +10127,9 @@ export const edlProductsFromCsv: Product[] = [
     "price": 710000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
+    "badges": [
+      "BESTSELLER"
+    ],
     "description": "EDL FLANNEL CHERRY — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
@@ -8239,15 +10138,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "EWY 9770V - EDL HPL 4'x8' | NEW TEAK",
     "design": "NEW TEAK",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Wood",
     "category": "Aptico",
-    "size": "1300 x 2800 mm",
-    "thickness": "1.0mm",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL NEW TEAK — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL NEW TEAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewy-9824n-spring-nagare",
@@ -8255,31 +10154,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "EWY 9824N - EDL HPL 4'x8' | SPRING NAGARE",
     "design": "SPRING NAGARE",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Wood",
     "category": "Aptico",
-    "size": "1300 x 2800 mm",
-    "thickness": "1.0mm",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL SPRING NAGARE — a premium Aptico HPL, made in Austria, for high-end interior specification."
-  },
-  {
-    "slug": "ewy-9826n-cream-nagare",
-    "code": "EWY 9826N",
-    "name": "EWY 9826N - EDL HPL 4'x8' | CREAM NAGARE",
-    "design": "CREAM NAGARE",
-    "brand": "EDL",
-    "collection": "Aptico",
-    "category": "Aptico",
-    "size": "1300 x 2800 mm",
-    "thickness": "1.0mm",
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL CREAM NAGARE — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL SPRING NAGARE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewy-9828n-choco-nagare",
@@ -8287,15 +10170,15 @@ export const edlProductsFromCsv: Product[] = [
     "name": "EWY 9828N - EDL HPL 4'x8' | CHOCO NAGARE",
     "design": "CHOCO NAGARE",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Wood",
     "category": "Aptico",
-    "size": "1300 x 2800 mm",
-    "thickness": "1.0mm",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
     "price": 710000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL CHOCO NAGARE — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL CHOCO NAGARE — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "l-fa-0075ap-aptico-dali-grau",
@@ -8303,15 +10186,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0075AP - EDL HPL 1300x2800 | APTICO DALI GRAU",
     "design": "APTICO DALI GRAU",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00075",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO DALI GRAU — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO DALI GRAU — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0077ap-aptico-creffield-dunkel",
@@ -8319,7 +10207,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0077AP - EDL HPL 1300x2800 | APTICO CREFFIELD DUNKEL",
     "design": "APTICO CREFFIELD DUNKEL",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
@@ -8327,7 +10215,7 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO CREFFIELD DUNKEL — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO CREFFIELD DUNKEL — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0080ap-aptico-kline-schwarz",
@@ -8335,15 +10223,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0080AP - EDL HPL 1300x2800 | APTICO KLINE SCHWARZ",
     "design": "APTICO KLINE SCHWARZ",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00080",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO KLINE SCHWARZ — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO KLINE SCHWARZ — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0085ap-aptico-weiss",
@@ -8351,15 +10244,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0085AP - EDL HPL 1300x2800 | APTICO WEISS",
     "design": "APTICO WEISS",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00085",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO WEISS — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO WEISS — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0206ap-aptico-fango",
@@ -8367,15 +10265,22 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0206AP - EDL HPL 1300x2800 | APTICO FANGO",
     "design": "APTICO FANGO",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00206",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
-    "badges": [],
-    "description": "EDL APTICO FANGO — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "badges": [
+      "BESTSELLER"
+    ],
+    "description": "EDL APTICO FANGO — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0289ap-aptico-tortora",
@@ -8383,15 +10288,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0289AP - EDL HPL 1300x2800 | APTICO TORTORA",
     "design": "APTICO TORTORA",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00289",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO TORTORA — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO TORTORA — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0370ap-aptico-wald-grun",
@@ -8399,15 +10309,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0370AP - EDL HPL 1300x2800 | APTICO WALD GRUN",
     "design": "APTICO WALD GRUN",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00370",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO WALD GRUN — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO WALD GRUN — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0606ap-aptico-ryman-arctic",
@@ -8415,15 +10330,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0606AP - EDL HPL 1300x2800 | APTICO RYMAN ARCTIC",
     "design": "APTICO RYMAN ARCTIC",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00606",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO RYMAN ARCTIC — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO RYMAN ARCTIC — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0648ap-aptico-van-dyck-braun",
@@ -8431,15 +10351,20 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0648AP - EDL HPL 1300x2800 | APTICO VAN DYCK BRAUN",
     "design": "APTICO VAN DYCK BRAUN",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00648",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO VAN DYCK BRAUN — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO VAN DYCK BRAUN — a premium HPL decorative surface manufactured in Austria."
   },
   {
     "slug": "l-fa-0702ap-aptico-hooper-blau",
@@ -8447,14 +10372,372 @@ export const edlProductsFromCsv: Product[] = [
     "name": "L-FA 0702AP - EDL HPL 1300x2800 | APTICO HOOPER BLAU",
     "design": "APTICO HOOPER BLAU",
     "brand": "EDL",
-    "collection": "Aptico",
+    "collection": "Aptico-Matt",
     "category": "Aptico",
     "size": "1300 x 2800 mm",
     "thickness": "1.0mm",
+    "edgebandCode": "DSS 00702",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
     "price": 3500000,
     "currency": "IDR",
     "active": true,
     "badges": [],
-    "description": "EDL APTICO HOOPER BLAU — a premium Aptico HPL, made in Austria, for high-end interior specification."
+    "description": "EDL APTICO HOOPER BLAU — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-fa-0733ap-malevich-ivory",
+    "code": "L-FA 0733AP",
+    "name": "L-FA 0733AP - EDL HPL 1300x2800 | MALEVICH IVORY",
+    "design": "MALEVICH IVORY",
+    "brand": "EDL",
+    "collection": "Aptico-Matt",
+    "category": "Aptico",
+    "size": "1300 x 2800 mm",
+    "thickness": "1.0mm",
+    "edgebandCode": "DSS 00733",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 3500000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL MALEVICH IVORY — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-fa-0746ap-pollock-grau",
+    "code": "L-FA 0746AP",
+    "name": "L-FA 0746AP - EDL HPL 1300x2800 | POLLOCK GRAU",
+    "design": "POLLOCK GRAU",
+    "brand": "EDL",
+    "collection": "Aptico-Matt",
+    "category": "Aptico",
+    "size": "1300 x 2800 mm",
+    "thickness": "1.0mm",
+    "edgebandCode": "DSS 00746",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 3500000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL POLLOCK GRAU — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-fa-0753ap-whistler-cool-grau",
+    "code": "L-FA 0753AP",
+    "name": "L-FA 0753AP - EDL HPL 1300x2800 | WHISTLER COOL GRAU",
+    "design": "WHISTLER COOL GRAU",
+    "brand": "EDL",
+    "collection": "Aptico-Matt",
+    "category": "Aptico",
+    "size": "1300 x 2800 mm",
+    "thickness": "1.0mm",
+    "edgebandCode": "DSS 00753",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 3500000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL WHISTLER COOL GRAU — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-fa-0755ap-serra-grau",
+    "code": "L-FA 0755AP",
+    "name": "L-FA 0755AP - EDL HPL 1300x2800 | SERRA GRAU",
+    "design": "SERRA GRAU",
+    "brand": "EDL",
+    "collection": "Aptico-Matt",
+    "category": "Aptico",
+    "size": "1300 x 2800 mm",
+    "thickness": "1.0mm",
+    "edgebandCode": "DSS 00755SM",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 3500000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [],
+    "description": "EDL SERRA GRAU — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-mg-1808g-aurelio-bianco-g",
+    "code": "L-MG 1808G",
+    "name": "L-MG 1808G - EDL HPL 4'x8' | AURELIO BIANCO-G",
+    "design": "AURELIO BIANCO-G",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio Gloss",
+    "size": "1220 x 2440 mm",
+    "thickness": "1.0mm",
+    "price": 1100000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL AURELIO BIANCO-G — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-ym-1807bt-aurelio-bianco",
+    "code": "L-YM 1807BT",
+    "name": "L-YM 1807BT - EDL HPL 4'x8' | AURELIO BIANCO",
+    "design": "AURELIO BIANCO",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio Matt",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 1100000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL AURELIO BIANCO — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yp-8240qt-hygge-warm",
+    "code": "L-YP 8240QT",
+    "name": "L-YP 8240QT - EDL HPL 4'x8' | HYGGE WARM",
+    "design": "HYGGE WARM",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Textile",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL HYGGE WARM — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yp-8241qt-hygge-calm",
+    "code": "L-YP 8241QT",
+    "name": "L-YP 8241QT - EDL HPL 4'x8' | HYGGE CALM",
+    "design": "HYGGE CALM",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Textile",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL HYGGE CALM — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yp-8242qt-hygge-ash",
+    "code": "L-YP 8242QT",
+    "name": "L-YP 8242QT - EDL HPL 4'x8' | HYGGE ASH",
+    "design": "HYGGE ASH",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Textile",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 08242D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL HYGGE ASH — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-ys-2101qt-intonaco-osso",
+    "code": "L-YS 2101QT",
+    "name": "L-YS 2101QT - EDL HPL 4'x8' | INTONACO OSSO",
+    "design": "INTONACO OSSO",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 02101D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL INTONACO OSSO — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-ys-2102qt-intonaco-sabbia",
+    "code": "L-YS 2102QT",
+    "name": "L-YS 2102QT - EDL HPL 4'x8' | INTONACO SABBIA",
+    "design": "INTONACO SABBIA",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 02102D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL INTONACO SABBIA — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-ys-2103qt-intonaco-grigio",
+    "code": "L-YS 2103QT",
+    "name": "L-YS 2103QT - EDL HPL 4'x8' | INTONACO GRIGIO",
+    "design": "INTONACO GRIGIO",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EP 02103D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL INTONACO GRIGIO — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yw-3571w-light-flon-maple",
+    "code": "L-YW 3571W",
+    "name": "L-YW 3571W - EDL HPL 4'x8' | LIGHT FLON MAPLE",
+    "design": "LIGHT FLON MAPLE",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LIGHT FLON MAPLE — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yw-3572w-flon-maple",
+    "code": "L-YW 3572W",
+    "name": "L-YW 3572W - EDL HPL 4'x8' | FLON MAPLE",
+    "design": "FLON MAPLE",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL FLON MAPLE — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yw-3577at-light-urban-oak",
+    "code": "L-YW 3577AT",
+    "name": "L-YW 3577AT - EDL HPL 4'x8' | LIGHT URBAN OAK",
+    "design": "LIGHT URBAN OAK",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03577D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL LIGHT URBAN OAK — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yw-3578at-urban-oak",
+    "code": "L-YW 3578AT",
+    "name": "L-YW 3578AT - EDL HPL 4'x8' | URBAN OAK",
+    "design": "URBAN OAK",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03578D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL URBAN OAK — a premium HPL decorative surface manufactured in Austria."
+  },
+  {
+    "slug": "l-yw-3579at-natural-urban-oak",
+    "code": "L-YW 3579AT",
+    "name": "L-YW 3579AT - EDL HPL 4'x8' | NATURAL URBAN OAK",
+    "design": "NATURAL URBAN OAK",
+    "brand": "EDL",
+    "collection": "Ecru Core",
+    "category": "Kiravaio",
+    "size": "1220 x 2440 mm",
+    "thickness": "0.8mm",
+    "edgebandCode": "EW 03579D",
+    "edgebandSizes": [
+      "23 x 1.0mm",
+      "45 x 1.0mm"
+    ],
+    "price": 980000,
+    "currency": "IDR",
+    "active": true,
+    "badges": [
+      "NEW"
+    ],
+    "description": "EDL NATURAL URBAN OAK — a premium HPL decorative surface manufactured in Austria."
   }
 ];

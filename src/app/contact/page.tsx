@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <div>
       {/* Page hero */}
-      <div className="relative bg-edl-ink text-white overflow-hidden">
+      <div className="relative overflow-hidden bg-[#f5e6df]">
         <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
         <div className="shell py-16 sm:py-24">
           <div className="inline-flex items-center gap-2 mb-6">
@@ -19,7 +19,7 @@ export default function ContactPage() {
               {t('contact', 'badge', lang)}
             </p>
           </div>
-          <h1 className="display text-white text-5xl sm:text-6xl lg:text-7xl">
+          <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl">
             {t('contact', 'title', lang)}
           </h1>
         </div>
@@ -54,8 +54,8 @@ export default function ContactPage() {
                 </div>
                 <div className="bg-white px-6 py-5">
                   <p className="label mb-2">{t('contact', 'email', lang)}</p>
-                  <a href="mailto:varindo.ho@gmail.com" className="text-[13px] text-edl-blue underline underline-offset-2 hover:text-edl-800 transition-colors">
-                    varindo.ho@gmail.com
+                  <a href="mailto:varindo.admin@gmail.com" className="text-[13px] text-edl-blue underline underline-offset-2 hover:text-edl-800 transition-colors">
+                    varindo.admin@gmail.com
                   </a>
                 </div>
               </div>

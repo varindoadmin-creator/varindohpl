@@ -50,7 +50,7 @@ function SelectWrapper({ label, value, onChange, children }: { label: string; va
   );
 }
 
-export function ProductExplorer({ products, showCollectionTabs = true }: Props) {
+export function ProductExplorer({ products, filterOptions, showCollectionTabs = true }: Props) {
   const { lang } = useLang();
   const searchParams = useSearchParams();
   const [query, setQuery]       = useState(searchParams.get('search') || '');
@@ -85,28 +85,29 @@ export function ProductExplorer({ products, showCollectionTabs = true }: Props) 
     { label: t('explorer', 'tabNewArrivals', lang),  href: '/collections/new-arrivals' },
     { label: t('explorer', 'tabBestSellers', lang),  href: '/collections/best-sellers' },
     { label: 'Woods',    href: '/collections/woods' },
-    { label: 'Patterns', href: '/collections/patterns' },
     { label: 'Solids',   href: '/collections/solids' },
-    { label: 'Stone',    href: '/collections/stone' },
-    { label: 'Marble',   href: '/collections/marble' },
+    { label: 'Ecru Core', href: '/collections/ecru-core' },
+    { label: 'Patterns', href: '/collections/patterns' },
+    { label: 'Marble & Stone', href: '/collections/marble-stone' },
     { label: 'Metal',    href: '/collections/metal' },
-    { label: 'Aptico',   href: '/collections/aptico' },
+    { label: 'Colour Core', href: '/collections/colour-core' },
+    { label: 'Aptico-Matt', href: '/collections/aptico-matt' },
   ];
 
   return (
     <div className="space-y-0">
       {showCollectionTabs && (
-        <div className="flex gap-0 overflow-x-auto border-b border-edl-line mb-8 scrollbar-none">
+        <div className="mb-8 flex gap-2 overflow-x-auto scrollbar-none">
           {collectionTabs.map(({ label, href }) => (
             <Link key={href} href={href}
-              className="shrink-0 px-5 py-3 text-[10px] font-semibold tracking-[0.18em] uppercase text-edl-600 border-b-2 border-transparent hover:text-edl-ink hover:border-edl-ink transition-all duration-150 whitespace-nowrap">
+              className="shrink-0 rounded-full border border-edl-line bg-white px-5 py-3 text-[10px] font-semibold tracking-[0.16em] uppercase text-edl-600 hover:border-edl-400 hover:text-edl-ink transition-all duration-150 whitespace-nowrap">
               {label}
             </Link>
           ))}
         </div>
       )}
 
-      <div className="border border-edl-line bg-white mb-8">
+      <div className="mb-8 overflow-hidden rounded-2xl border border-edl-line bg-white">
         <div className="flex items-center justify-between px-5 py-3.5 border-b border-edl-line">
           <div className="flex items-center gap-2">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="text-edl-500">
@@ -132,13 +133,7 @@ export function ProductExplorer({ products, showCollectionTabs = true }: Props) 
 
             <SelectWrapper label={t('explorer', 'collectionLabel', lang)} value={collection} onChange={setCollection}>
               <option value="">{t('explorer', 'allCollections', lang)}</option>
-              <option value="Wood">Wood</option>
-              <option value="Pattern">Pattern</option>
-              <option value="Solid">Solid</option>
-              <option value="Stone">Stone</option>
-              <option value="Marble">Marble</option>
-              <option value="Metal">Metal</option>
-              <option value="Aptico">Aptico</option>
+              {filterOptions.collections.map((item) => <option key={item} value={item}>{item}</option>)}
             </SelectWrapper>
 
             <SelectWrapper label={t('explorer', 'categoryLabel', lang)} value={category} onChange={setCategory}>

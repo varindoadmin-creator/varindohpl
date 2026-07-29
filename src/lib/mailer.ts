@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-const NOTIFY_TO = 'varindo.ho@gmail.com';
+const NOTIFY_TO = 'varindo.admin@gmail.com';
 
 function getTransporter() {
   const host = process.env.SMTP_HOST;
@@ -11,7 +11,7 @@ function getTransporter() {
   return nodemailer.createTransport({ host, port, secure: port === 465, auth: { user, pass } });
 }
 
-type RequestType = 'sample' | 'quote' | 'catalogue';
+type RequestType = 'sample' | 'quote' | 'catalogue' | 'price-list';
 
 interface NotifyParams {
   type: RequestType;
@@ -26,22 +26,33 @@ const LABEL: Record<RequestType, string> = {
   sample:    'Sample Request',
   quote:     'Quote Request',
   catalogue: 'Catalogue Request',
+  'price-list': 'Price List Download',
 };
+
+function escapeHtml(value: string) {
+  return value.replace(/[&<>"']/g, (character) => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  })[character] || character);
+}
 
 function buildHtml(p: NotifyParams): string {
   const rows = (pairs: [string, string][]) =>
-    pairs.map(([k, v]) => `<tr><td style="padding:6px 12px 6px 0;color:#6b6560;font-size:13px;white-space:nowrap">${k}</td><td style="padding:6px 0;font-size:13px;color:#1a1714">${v}</td></tr>`).join('');
+    pairs.map(([k, v]) => `<tr><td style="padding:6px 12px 6px 0;color:#6b6560;font-size:13px;white-space:nowrap">${escapeHtml(k)}</td><td style="padding:6px 0;font-size:13px;color:#1a1714">${escapeHtml(v)}</td></tr>`).join('');
 
   const itemsHtml = p.type === 'quote' && p.items?.length
     ? `<h3 style="margin:24px 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6b6560">Items</h3>
        <table style="border-collapse:collapse;width:100%">
          <tr style="background:#f5f3f0"><th style="padding:6px 8px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.1em">Code</th><th style="padding:6px 8px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.1em">Qty</th></tr>
-         ${p.items.map(i => `<tr style="border-top:1px solid #e8e4df"><td style="padding:6px 8px;font-size:13px">${i.code}</td><td style="padding:6px 8px;font-size:13px">${i.qty} lembar</td></tr>`).join('')}
+         ${p.items.map(i => `<tr style="border-top:1px solid #e8e4df"><td style="padding:6px 8px;font-size:13px">${escapeHtml(i.code)}</td><td style="padding:6px 8px;font-size:13px">${escapeHtml(i.qty)} lembar</td></tr>`).join('')}
        </table>`
     : p.type === 'sample' && p.samples?.length
     ? `<h3 style="margin:24px 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6b6560">Samples</h3>
        <ul style="margin:0;padding-left:18px">
-         ${p.samples.map(s => `<li style="font-size:13px;padding:3px 0">${s}</li>`).join('')}
+         ${p.samples.map(s => `<li style="font-size:13px;padding:3px 0">${escapeHtml(s)}</li>`).join('')}
        </ul>`
     : '';
 
@@ -82,7 +93,7 @@ export async function sendChatTranscript(messages: ChatMessage[], lang: string):
     .filter(m => m.role !== 'assistant' || messages.indexOf(m) > 0) // skip greeting
     .map(m => {
       const who = m.role === 'user' ? '👤 Visitor' : '🤖 VIA';
-      const text = m.content.replace(/\n/g, '<br>');
+      const text = escapeHtml(m.content).replace(/\n/g, '<br>');
       return `<tr style="border-top:1px solid #e8e4df;vertical-align:top">
         <td style="padding:10px 12px;width:80px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#6b6560;white-space:nowrap">${who}</td>
         <td style="padding:10px 12px;font-size:13px;color:#1a1714;line-height:1.6">${text}</td>
@@ -98,7 +109,7 @@ export async function sendChatTranscript(messages: ChatMessage[], lang: string):
   </div>
   <div style="border:1px solid #e8e4df;border-top:none">
     <table style="border-collapse:collapse;width:100%">${lines}</table>
-    <p style="margin:0;padding:16px 20px;font-size:11px;color:#a8a49f;border-top:1px solid #e8e4df">Language: ${lang} · Sent from varindo.co.id</p>
+    <p style="margin:0;padding:16px 20px;font-size:11px;color:#a8a49f;border-top:1px solid #e8e4df">Language: ${escapeHtml(lang)} · Sent from varindo.co.id</p>
   </div>
 </div>`;
 

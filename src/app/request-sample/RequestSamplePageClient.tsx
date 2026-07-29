@@ -14,10 +14,10 @@ export function RequestSamplePage({ products }: { products: ProductOption[] }) {
 
   return (
     <div>
-      <div className="relative bg-edl-ink text-white overflow-hidden">
+      <div className="relative overflow-hidden bg-[#e7eee6]">
         <div className="shell py-14 sm:py-20">
           <p className="label mb-4">{t('forms', 'sampleBadge', lang)}</p>
-          <h1 className="display text-white text-5xl sm:text-6xl lg:text-7xl whitespace-pre-line">
+          <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl whitespace-pre-line">
             {t('forms', 'sampleTitle', lang)}
           </h1>
           <p className="mt-5 text-[14px] leading-7 text-edl-400 max-w-lg">

@@ -8,18 +8,18 @@
 
   /* Core palette */
   --c-white:      #ffffff;
-  --c-paper:      #f8fafc;
-  --c-line:       #e2e8f0;
-  --c-sand:       #cbd5e1;
-  --c-ink:        #0b1424;
-  --c-ink-60:     rgba(11, 20, 36, 0.60);
-  --c-ink-30:     rgba(11, 20, 36, 0.30);
-  --c-blue:       #374151;
-  --c-blue-lt:    #f3f4f6;
+  --c-paper:      #fbfaf6;
+  --c-line:       #dfe5de;
+  --c-sand:       #cbd8ce;
+  --c-ink:        #20302a;
+  --c-ink-60:     rgba(32, 48, 42, 0.60);
+  --c-ink-30:     rgba(32, 48, 42, 0.30);
+  --c-blue:       #527663;
+  --c-blue-lt:    #edf2ea;
 
   /* Typography */
-  --font-display: var(--font-inter), 'Inter', ui-sans-serif, sans-serif;
-  --font-body:    var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-body:    'Inter', ui-sans-serif, system-ui, sans-serif;
 
   /* Spacing rhythm */
   --space-section: clamp(3.5rem, 6vw, 6rem);
@@ -37,7 +37,7 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--c-white);
+  background-color: var(--c-paper);
   color: var(--c-ink);
   font-family: var(--font-body);
 }
@@ -59,7 +59,7 @@ img { -webkit-user-drag: none; }
 
   /* Layout shell */
   .shell {
-    @apply mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-12;
+    @apply mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-12;
   }
 
   /* Eyebrow label */
@@ -83,7 +83,7 @@ img { -webkit-user-drag: none; }
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2
            bg-edl-blue text-white
-           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           rounded-full px-7 py-3.5 text-[11px] font-bold tracking-[0.15em] uppercase
            transition-all duration-200
            hover:bg-edl-800;
   }
@@ -92,7 +92,7 @@ img { -webkit-user-drag: none; }
   .btn-ink {
     @apply inline-flex items-center justify-center gap-2
            bg-edl-ink text-white
-           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           rounded-full px-7 py-3.5 text-[11px] font-bold tracking-[0.15em] uppercase
            transition-all duration-200
            hover:bg-edl-800;
   }
@@ -101,7 +101,7 @@ img { -webkit-user-drag: none; }
   .btn-ghost {
     @apply inline-flex items-center justify-center gap-2
            border border-edl-ink text-edl-ink
-           px-6 py-3 text-[11px] font-bold tracking-[0.15em] uppercase
+           rounded-full px-7 py-3.5 text-[11px] font-bold tracking-[0.15em] uppercase
            transition-all duration-200
            hover:bg-edl-ink hover:text-white;
   }
@@ -117,16 +117,20 @@ img { -webkit-user-drag: none; }
 
   /* Product card */
   .surface-card {
-    @apply bg-white border border-edl-line transition-all duration-300;
+    @apply rounded-3xl bg-white border border-edl-line transition-all duration-300;
   }
 
   /* Form control */
   .field {
-    @apply h-11 w-full border border-edl-line bg-white px-4
+    @apply h-12 w-full rounded-xl border border-edl-line bg-white px-4
            text-sm text-edl-ink outline-none
            transition-all duration-150
            placeholder:text-edl-400
            focus:border-edl-blue focus:ring-0;
+  }
+
+  .text-link {
+    @apply items-center gap-2 text-[11px] font-bold uppercase tracking-[0.16em] text-edl-700 transition-colors hover:text-edl-blue;
   }
 
   .field-select {

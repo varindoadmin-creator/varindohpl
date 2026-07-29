@@ -23,7 +23,7 @@ export function ProductGrid({ products }: { products: Product[] }) {
   }
 
   return (
-    <div className="grid grid-cols-1 gap-px bg-edl-line min-[480px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 min-[480px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {products.map((product) => (
         <ProductCard key={product.slug} product={product} />
       ))}

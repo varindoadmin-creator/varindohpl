@@ -12,6 +12,8 @@ export type Product = {
   finish?: string;
   size?: string;
   thickness?: string;
+  edgebandCode?: string;
+  edgebandSizes?: string[];
   colorFamily?: string;
   /** Price shown publicly on website, including PPN. */
   price?: number | null;

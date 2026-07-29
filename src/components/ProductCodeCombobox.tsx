@@ -128,9 +128,11 @@ export function ProductCodeCombobox({ value, onChange, placeholder, rowIndex }: 
           }
         }}
         placeholder={placeholder}
+        role="combobox"
         aria-label={label}
         aria-autocomplete="list"
         aria-expanded={open}
+        aria-controls="product-code-options"
         aria-activedescendant={activeIdx >= 0 ? `pcb-option-${activeIdx}` : undefined}
         autoComplete="off"
         spellCheck={false}
@@ -141,6 +143,7 @@ export function ProductCodeCombobox({ value, onChange, placeholder, rowIndex }: 
       {open && (
         <div className="absolute left-0 right-0 top-full z-50 border border-edl-line bg-white shadow-luxury">
           <ul
+            id="product-code-options"
             ref={listRef}
             role="listbox"
             className="max-h-56 overflow-y-auto divide-y divide-edl-line/40"

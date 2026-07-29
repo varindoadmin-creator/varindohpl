@@ -12,12 +12,13 @@ const groupMeta: Partial<Record<CollectionGroup, { titleEN: string; descEN: stri
   'new-collections':{ titleEN: 'New Arrivals',  descEN: 'Browse newly introduced EDL designs.' },
   'best-sellers':   { titleEN: 'Best Sellers',  descEN: 'Explore frequently selected EDL surfaces.' },
   'woods':          { titleEN: 'Woods',         descEN: 'EDL woodgrain surfaces for interior projects.' },
-  'patterns':       { titleEN: 'Patterns',      descEN: 'Decorative EDL pattern surfaces.' },
   'solids':         { titleEN: 'Solids',        descEN: 'EDL solid colour and core surfaces.' },
-  'stone':          { titleEN: 'Stone',         descEN: 'EDL stone-effect HPL surfaces.' },
-  'marble':         { titleEN: 'Marble',        descEN: 'EDL marble-effect HPL surfaces.' },
+  'ecru-core':      { titleEN: 'Ecru Core',     descEN: 'EDL ecru-core surfaces for coordinated interior details.' },
+  'patterns':       { titleEN: 'Patterns',      descEN: 'Decorative EDL pattern surfaces.' },
+  'marble-stone':   { titleEN: 'Marble & Stone', descEN: 'EDL marble and stone-effect HPL surfaces.' },
   'metal':          { titleEN: 'Metal',         descEN: 'EDL metallic HPL surfaces for premium interiors.' },
-  'aptico':         { titleEN: 'Aptico',        descEN: 'Premium Aptico HPL — made in Austria.' },
+  'colour-core':    { titleEN: 'Colour Core',   descEN: 'EDL colour-core laminates with coordinated edges.' },
+  'aptico-matt':    { titleEN: 'Aptico-Matt',   descEN: 'Premium Aptico-Matt HPL — made in Austria.' },
 };
 
 export function generateMetadata({ params }: { params: { group: string } }): Metadata {

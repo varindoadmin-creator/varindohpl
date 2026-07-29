@@ -7,12 +7,12 @@ export default function PrivacyPage() {
 
   return (
     <div>
-      <div className="bg-edl-ink text-white border-b border-edl-800">
+      <div className="border-b border-edl-line bg-[#e9e2ef]">
         <div className="shell py-14 sm:py-20">
           <p className="label text-edl-400 mb-4">
             {lang === 'id' ? 'Legal' : 'Legal'}
           </p>
-          <h1 className="display text-white text-5xl sm:text-6xl">
+          <h1 className="display text-edl-ink text-5xl sm:text-7xl">
             {lang === 'id' ? 'Kebijakan Privasi' : 'Privacy Policy'}
           </h1>
           <p className="mt-4 text-[13px] text-edl-400">
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="display text-2xl text-edl-ink mb-4">Tentang Kebijakan Ini</h2>
                 <p>
-                  CV. Varindo Forma Hutama ("Varindo", "kami") mengoperasikan situs web varindo.co.id dan aplikasi Android Varindo Catalog. Kebijakan privasi ini menjelaskan bagaimana kami menangani informasi saat Anda menggunakan layanan kami.
+                  CV. Varindo Forma Hutama (&quot;Varindo&quot;, &quot;kami&quot;) mengoperasikan situs web varindo.co.id dan aplikasi Android Varindo Catalog. Kebijakan privasi ini menjelaskan bagaimana kami menangani informasi saat Anda menggunakan layanan kami.
                 </p>
               </section>
 
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="display text-2xl text-edl-ink mb-4">Penyimpanan Data</h2>
                 <p>
-                  Data yang Anda kirimkan melalui formulir disimpan di Google Sheets yang hanya dapat diakses oleh tim internal Varindo. Kami tidak menjual, memperdagangkan, atau menyerahkan informasi pribadi Anda kepada pihak ketiga manapun.
+                  Data yang Anda kirimkan melalui formulir disimpan dalam basis data yang hanya dapat diakses oleh tim internal Varindo. Kami tidak menjual, memperdagangkan, atau menyerahkan informasi pribadi Anda kepada pihak ketiga manapun.
                 </p>
               </section>
 
@@ -103,7 +103,7 @@ export default function PrivacyPage() {
                 <p>Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami:</p>
                 <div className="mt-4 border border-edl-line bg-edl-50 p-5 space-y-2">
                   <p><span className="font-medium text-edl-ink">CV. Varindo Forma Hutama</span></p>
-                  <p>Email: <a href="mailto:varindo.ho@gmail.com" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.ho@gmail.com</a></p>
+                  <p>Email: <a href="mailto:varindo.admin@gmail.com" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.admin@gmail.com</a></p>
                   <p>WhatsApp: 0811 945 224</p>
                   <p>Website: <a href="https://varindo.co.id" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.co.id</a></p>
                 </div>
@@ -114,7 +114,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="display text-2xl text-edl-ink mb-4">About This Policy</h2>
                 <p>
-                  CV. Varindo Forma Hutama ("Varindo", "we", "us") operates the website varindo.co.id and the Varindo Catalog Android application. This privacy policy explains how we handle information when you use our services.
+                  CV. Varindo Forma Hutama (&quot;Varindo&quot;, &quot;we&quot;, &quot;us&quot;) operates the website varindo.co.id and the Varindo Catalog Android application. This privacy policy explains how we handle information when you use our services.
                 </p>
               </section>
 
@@ -156,7 +156,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="display text-2xl text-edl-ink mb-4">Data Storage</h2>
                 <p>
-                  Data submitted through our forms is stored in Google Sheets accessible only by Varindo's internal team. We do not sell, trade, or transfer your personal information to any third parties.
+                  Data submitted through our forms is stored in a database accessible only by Varindo&apos;s internal team. We do not sell, trade, or transfer your personal information to any third parties.
                 </p>
               </section>
 
@@ -186,7 +186,7 @@ export default function PrivacyPage() {
                 <p>If you have any questions about this privacy policy, please contact us:</p>
                 <div className="mt-4 border border-edl-line bg-edl-50 p-5 space-y-2">
                   <p><span className="font-medium text-edl-ink">CV. Varindo Forma Hutama</span></p>
-                  <p>Email: <a href="mailto:varindo.ho@gmail.com" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.ho@gmail.com</a></p>
+                  <p>Email: <a href="mailto:varindo.admin@gmail.com" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.admin@gmail.com</a></p>
                   <p>WhatsApp: 0811 945 224</p>
                   <p>Website: <a href="https://varindo.co.id" className="text-edl-ink underline underline-offset-2 hover:text-edl-blue transition-colors">varindo.co.id</a></p>
                 </div>

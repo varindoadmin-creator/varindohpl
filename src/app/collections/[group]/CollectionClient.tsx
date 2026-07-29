@@ -12,22 +12,23 @@ const groupConfig: Partial<Record<CollectionGroup, { titleKey: string; descKey: 
   'new-collections':{ titleKey: 'newArrivalsTitle',  descKey: 'newArrivalsDesc',  accentKey: 'newArrivalsAccent' },
   'best-sellers':   { titleKey: 'bestSellersTitle',  descKey: 'bestSellersDesc',  accentKey: 'bestSellersAccent' },
   'woods':          { titleKey: 'woodsTitle',        descKey: 'woodsDesc',        accentKey: '' },
-  'patterns':       { titleKey: 'patternsTitle',     descKey: 'patternsDesc',     accentKey: '' },
   'solids':         { titleKey: 'solidsTitle',       descKey: 'solidsDesc',       accentKey: '' },
-  'stone':          { titleKey: 'stoneTitle',        descKey: 'stoneDesc',        accentKey: '' },
-  'marble':         { titleKey: 'marbleTitle',       descKey: 'marbleDesc',       accentKey: '' },
+  'ecru-core':      { titleKey: 'ecruCoreTitle',     descKey: 'ecruCoreDesc',     accentKey: '' },
+  'patterns':       { titleKey: 'patternsTitle',     descKey: 'patternsDesc',     accentKey: '' },
+  'marble-stone':   { titleKey: 'marbleStoneTitle', descKey: 'marbleStoneDesc', accentKey: '' },
   'metal':          { titleKey: 'metalTitle',        descKey: 'metalDesc',        accentKey: '' },
-  'aptico':         { titleKey: 'apticoTitle',       descKey: 'apticoDesc',       accentKey: '' },
+  'colour-core':    { titleKey: 'colourCoreTitle',  descKey: 'colourCoreDesc',  accentKey: '' },
+  'aptico-matt':    { titleKey: 'apticoMattTitle',  descKey: 'apticoMattDesc',  accentKey: '' },
 };
 
 const tabOrder: CollectionGroup[] = [
   'new-arrivals', 'best-sellers',
-  'woods', 'patterns', 'solids',
-  'stone', 'marble', 'metal', 'aptico',
+  'woods', 'solids', 'ecru-core', 'patterns',
+  'marble-stone', 'metal', 'colour-core', 'aptico-matt',
 ];
 
 const filterOptions = {
-  collections: ['Wood','Pattern','Solid','Stone','Marble','Metal','Aptico'],
+  collections: ['Solid','Wood','Ecru Core','Pattern','Marble & Stone','Metal','Colour Core','Aptico-Matt'],
   categories:  [
     'Abstract','Aspen','Fine Matt','Leather','Marble Matt','Metal','Nuance',
     'PianoGloss','Smart','Stone','Super Matt','Textile','Textured',
@@ -51,7 +52,7 @@ export function CollectionClient({ group, products }: Props) {
   return (
     <div>
       {/* Header */}
-      <div className="relative bg-edl-ink text-white overflow-hidden">
+      <div className="relative overflow-hidden bg-[#e7eee6]">
         <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
         <div className="shell py-12 sm:py-16">
           {/* Breadcrumb */}
@@ -71,7 +72,7 @@ export function CollectionClient({ group, products }: Props) {
                   <p className="label">{accent}</p>
                 </div>
               )}
-              <h1 className="display text-white text-5xl sm:text-6xl lg:text-7xl mb-4">{title}</h1>
+              <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl mb-4">{title}</h1>
               <p className="text-[14px] leading-7 text-edl-400 max-w-xl">{desc}</p>
             </div>
             <div className="border border-edl-blue/30 bg-edl-blue/10 px-6 py-4 text-center shrink-0">

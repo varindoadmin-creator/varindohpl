@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Page hero */}
-      <div className="relative bg-edl-ink text-white overflow-hidden">
+      <div className="relative overflow-hidden bg-[#e7eee6]">
         <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
         <div className="shell py-16 sm:py-24">
           <div className="inline-flex items-center gap-2 mb-6">
@@ -18,7 +18,7 @@ export default function AboutPage() {
               {t('about', 'badge', lang)}
             </p>
           </div>
-          <h1 className="display text-white text-5xl sm:text-6xl lg:text-7xl">
+          <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl">
             {t('about', 'title', lang)}
           </h1>
         </div>
@@ -47,13 +47,13 @@ export default function AboutPage() {
         </section>
 
         {/* Vision */}
-        <section className="relative border border-edl-line bg-edl-ink text-white mb-6 px-8 py-10 overflow-hidden">
+        <section className="relative mb-6 overflow-hidden rounded-[1.5rem] border border-edl-line bg-[#e9e2ef] px-8 py-10">
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
           <p className="label mb-4">{t('about', 'visionLabel', lang)}</p>
-          <h2 className="display text-white text-3xl sm:text-4xl mb-5">
+          <h2 className="display text-edl-ink text-3xl sm:text-4xl mb-5">
             {t('about', 'visionTitle', lang)}
           </h2>
-          <div className="text-[14px] leading-8 text-edl-400 max-w-2xl space-y-4">
+          <div className="text-[14px] leading-8 text-edl-600 max-w-2xl space-y-4">
             <p>{t('about', 'vision1', lang)}</p>
             <p>{t('about', 'vision2', lang)}</p>
           </div>

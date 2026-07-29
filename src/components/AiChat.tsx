@@ -13,14 +13,14 @@ type Status = 'idle' | 'loading' | 'error';
 
 const QUICK_REPLIES_ID = [
   'Cari produk kayu / woodgrain',
-  'Apa itu Aptico?',
+  'Info gratis ongkir',
   'Cara minta sampel?',
   'Hubungi tim Varindo',
 ];
 
 const QUICK_REPLIES_EN = [
   'Find a woodgrain product',
-  'What is Aptico?',
+  'Free shipping information',
   'How to request a sample?',
   'Contact the Varindo team',
 ];
@@ -77,12 +77,12 @@ export function AiChat() {
         setMessages([{
           role: 'assistant',
           content: lang === 'id'
-            ? 'Halo! Saya VIA, asisten virtual Varindo. Saya bisa membantu Anda menemukan produk HPL EDL, informasi harga, atau menjawab pertanyaan umum. Apa yang bisa saya bantu?'
-            : 'Hello! I\'m Varindo\'s virtual assistant. I can help you find EDL HPL products, pricing information, or answer general questions. How can I help you?'
+            ? 'Halo! Saya VIA, asisten virtual Varindo—Dealer Resmi EDL di Indonesia. Saya bisa membantu Anda menemukan produk HPL EDL, informasi harga, edgeband, sampel, dan pengiriman gratis di Jawa dan Bali. Apa yang bisa saya bantu?'
+            : 'Hello! I’m VIA, the virtual assistant for Varindo—an Authorized EDL Dealer in Indonesia. I can help with EDL HPL products, prices, edgebands, samples, and free shipping across Java and Bali. How can I help?'
         }]);
       }
     }
-  }, [open]);
+  }, [hasOpened, lang, open]);
 
   const quickReplies = lang === 'id' ? QUICK_REPLIES_ID : QUICK_REPLIES_EN;
 
@@ -168,10 +168,10 @@ export function AiChat() {
               </div>
               <div>
                 <p className="text-[13px] font-semibold leading-tight">
-                  'VIA'
+                  VIA
                 </p>
                 <p className="text-[10px] text-edl-400 tracking-[0.1em]">
-                  'Online'
+                  Online
                 </p>
               </div>
             </div>

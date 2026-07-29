@@ -125,7 +125,7 @@ export function ProductCodeInput({ products, value, onChange, placeholder, input
       {open && query.trim().length >= 2 && results.length === 0 && (
         <div className="absolute left-0 right-0 top-full z-50 border border-edl-line bg-white shadow-card-hover px-4 py-3">
           <p className="text-[12px] text-edl-400">
-            {t('autocomplete', 'noResults', lang)} <span className="font-medium text-edl-ink">"{query}"</span>
+            {t('autocomplete', 'noResults', lang)} <span className="font-medium text-edl-ink">&quot;{query}&quot;</span>
           </p>
           <p className="text-[11px] text-edl-300 mt-0.5">{t('autocomplete', 'noResultsHint', lang)}</p>
         </div>

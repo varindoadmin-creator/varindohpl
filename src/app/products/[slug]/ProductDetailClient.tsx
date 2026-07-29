@@ -94,6 +94,20 @@ export function ProductDetailClient({ product }: { product: Product }) {
                 ))}
               </dl>
             </div>
+
+            {product.edgebandCode && product.edgebandSizes?.length ? (
+              <div className="mt-5 border border-edl-line bg-[#edf2ea] px-5 py-5">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-edl-700">
+                  {lang === 'id' ? 'Tersedia dengan Edgeband' : 'Available with Edgeband'}
+                </p>
+                <p className="mt-3 text-[15px] font-semibold text-edl-ink">{product.edgebandCode}</p>
+                <ul className="mt-2 space-y-1">
+                  {product.edgebandSizes.map((size) => (
+                    <li key={size} className="text-[13px] text-edl-600">{size}</li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>

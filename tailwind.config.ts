@@ -9,33 +9,33 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans:    ['var(--font-inter)', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['var(--font-inter)', 'Inter', 'ui-sans-serif', 'sans-serif']
+        sans:    ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
       },
       colors: {
         edl: {
           // Semantic named
           white:    '#ffffff',
-          paper:    '#f8fafc',
-          cream:    '#f1f5f9',
-          ink:      '#0b1424',
-          muted:    '#64748b',
-          line:     '#e2e8f0',
-          blue:     '#374151',
-          'blue-lt':'#f3f4f6',
-          warm:     '#f8fafc',
-          sand:     '#cbd5e1',
+          paper:    '#fbfaf6',
+          cream:    '#f1f3ec',
+          ink:      '#20302a',
+          muted:    '#68756f',
+          line:     '#dfe5de',
+          blue:     '#527663',
+          'blue-lt':'#edf2ea',
+          warm:     '#f5e6df',
+          sand:     '#cbd8ce',
           // Numeric scale (neutral slate)
-          50:  '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a',
+          50:  '#f7f8f4',
+          100: '#edf2ea',
+          200: '#dfe7df',
+          300: '#c7d4ca',
+          400: '#96aa9d',
+          500: '#687b70',
+          600: '#52675c',
+          700: '#3c5047',
+          800: '#293d34',
+          900: '#182a22',
         }
       },
       boxShadow: {

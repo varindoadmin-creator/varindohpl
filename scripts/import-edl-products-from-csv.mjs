@@ -84,6 +84,8 @@ const products = rows
     const category   = r['Sub Collection'] || '';  // e.g. Aspen, Fine Matt, Marble Matt
     const size       = r['Size']           || '';
     const thickness  = r['Thickness']      || '';
+    const edgebandCode = r['Edgeband Code'] || '';
+    const edgebandSizes = (r['Edgeband Sizes'] || '').split('|').map((value) => value.trim()).filter(Boolean);
     const price      = Number.parseInt(r['Rate'], 10) || null;
     const active     = r['Status']?.trim().toLowerCase() === 'active';
 
@@ -108,6 +110,8 @@ const products = rows
       category,
       size,
       thickness,
+      edgebandCode: edgebandCode || undefined,
+      edgebandSizes: edgebandSizes.length ? edgebandSizes : undefined,
       price,
       isPromoItem: isPromo || undefined,
       currency: 'IDR',

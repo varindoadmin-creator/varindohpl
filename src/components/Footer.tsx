@@ -25,10 +25,9 @@ export function Footer() {
             <img src="/edl-logo.png" alt="EDL"
               style={{ width: '42px', filter: 'brightness(0) invert(1)' }}
               className="h-auto object-contain opacity-80" />
-            <div className="border-l border-white/20 pl-3">
-              <p className="text-[8px] font-bold tracking-[0.3em] uppercase text-edl-blue">Authorized</p>
-              <p className="text-[10px] font-bold tracking-[0.15em] uppercase text-white/80">EDL Dealer</p>
-            </div>
+            <p className="border-l border-white/20 pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-white/80">
+              Authorized<br />Dealer
+            </p>
           </div>
           <p className="text-[13px] leading-7 text-edl-400 max-w-xs">
             {t('footer', 'tagline', lang)}
@@ -43,8 +42,13 @@ export function Footer() {
               { href: '/collections/new-arrivals', id: 'Produk Terbaru',  en: 'New Arrivals' },
               { href: '/collections/best-sellers', id: 'Produk Terlaris', en: 'Best Sellers' },
               { href: '/collections/woods',        id: 'Woods',           en: 'Woods' },
-              { href: '/collections/patterns',     id: 'Patterns',        en: 'Patterns' },
               { href: '/collections/solids',       id: 'Solids',          en: 'Solids' },
+              { href: '/collections/ecru-core',    id: 'Ecru Core',       en: 'Ecru Core' },
+              { href: '/collections/patterns',     id: 'Patterns',        en: 'Patterns' },
+              { href: '/collections/marble-stone', id: 'Marble & Stone',  en: 'Marble & Stone' },
+              { href: '/collections/metal',        id: 'Metal',           en: 'Metal' },
+              { href: '/collections/colour-core',  id: 'Colour Core',     en: 'Colour Core' },
+              { href: '/collections/aptico-matt',  id: 'Aptico-Matt',     en: 'Aptico-Matt' },
             ].map((item) => (
               <li key={item.href}>
                 <Link href={item.href} className="text-[13px] text-edl-400 hover:text-white transition-colors">
@@ -63,6 +67,7 @@ export function Footer() {
               { href: '/about',              label: t('footer', 'aboutLink', lang) },
               { href: '/contact',            label: t('footer', 'contactLink', lang) },
               { href: '/request-catalogue',  label: t('footer', 'catalogueLink', lang) },
+              { href: '/price-list',         label: lang === 'id' ? 'Daftar Harga' : 'Price List' },
               { href: '/request-quote',      label: t('footer', 'quoteLink', lang) },
               { href: '/request-sample',     label: t('footer', 'sampleLink', lang) },
               { href: '/privacy',            label: lang === 'id' ? 'Kebijakan Privasi' : 'Privacy Policy' },
@@ -88,7 +93,7 @@ export function Footer() {
             </p>
             <p className="text-[13px] text-edl-400">
               <span className="block text-edl-500 text-[10px] tracking-[0.16em] uppercase mb-1">Email</span>
-              varindo.ho@gmail.com
+              varindo.admin@gmail.com
             </p>
           </address>
         </div>

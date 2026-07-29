@@ -11,10 +11,11 @@ export type CollectionGroup =
   | 'woods'
   | 'patterns'
   | 'solids'
-  | 'stone'
-  | 'marble'
+  | 'ecru-core'
+  | 'marble-stone'
   | 'metal'
-  | 'aptico';
+  | 'colour-core'
+  | 'aptico-matt';
 
 function addPpn(price?: number | null) {
   if (typeof price !== 'number') return null;
@@ -148,13 +149,14 @@ export async function getBestSellerProducts() {
 }
 
 const collectionGroupMap: Partial<Record<CollectionGroup, string>> = {
-  woods:    'wood',
-  patterns: 'pattern',
-  solids:   'solid',
-  stone:    'stone',
-  marble:   'marble',
-  metal:    'metal',
-  aptico:   'aptico',
+  woods:          'wood',
+  patterns:       'pattern',
+  solids:         'solid',
+  'ecru-core':    'ecru core',
+  'marble-stone': 'marble & stone',
+  metal:          'metal',
+  'colour-core':  'colour core',
+  'aptico-matt':  'aptico-matt',
 };
 
 export async function getProductsByCollectionGroup(group: CollectionGroup) {

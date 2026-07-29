@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 import type { Product } from '@/types/product';
 import { ProductGrid } from '@/components/ProductGrid';
 import { useLang } from '@/lib/LangContext';
@@ -13,243 +12,188 @@ type Props = {
   bestSellers: Product[];
 };
 
-const HERO_IMAGES = ['/hero-1.jpg', '/hero-2.jpg'];
+const collections = [
+  { id: 'Produk Terbaru', en: 'New Arrivals', href: '/collections/new-arrivals', image: '/collections/new-arrivals.png', tone: 'bg-[#f4d8cc]' },
+  { id: 'Produk Terlaris', en: 'Best Sellers', href: '/collections/best-sellers', image: '/collections/best-sellers.png', tone: 'bg-[#e9e2ef]' },
+  { id: 'Woods', en: 'Woods', href: '/collections/woods', image: '/collections/woods.png', tone: 'bg-[#dce8d8]' },
+  { id: 'Solids', en: 'Solids', href: '/collections/solids', image: '/collections/solids.png', tone: 'bg-[#f4d8cc]' },
+  { id: 'Ecru Core', en: 'Ecru Core', href: '/collections/ecru-core', image: '/collections/solids.png', tone: 'bg-[#eee5dc]' },
+  { id: 'Patterns', en: 'Patterns', href: '/collections/patterns', image: '/collections/patterns.png', tone: 'bg-[#e7dff0]' },
+  { id: 'Marble & Stone', en: 'Marble & Stone', href: '/collections/marble-stone', image: '/collections/stone.png', tone: 'bg-[#e5e9e3]' },
+  { id: 'Metal', en: 'Metal', href: '/collections/metal', image: '/collections/metal.png', tone: 'bg-[#dde5e8]' },
+  { id: 'Colour Core', en: 'Colour Core', href: '/collections/colour-core', image: '/collections/solids.png', tone: 'bg-[#f4d8cc]' },
+  { id: 'Aptico-Matt', en: 'Aptico-Matt', href: '/collections/aptico-matt', image: '/collections/aptico.png', tone: 'bg-[#e8e3d3]' },
+];
 
-export function HomeClient({ newProducts, bestSellers }: Props) {
+export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
   const { lang } = useLang();
-  const [heroIndex, setHeroIndex] = useState(0);
-
-  useEffect(() => {
-    const id = setInterval(() => {
-      setHeroIndex((i) => (i + 1) % HERO_IMAGES.length);
-    }, 6000);
-    return () => clearInterval(id);
-  }, []);
-
-  const materialCategories = [
-    { title: 'Woods',    href: '/collections/woods',    desc: t('home', 'woodsDesc', lang) },
-    { title: 'Patterns', href: '/collections/patterns', desc: t('home', 'patternsDesc', lang) },
-    { title: 'Solids',   href: '/collections/solids',   desc: t('home', 'solidsDesc', lang) },
-  ];
 
   const whyItems = [
-    { title: t('home', 'why1Title', lang), body: t('home', 'why1Body', lang) },
-    { title: t('home', 'why2Title', lang), body: t('home', 'why2Body', lang) },
-    { title: t('home', 'why3Title', lang), body: t('home', 'why3Body', lang) },
+    { number: '01', title: t('home', 'why1Title', lang), body: t('home', 'why1Body', lang) },
+    { number: '02', title: t('home', 'why2Title', lang), body: t('home', 'why2Body', lang) },
+    { number: '03', title: t('home', 'why3Title', lang), body: t('home', 'why3Body', lang) },
   ];
 
   return (
-    <div>
-
-      {/* ─── HERO ─────────────────────────────────────────────── */}
-      <section className="relative isolate overflow-hidden bg-edl-ink min-h-[calc(100vh-100px)] flex items-center">
-        {/* Background image slider */}
-        {HERO_IMAGES.map((src, i) => (
-          <div
-            key={src}
-            className="absolute inset-0 -z-10 bg-cover bg-center transition-opacity duration-1000"
-            style={{ backgroundImage: `url('${src}')`, opacity: i === heroIndex ? 1 : 0 }}
-          />
-        ))}
-        {/* Dark overlay — stronger at left, lighter at right */}
-        <div className="absolute inset-0 -z-10 bg-edl-ink/70" />
-        <div className="absolute inset-y-0 left-0 -z-10 w-2/3 bg-gradient-to-r from-edl-ink/90 to-transparent" />
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-32 bg-gradient-to-t from-edl-ink to-transparent" />
-
-        {/* Blue accent line — left edge */}
-        <div className="absolute left-0 top-0 bottom-0 -z-10 w-1 bg-edl-blue" />
-
-        <div className="shell w-full py-20 lg:py-28">
-          <div className="max-w-2xl animate-fade-up">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 mb-8">
-              <div className="w-8 h-[2px] bg-edl-blue" />
-              <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-edl-blue">
-                {t('home', 'heroBadge', lang)}
+    <div className="overflow-hidden bg-[#fbfaf6]">
+      <section className="shell pt-5 sm:pt-8">
+        <div className="relative min-h-[680px] overflow-hidden rounded-[2rem] bg-[#e7eee6] lg:min-h-[720px]">
+          <div className="grid min-h-[inherit] lg:grid-cols-[0.92fr_1.08fr]">
+            <div className="relative z-10 flex flex-col justify-center px-7 py-16 sm:px-12 lg:px-16">
+              <div className="mb-8 flex items-center gap-3">
+                <span className="h-2.5 w-2.5 rounded-full bg-[#ef785f]" />
+                <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-edl-700">
+                  {t('home', 'heroBadge', lang)}
+                </p>
+              </div>
+              <h1 className="display max-w-[650px] text-[clamp(3.5rem,7vw,7.8rem)] leading-[0.84] text-edl-ink">
+                {t('home', 'heroLine1', lang)}
+                <span className="block font-serif font-normal italic text-[#4f765f]">{t('home', 'heroLine2', lang)}</span>
+                {t('home', 'heroLine3', lang)}
+              </h1>
+              <p className="mt-8 max-w-md text-[15px] leading-7 text-edl-600">
+                {t('home', 'heroBody', lang)}
               </p>
+              <div className="mt-9 flex flex-wrap items-center gap-3">
+                <Link href="/products" className="btn-primary">{t('home', 'browseCta', lang)}</Link>
+                <Link href="/request-sample" className="btn-ghost">
+                  {lang === 'id' ? 'Minta sampel' : 'Request samples'}
+                </Link>
+              </div>
             </div>
 
-            <h1 className="display text-white text-5xl sm:text-6xl lg:text-7xl xl:text-[84px] mb-6 leading-[1.0]">
-              {t('home', 'heroLine1', lang)}<br />
-              <span className="text-edl-blue">{t('home', 'heroLine2', lang)}</span><br />
-              {t('home', 'heroLine3', lang)}
-            </h1>
-
-            <p className="text-[15px] leading-8 text-white/60 max-w-md mb-10">
-              {t('home', 'heroBody', lang)}
-            </p>
-
-            <div className="flex flex-wrap gap-3">
-              <Link href="/products" className="btn-primary">
-                {t('home', 'browseCta', lang)}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── QUICK SEARCH BANNER ──────────────────────────────── */}
-      <section className="bg-edl-blue">
-        <div className="shell py-6">
-          <form action="/products" className="flex items-center gap-4 max-w-2xl">
-            <div className="relative flex-1">
-              <input type="search" name="search" aria-label={t('home', 'quickSearchTitle', lang)}
-                placeholder={t('home', 'searchPlaceholder', lang)}
-                className="h-12 w-full bg-white/10 border border-white/20 text-white px-5 pr-14 text-[13px] outline-none placeholder:text-white/50 focus:bg-white/20 transition-colors" />
-              <button type="submit" aria-label="Cari"
-                className="absolute right-0 top-0 h-12 w-12 bg-white/20 hover:bg-white/30 flex items-center justify-center text-white transition-colors">
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-                  <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                </svg>
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
-
-      {/* ─── MATERIAL CATEGORIES ──────────────────────────────── */}
-      <section className="border-b border-edl-line">
-        <div className="shell py-16 sm:py-20">
-          <div className="flex items-end justify-between mb-12">
-            <div>
-              <p className="label mb-3">{t('home', 'collectionsSectionLabel', lang)}</p>
-              <h2 className="display text-edl-ink text-4xl sm:text-5xl">
-                {t('home', 'collectionsSectionTitle', lang)}
-              </h2>
-            </div>
-            <Link href="/products" className="hidden sm:block text-[11px] font-bold tracking-[0.18em] uppercase text-edl-500 hover:text-edl-blue transition-colors">
-              {t('home', 'collectionsViewAll', lang)}
-            </Link>
-          </div>
-
-          <div className="grid sm:grid-cols-3 gap-6">
-            {materialCategories.map((item, i) => (
-              <Link key={item.href} href={item.href}
-                className="group relative overflow-hidden border border-edl-line bg-edl-50 p-8 hover:border-edl-blue transition-all duration-300">
-                {/* Number */}
-                <span className="text-[72px] font-black text-edl-line/50 leading-none absolute right-4 top-2 select-none group-hover:text-edl-blue/10 transition-colors">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <div className="relative z-10">
-                  <div className="w-8 h-[3px] bg-edl-blue mb-5 group-hover:w-12 transition-all duration-300" />
-                  <p className="text-[14px] font-bold tracking-[0.15em] uppercase text-edl-ink group-hover:text-edl-blue transition-colors mb-3">
-                    {item.title}
+            <div className="relative min-h-[400px] overflow-hidden lg:m-4 lg:ml-0 lg:rounded-[1.5rem]">
+              <div className="absolute inset-0 bg-[url('/hero-1.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-gradient-to-t from-edl-ink/20 via-transparent to-white/10" />
+              <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between rounded-2xl border border-white/40 bg-white/80 p-5 shadow-lg backdrop-blur-md">
+                <div>
+                  <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-edl-500">
+                    {lang === 'id' ? 'Jelajahi permukaan' : 'Explore the surface'}
                   </p>
-                  <p className="text-[13px] leading-6 text-edl-500">{item.desc}</p>
+                  <p className="mt-1 text-lg font-semibold text-edl-ink">EDL Woods Collection</p>
                 </div>
-              </Link>
-            ))}
+                <Link href="/collections/woods" aria-label="Woods collection" className="grid h-11 w-11 place-items-center rounded-full bg-edl-ink text-xl text-white transition-transform hover:rotate-[-12deg]">↗</Link>
+              </div>
+            </div>
+          </div>
+          <div className="pointer-events-none absolute -left-10 bottom-8 h-32 w-32 rounded-full bg-[#f3c6b6]/60 blur-3xl" />
+        </div>
+      </section>
+
+      <section className="shell py-10">
+        <div className="grid overflow-hidden rounded-2xl border border-edl-line bg-white sm:grid-cols-[1fr_auto]">
+          <form action="/products" className="flex items-center px-5 sm:px-8">
+            <span className="mr-4 text-xl text-edl-400">⌕</span>
+            <input
+              type="search"
+              name="search"
+              aria-label={t('home', 'quickSearchTitle', lang)}
+              placeholder={t('home', 'searchPlaceholder', lang)}
+              className="h-20 w-full bg-transparent text-[15px] text-edl-ink outline-none placeholder:text-edl-400"
+            />
+          </form>
+          <div className="hidden items-center border-l border-edl-line px-8 text-right sm:flex">
+            <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-edl-400">
+              {allCount}+ {lang === 'id' ? 'dekor tersedia' : 'decors available'}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* ─── NEW ARRIVALS ─────────────────────────────────────── */}
+      <section className="shell py-14 sm:py-20">
+        <div className="mb-10 flex items-end justify-between gap-6">
+          <div>
+            <p className="label mb-3">{t('home', 'collectionsSectionLabel', lang)}</p>
+            <h2 className="display max-w-2xl text-4xl text-edl-ink sm:text-6xl">
+              {t('home', 'collectionsSectionTitle', lang)}
+            </h2>
+          </div>
+          <Link href="/products" className="text-link hidden sm:inline-flex">{t('home', 'collectionsViewAll', lang)} ↗</Link>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-3">
+          {collections.map((item, index) => (
+            <Link key={item.href} href={item.href} className={`group relative min-h-[480px] overflow-hidden rounded-[1.6rem] ${item.tone}`}>
+              <div className="absolute inset-x-3 top-3 h-[70%] overflow-hidden rounded-[1.2rem]">
+                <div className="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: `url('${item.image}')` }} />
+              </div>
+              <div className="absolute inset-x-7 bottom-7 flex items-end justify-between">
+                <div>
+                  <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.2em] text-edl-500">{String(index + 1).padStart(2, '0')} / Material</p>
+                  <h3 className="display text-3xl text-edl-ink sm:text-4xl">{item[lang]}</h3>
+                </div>
+                <span className="grid h-11 w-11 place-items-center rounded-full bg-white text-xl text-edl-ink transition-transform group-hover:rotate-45">↗</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {newProducts.length > 0 && (
-        <section className="border-b border-edl-line">
-          <div className="shell py-16 sm:py-20">
-            <div className="flex items-end justify-between mb-10">
+        <section className="bg-[#edf2ea] py-16 sm:py-24">
+          <div className="shell">
+            <div className="mb-10 flex items-end justify-between gap-5">
               <div>
                 <p className="label mb-3">{t('home', 'newArrivalsLabel', lang)}</p>
-                <h2 className="display text-edl-ink text-4xl sm:text-5xl">{t('home', 'newArrivalsTitle', lang)}</h2>
-                <p className="mt-3 text-[14px] leading-7 text-edl-500 max-w-lg">{t('home', 'newArrivalsBody', lang)}</p>
+                <h2 className="display text-4xl text-edl-ink sm:text-6xl">{t('home', 'newArrivalsTitle', lang)}</h2>
               </div>
-              <Link href="/collections/new-arrivals" className="hidden sm:block text-[11px] font-bold tracking-[0.18em] uppercase text-edl-500 hover:text-edl-blue transition-colors shrink-0 ml-6">
-                {t('home', 'viewAll', lang)}
-              </Link>
+              <Link href="/collections/new-arrivals" className="text-link hidden sm:inline-flex">{t('home', 'viewAll', lang)} ↗</Link>
             </div>
             <ProductGrid products={newProducts} />
           </div>
         </section>
       )}
 
-      {/* ─── BEST SELLERS ─────────────────────────────────────── */}
       {bestSellers.length > 0 && (
-        <section className="border-b border-edl-line bg-edl-50">
-          <div className="shell py-16 sm:py-20">
-            <div className="flex items-end justify-between mb-10">
-              <div>
-                <p className="label mb-3">{t('home', 'bestSellersLabel', lang)}</p>
-                <h2 className="display text-edl-ink text-4xl sm:text-5xl">{t('home', 'bestSellersTitle', lang)}</h2>
-                <p className="mt-3 text-[14px] leading-7 text-edl-500 max-w-lg">{t('home', 'bestSellersBody', lang)}</p>
-              </div>
-              <Link href="/collections/best-sellers" className="hidden sm:block text-[11px] font-bold tracking-[0.18em] uppercase text-edl-500 hover:text-edl-blue transition-colors shrink-0 ml-6">
-                {t('home', 'viewAll', lang)}
-              </Link>
+        <section className="shell py-16 sm:py-24">
+          <div className="mb-10 flex items-end justify-between gap-5">
+            <div>
+              <p className="label mb-3">{t('home', 'bestSellersLabel', lang)}</p>
+              <h2 className="display text-4xl text-edl-ink sm:text-6xl">{t('home', 'bestSellersTitle', lang)}</h2>
             </div>
-            <ProductGrid products={bestSellers} />
+            <Link href="/collections/best-sellers" className="text-link hidden sm:inline-flex">{t('home', 'viewAll', lang)} ↗</Link>
           </div>
+          <ProductGrid products={bestSellers} />
         </section>
       )}
 
-      {/* ─── CATALOGUE CTA ────────────────────────────────────── */}
-      <section>
-        <div className="grid lg:grid-cols-2 min-h-[440px]">
-          {/* Image side */}
-          <div className="relative min-h-[280px] bg-cover bg-center order-last lg:order-first"
-            style={{ backgroundImage: "url('/edl-catalogue-cover.png')" }}>
-            <div className="absolute inset-0 bg-edl-ink/30" />
-            {/* Blue accent corner */}
-            <div className="absolute bottom-0 left-0 w-16 h-16 bg-edl-blue" />
-          </div>
-          {/* Text side */}
-          <div className="bg-edl-ink text-white flex flex-col justify-center px-8 py-14 sm:px-12 sm:py-16 lg:px-16">
-            <div className="inline-flex items-center gap-2 mb-6">
-              <div className="w-6 h-[2px] bg-edl-blue" />
-              <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-edl-blue">
-                {t('home', 'portfolioLabel', lang)}
-              </p>
-            </div>
-            <h2 className="display text-white text-4xl sm:text-5xl mb-5">
-              {t('home', 'portfolioTitle1', lang)}<br />
-              <span className="text-edl-blue">{t('home', 'portfolioTitle2', lang)}</span>
+      <section className="shell pb-16 sm:pb-24">
+        <div className="grid overflow-hidden rounded-[2rem] bg-[#e9e2ef] lg:grid-cols-2">
+          <div className="min-h-[420px] bg-[url('/edl-catalogue-cover.png')] bg-cover bg-center" />
+          <div className="flex flex-col justify-center px-8 py-14 sm:px-14 lg:px-16">
+            <p className="label mb-5">{t('home', 'portfolioLabel', lang)}</p>
+            <h2 className="display text-4xl text-edl-ink sm:text-6xl">
+              {t('home', 'portfolioTitle1', lang)} <span className="font-serif font-normal italic text-[#745f83]">{t('home', 'portfolioTitle2', lang)}</span>
             </h2>
-            <p className="text-[14px] leading-7 text-edl-400 max-w-sm mb-8">
-              {t('home', 'portfolioBody', lang)}
-            </p>
-            <a href="https://drive.google.com/file/d/161NVWNlVrvxJilA47iud-IOdrdDnbQ6r/view?usp=sharing" target="_blank" rel="noreferrer"
-              className="btn-primary self-start">
+            <p className="mt-6 max-w-md text-[14px] leading-7 text-edl-600">{t('home', 'portfolioBody', lang)}</p>
+            <a href="https://drive.google.com/file/d/161NVWNlVrvxJilA47iud-IOdrdDnbQ6r/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-primary mt-8 self-start">
               {t('home', 'portfolioCta', lang)}
             </a>
           </div>
         </div>
       </section>
 
-      {/* ─── WHY VARINDO ──────────────────────────────────────── */}
-      <section className="border-t border-edl-line bg-white">
-        <div className="shell py-16 sm:py-20">
-          <div className="grid lg:grid-cols-[1fr_2fr] gap-12 items-start">
-            <div>
-              <p className="label mb-4">{t('home', 'whyLabel', lang)}</p>
-              <h2 className="display text-edl-ink text-4xl sm:text-5xl mb-5">
-                {t('home', 'whyTitle1', lang)}<br />
-                <span className="text-edl-blue">{t('home', 'whyTitle2', lang)}</span>
-              </h2>
-              <p className="text-[14px] leading-7 text-edl-500 max-w-md mb-8">
-                {t('home', 'whyBody', lang)}
-              </p>
-              <Link href="/about" className="btn-ghost self-start">
-                {lang === 'id' ? 'Tentang Kami' : 'About Us'}
-              </Link>
-            </div>
-            <div className="grid sm:grid-cols-3 gap-5">
-              {whyItems.map((item, i) => (
-                <div key={item.title} className="border border-edl-line bg-edl-50 p-6 relative overflow-hidden">
-                  <span className="absolute right-4 top-2 text-[48px] font-black text-edl-line/70 leading-none select-none">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <div className="relative z-10">
-                    <div className="w-6 h-[3px] bg-edl-blue mb-4" />
-                    <h3 className="text-[13px] font-bold text-edl-ink mb-2">{item.title}</h3>
-                    <p className="text-[12px] leading-6 text-edl-500">{item.body}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+      <section className="bg-[#f5e6df] py-16 sm:py-24">
+        <div className="shell grid gap-12 lg:grid-cols-[0.85fr_1.4fr]">
+          <div>
+            <p className="label mb-4">{t('home', 'whyLabel', lang)}</p>
+            <h2 className="display text-4xl text-edl-ink sm:text-6xl">
+              {t('home', 'whyTitle1', lang)} <span className="font-serif font-normal italic text-[#b65f4f]">{t('home', 'whyTitle2', lang)}</span>
+            </h2>
+            <p className="mt-6 max-w-md text-[14px] leading-7 text-edl-600">{t('home', 'whyBody', lang)}</p>
+            <Link href="/about" className="text-link mt-7 inline-flex">{lang === 'id' ? 'Tentang kami' : 'About us'} ↗</Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {whyItems.map((item) => (
+              <article key={item.number} className="rounded-[1.4rem] bg-white/75 p-6 backdrop-blur-sm">
+                <span className="text-xs font-bold text-[#d07562]">{item.number}</span>
+                <h3 className="mt-12 text-lg font-semibold text-edl-ink">{item.title}</h3>
+                <p className="mt-3 text-[13px] leading-6 text-edl-500">{item.body}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
-
     </div>
   );
 }

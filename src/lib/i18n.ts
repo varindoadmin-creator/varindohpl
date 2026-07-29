@@ -24,20 +24,20 @@ export const translations = {
       en: 'Search by code, design, finish...'
     },
     announcementBar: {
-      id: 'Dealer Resmi EDL · Indonesia',
-      en: 'Authorized EDL Dealer · Indonesia'
+      id: 'Authorized Dealer of EDL in Indonesia',
+      en: 'Authorized Dealer of EDL in Indonesia'
     }
   },
 
   // ── Homepage ──────────────────────────────────────────────────
   home: {
     heroBadge:    { id: 'Dealer Resmi EDL', en: 'Authorized EDL Dealer' },
-    heroLine1:    { id: 'HPL Terbaik', en: 'Surface HPL' },
-    heroLine2:    { id: 'Pilihan Para', en: 'Curated for' },
-    heroLine3:    { id: 'Profesional', en: 'Professionals' },
+    heroLine1:    { id: 'Keindahan EDL', en: 'Beautiful EDL' },
+    heroLine2:    { id: 'yang Tak Lekang', en: 'Design, Made' },
+    heroLine3:    { id: 'oleh Waktu', en: 'Timeless' },
     heroBody:     {
-      id: 'Jelajahi produk EDL HPL berdasarkan kode, nama desain, koleksi, sub koleksi, ukuran, ketebalan, dan harga melalui katalog online Varindo.',
-      en: "Browse EDL HPL products by code, design name, collection, sub collection, size, thickness, and price through Varindo's online catalogue."
+      id: 'Sebagai Dealer Resmi EDL di Indonesia, Varindo menghadirkan HPL dengan desain indah dan karakter timeless untuk interior yang tetap relevan dari waktu ke waktu.',
+      en: 'As an Authorized EDL Dealer in Indonesia, Varindo brings you beautiful, timeless HPL designs for interiors that remain relevant for years to come.'
     },
     browseCta:    { id: 'Lihat Produk', en: 'Browse Products' },
     quickSearchLabel:   { id: 'Pencarian Cepat', en: 'Quick Search' },
@@ -215,6 +215,11 @@ export const translations = {
       id: 'Jelajahi warna solid EDL untuk berbagai aplikasi interior modern.',
       en: 'Explore EDL solid colours for versatile interior applications.'
     },
+    ecruCoreTitle:     { id: 'Ecru Core', en: 'Ecru Core' },
+    ecruCoreDesc:      {
+      id: 'Jelajahi laminasi EDL dengan inti ecru untuk detail interior yang serasi.',
+      en: 'Explore EDL ecru-core laminates for coordinated interior details.'
+    },
     stoneTitle:        { id: 'Stone', en: 'Stone' },
     stoneDesc:         {
       id: 'Desain EDL bertekstur batu untuk interior premium dan kontemporer.',
@@ -225,6 +230,11 @@ export const translations = {
       id: 'Desain EDL bermotif marmer untuk tampilan interior elegan dan mewah.',
       en: 'EDL marble-effect surfaces for elegant and refined interior spaces.'
     },
+    marbleStoneTitle:  { id: 'Marble & Stone', en: 'Marble & Stone' },
+    marbleStoneDesc:   {
+      id: 'Jelajahi desain marmer dan batu EDL untuk interior elegan dan kontemporer.',
+      en: 'Explore EDL marble and stone-effect surfaces for elegant contemporary interiors.'
+    },
     metalTitle:        { id: 'Metal', en: 'Metal' },
     metalDesc:         {
       id: 'Desain EDL metalik berkualitas tinggi untuk interior kontemporer dan premium.',
@@ -234,6 +244,16 @@ export const translations = {
     apticoDesc:        {
       id: 'Seri Aptico EDL — HPL premium buatan Austria untuk spesifikasi interior kelas atas.',
       en: 'EDL Aptico series — premium HPL made in Austria for high-end interior specification.'
+    },
+    colourCoreTitle:   { id: 'Colour Core', en: 'Colour Core' },
+    colourCoreDesc:    {
+      id: 'Laminasi Colour Core EDL dengan warna permukaan dan inti yang serasi.',
+      en: 'EDL Colour Core laminates with coordinated surface and core colours.'
+    },
+    apticoMattTitle:   { id: 'Aptico-Matt', en: 'Aptico-Matt' },
+    apticoMattDesc:    {
+      id: 'Seri Aptico-Matt EDL — HPL premium buatan Austria dengan permukaan matt.',
+      en: 'EDL Aptico-Matt series — premium Austrian-made HPL with a matt surface.'
     }
   },
 
