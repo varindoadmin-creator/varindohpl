@@ -187,7 +187,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DB 1204N - EDL HPL 4'x8' | PHANTOM BLACK",
     "design": "PHANTOM BLACK",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Pattern",
     "category": "Abstract",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -197,7 +197,7 @@ export const edlProductsFromCsv: Product[] = [
     "badges": [
       "NEW"
     ],
-    "description": "EDL PHANTOM BLACK — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL PHANTOM BLACK — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "db-2739b-earth-alu-brush",
@@ -368,7 +368,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DB 7147SM - EDL HPL 4'x8' | CREAM GRAPHIC",
     "design": "CREAM GRAPHIC",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Pattern",
     "category": "Abstract",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -378,7 +378,7 @@ export const edlProductsFromCsv: Product[] = [
     "badges": [
       "NEW"
     ],
-    "description": "EDL CREAM GRAPHIC — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL CREAM GRAPHIC — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "db-7149sm-dark-graphic",
@@ -386,7 +386,7 @@ export const edlProductsFromCsv: Product[] = [
     "name": "DB 7149SM - EDL HPL 4'x8' | DARK GRAPHIC",
     "design": "DARK GRAPHIC",
     "brand": "EDL",
-    "collection": "Solid",
+    "collection": "Pattern",
     "category": "Abstract",
     "size": "1220 x 2440 mm",
     "thickness": "0.8mm",
@@ -396,7 +396,7 @@ export const edlProductsFromCsv: Product[] = [
     "badges": [
       "NEW"
     ],
-    "description": "EDL DARK GRAPHIC — a versatile solid-colour HPL for clean modern interiors."
+    "description": "EDL DARK GRAPHIC — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "dc-4545lun-shiro",
