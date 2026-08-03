@@ -22,7 +22,7 @@ export function Footer() {
               style={{ width: '72px', filter: 'brightness(0) invert(1)' }}
               className="h-auto object-contain opacity-80" />
             <div className="h-8 w-px bg-white/20" />
-            <img src="/edl-logo.png" alt="EDL"
+            <img src="/edl-logo-level03.png" alt="EDL"
               style={{ width: '42px', filter: 'brightness(0) invert(1)' }}
               className="h-auto object-contain opacity-80" />
             <p className="border-l border-white/20 pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-white/80">

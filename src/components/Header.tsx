@@ -123,7 +123,7 @@ export function Header() {
               <img src="/varindo-logo-transparent.png" alt="CV. Varindo Forma Hutama"
                 style={{ width: '76px' }} className="h-auto object-contain" />
               <div className="h-8 w-px bg-edl-line" />
-              <img src="/edl-logo.png" alt="EDL"
+              <img src="/edl-logo-level03.png" alt="EDL"
                 style={{ width: '44px' }} className="h-auto object-contain" />
               <span className="hidden sm:block border-l border-edl-line pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-edl-700">
                 Authorized<br />Dealer
