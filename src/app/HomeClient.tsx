@@ -169,6 +169,56 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
         </div>
       </section>
 
+      <section className="bg-[#20201f] py-16 text-white sm:py-24">
+        <div className="shell">
+          <div className="grid overflow-hidden rounded-[2rem] bg-[#2a2927] lg:grid-cols-[1.05fr_0.95fr]">
+            <div className="flex flex-col justify-center px-7 py-12 sm:px-12 lg:px-16 lg:py-16">
+              <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.24em] text-[#cbbba9]">EDL · Aptico-Matt</p>
+              <h2 className="display max-w-2xl text-4xl leading-[0.95] sm:text-6xl">
+                {lang === 'id' ? (
+                  <>Keindahan super-matt yang terasa <span className="font-serif font-normal italic text-[#cbbba9]">istimewa.</span></>
+                ) : (
+                  <>Super-matt beauty that feels <span className="font-serif font-normal italic text-[#cbbba9]">exceptional.</span></>
+                )}
+              </h2>
+              <p className="mt-7 max-w-xl text-[14px] leading-7 text-white/70">
+                {lang === 'id'
+                  ? 'Aptico-Matt adalah permukaan premium buatan Austria dengan reflektivitas cahaya rendah, tekstur satin yang hangat, dan perlindungan anti-fingerprint. Gores mikro pada permukaan dapat dipulihkan melalui proses thermal healing.'
+                  : 'Aptico-Matt is a premium surface made in Austria with low light reflectivity, a warm satin texture, and anti-fingerprint protection. Superficial micro-scratches can be restored through thermal healing.'}
+              </p>
+
+              <div className="mt-9 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-white/15 sm:grid-cols-3">
+                {[
+                  { value: 'Austria', id: 'Dibuat di', en: 'Made in' },
+                  { value: '1300 × 2800 mm', id: 'Ukuran lembar', en: 'Sheet size' },
+                  { value: 'Anti-Fingerprint', id: 'Mudah dirawat', en: 'Easy care' },
+                  { value: 'Soft Touch', id: 'Sentuhan satin', en: 'Satin feel' },
+                  { value: 'Thermal Healing', id: 'Pemulihan gores mikro', en: 'Micro-scratch repair' },
+                  { value: 'Super Matt', id: 'Refleksi cahaya rendah', en: 'Low light reflectivity' },
+                ].map((feature) => (
+                  <div key={feature.value} className="bg-[#2a2927] px-4 py-5">
+                    <p className="text-[9px] font-bold uppercase tracking-[0.18em] text-white/45">{feature[lang]}</p>
+                    <p className="mt-2 text-[13px] font-semibold text-white">{feature.value}</p>
+                  </div>
+                ))}
+              </div>
+
+              <Link href="/collections/aptico-matt" className="mt-8 inline-flex self-start rounded-full bg-white px-6 py-3 text-xs font-bold uppercase tracking-[0.12em] text-edl-ink transition-colors hover:bg-[#cbbba9]">
+                {lang === 'id' ? 'Jelajahi Aptico-Matt' : 'Explore Aptico-Matt'}
+              </Link>
+            </div>
+
+            <div className="relative min-h-[420px] overflow-hidden sm:min-h-[560px] lg:min-h-full">
+              <div className="absolute inset-0 bg-[url('/edl-aptico-feature.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent lg:bg-gradient-to-r lg:from-[#2a2927]/30 lg:to-transparent" />
+              <div className="absolute bottom-6 right-6 rounded-full border border-white/30 bg-black/25 px-4 py-2 backdrop-blur-md">
+                <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-white">Aptico · Made in Austria</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {newProducts.length > 0 && (
         <section className="bg-[#edf2ea] py-16 sm:py-24">
           <div className="shell">
