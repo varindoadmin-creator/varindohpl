@@ -217,7 +217,7 @@ export const translations = {
     },
     ecruCoreTitle:     { id: 'Ecru Core', en: 'Ecru Core' },
     ecruCoreDesc:      {
-      id: 'Jelajahi laminasi EDL dengan inti ecru untuk detail interior yang serasi.',
+      id: 'Jelajahi laminasi EDL dengan Ecru Core untuk detail interior yang serasi.',
       en: 'Explore EDL ecru-core laminates for coordinated interior details.'
     },
     stoneTitle:        { id: 'Stone', en: 'Stone' },
@@ -247,7 +247,7 @@ export const translations = {
     },
     colourCoreTitle:   { id: 'Colour Core', en: 'Colour Core' },
     colourCoreDesc:    {
-      id: 'Laminasi Colour Core EDL dengan warna permukaan dan inti yang serasi.',
+      id: 'Laminasi Colour Core EDL dengan warna permukaan dan core yang serasi.',
       en: 'EDL Colour Core laminates with coordinated surface and core colours.'
     },
     apticoMattTitle:   { id: 'Aptico-Matt', en: 'Aptico-Matt' },

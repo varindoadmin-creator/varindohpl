@@ -137,7 +137,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-edl-ink/40 to-transparent" />
               <div className="absolute bottom-6 left-6 rounded-full border border-white/50 bg-white/85 px-4 py-2 backdrop-blur-md">
                 <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-edl-700">
-                  {lang === 'id' ? 'Detail inti berwarna ecru' : 'Ecru-coloured core detail'}
+                  {lang === 'id' ? 'Detail Ecru Core' : 'Ecru Core detail'}
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
               </h2>
               <p className="mt-7 max-w-xl text-[14px] leading-7 text-edl-600">
                 {lang === 'id'
-                  ? 'Ecru Core adalah opsi inti khusus untuk HPL EDL yang mengurangi garis gelap atau warna yang tidak serasi pada bagian tepi. Hasilnya adalah sambungan yang tampak lebih bersih dan seragam untuk kabinet serta furnitur interior modern.'
+                  ? 'Ecru Core adalah pilihan core khusus untuk HPL EDL yang mengurangi garis gelap atau warna yang tidak serasi pada bagian tepi. Hasilnya adalah sambungan yang tampak lebih bersih dan seragam untuk kabinet serta furnitur interior modern.'
                   : 'Ecru Core is a specialized core option for EDL high-pressure laminates that reduces dark or mismatched lines at exposed edges. The result is cleaner, more uniform joint detailing for modern interior cabinetry and furniture.'}
               </p>
               <p className="mt-4 max-w-xl text-[13px] leading-6 text-edl-500">
@@ -165,14 +165,6 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
                 {lang === 'id' ? 'Jelajahi Ecru Core' : 'Explore Ecru Core'}
               </Link>
             </div>
-          </div>
-
-          <div className="mt-6 overflow-hidden rounded-[2rem] border border-[#ded5bd] bg-white p-3 sm:p-5">
-            <img
-              src="/edl-ecru-core-comparison.png"
-              alt={lang === 'id' ? 'Perbandingan jenis inti laminasi' : 'Comparison of laminate core types'}
-              className="h-auto w-full rounded-[1.3rem] object-contain"
-            />
           </div>
         </div>
       </section>

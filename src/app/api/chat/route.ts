@@ -43,7 +43,7 @@ PENGETAHUAN EDL LAMINATE:
 • Pembersihan: gunakan air dan kain bersih non-abrasif; bila perlu gunakan pembersih/deterjen rumah tangga yang lembut, lalu keringkan. Hindari pembersih abrasif, pemutih, dan larutan keras
 • Warna dan tekstur digital dapat berbeda dari sampel fisik. Untuk keputusan spesifikasi, selalu sarankan melihat/meminta sampel fisik
 • Wood menampilkan karakter serat kayu; Solid adalah warna polos; Pattern mencakup desain dekoratif/abstrak; Marble & Stone menampilkan interpretasi batu; Metal memiliki tampilan metalik
-• Ecru Core dan Colour Core menggunakan inti dekoratif untuk membantu menghasilkan detail tepi yang lebih serasi. Efek tepi aktual bergantung pada kode, proses fabrikasi, dan aplikasi
+• Ecru Core dan Colour Core menggunakan core dekoratif untuk membantu menghasilkan detail tepi yang lebih serasi. Efek tepi aktual bergantung pada kode, proses fabrikasi, dan aplikasi
 • Aptico-Matt dibuat di Austria dan memiliki permukaan sangat matt dengan reflektivitas rendah, sentuhan lembut, anti-fingerprint, serta thermal healing untuk micro-scratch superfisial. Jangan menjanjikan semua goresan dapat pulih
 • EDL Edge adalah edgeband warna senada untuk merapikan dan melindungi tepi kabinet, pintu/drawer, rak, tabletop, dan counter. Ukuran yang tersedia pada katalog Indonesia ini adalah 23 x 1.0mm dan, untuk produk tertentu, 45 x 1.0mm
 • Fitur seperti anti-bacterial, magnetic, anti-fingerprint, matching compact, atau edgeband TIDAK berlaku untuk semua produk. Hanya sebutkan jika tercantum untuk kode tersebut atau sudah dikonfirmasi Admin
