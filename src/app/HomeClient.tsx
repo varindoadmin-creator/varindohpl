@@ -159,14 +159,14 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
 
       <section className="shell pb-16 sm:pb-24">
         <div className="grid overflow-hidden rounded-[2rem] bg-[#e9e2ef] lg:grid-cols-2">
-          <div className="min-h-[420px] bg-[url('/edl-catalogue-cover.png')] bg-cover bg-center" />
+          <div className="min-h-[420px] bg-[url('/edl-catalogue-2027-cover.jpg')] bg-cover bg-center" />
           <div className="flex flex-col justify-center px-8 py-14 sm:px-14 lg:px-16">
             <p className="label mb-5">{t('home', 'portfolioLabel', lang)}</p>
             <h2 className="display text-4xl text-edl-ink sm:text-6xl">
               {t('home', 'portfolioTitle1', lang)} <span className="font-serif font-normal italic text-[#745f83]">{t('home', 'portfolioTitle2', lang)}</span>
             </h2>
             <p className="mt-6 max-w-md text-[14px] leading-7 text-edl-600">{t('home', 'portfolioBody', lang)}</p>
-            <a href="https://drive.google.com/file/d/161NVWNlVrvxJilA47iud-IOdrdDnbQ6r/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-primary mt-8 self-start">
+            <a href="https://drive.google.com/file/d/1et1xnLG8dbYlgOgHWPahwbDQ2JP7c75N/view?usp=drivesdk" target="_blank" rel="noreferrer" className="btn-primary mt-8 self-start">
               {t('home', 'portfolioCta', lang)}
             </a>
           </div>
