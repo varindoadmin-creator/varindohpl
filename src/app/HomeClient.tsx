@@ -129,6 +129,54 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
         </div>
       </section>
 
+      <section className="bg-[#eee8d8] py-16 sm:py-24">
+        <div className="shell">
+          <div className="grid items-stretch gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="relative min-h-[520px] overflow-hidden rounded-[2rem] bg-white sm:min-h-[640px]">
+              <div className="absolute inset-0 bg-[url('/edl-ecru-core-detail.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-edl-ink/40 to-transparent" />
+              <div className="absolute bottom-6 left-6 rounded-full border border-white/50 bg-white/85 px-4 py-2 backdrop-blur-md">
+                <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-edl-700">
+                  {lang === 'id' ? 'Detail inti berwarna ecru' : 'Ecru-coloured core detail'}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-center rounded-[2rem] bg-[#fffdf7] px-7 py-12 sm:px-12 lg:px-16">
+              <p className="label mb-5">EDL · Ecru Core</p>
+              <h2 className="display max-w-2xl text-4xl leading-[0.95] text-edl-ink sm:text-6xl">
+                {lang === 'id' ? (
+                  <>Sambungan lebih <span className="font-serif font-normal italic text-[#9b7b2f]">bersih</span>, detail lebih menyatu.</>
+                ) : (
+                  <>Cleaner <span className="font-serif font-normal italic text-[#9b7b2f]">joints</span>, a more seamless finish.</>
+                )}
+              </h2>
+              <p className="mt-7 max-w-xl text-[14px] leading-7 text-edl-600">
+                {lang === 'id'
+                  ? 'Ecru Core adalah opsi inti khusus untuk HPL EDL yang mengurangi garis gelap atau warna yang tidak serasi pada bagian tepi. Hasilnya adalah sambungan yang tampak lebih bersih dan seragam untuk kabinet serta furnitur interior modern.'
+                  : 'Ecru Core is a specialized core option for EDL high-pressure laminates that reduces dark or mismatched lines at exposed edges. The result is cleaner, more uniform joint detailing for modern interior cabinetry and furniture.'}
+              </p>
+              <p className="mt-4 max-w-xl text-[13px] leading-6 text-edl-500">
+                {lang === 'id'
+                  ? 'Dikembangkan sebagai solusi di antara standard core dan colour core, teknologi ini mengurangi garis sambungan secara nyata dengan biaya yang lebih terjangkau—tanpa mengorbankan desain. Tersedia pada pilihan dekor solids dan woods.'
+                  : 'Developed between standard core and colour core, this technology noticeably and affordably reduces visible lines without compromising good design. Available in selected solids and woods.'}
+              </p>
+              <Link href="/collections/ecru-core" className="btn-primary mt-8 self-start">
+                {lang === 'id' ? 'Jelajahi Ecru Core' : 'Explore Ecru Core'}
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-6 overflow-hidden rounded-[2rem] border border-[#ded5bd] bg-white p-3 sm:p-5">
+            <img
+              src="/edl-ecru-core-comparison.png"
+              alt={lang === 'id' ? 'Perbandingan jenis inti laminasi' : 'Comparison of laminate core types'}
+              className="h-auto w-full rounded-[1.3rem] object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
       {newProducts.length > 0 && (
         <section className="bg-[#edf2ea] py-16 sm:py-24">
           <div className="shell">
