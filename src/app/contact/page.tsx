@@ -3,9 +3,13 @@
 import Link from 'next/link';
 import { useLang } from '@/lib/LangContext';
 import { t } from '@/lib/i18n';
+import { buildWhatsAppUrl } from '@/lib/whatsapp';
 
 export default function ContactPage() {
   const { lang } = useLang();
+  const whatsappUrl = buildWhatsAppUrl(
+    'Halo Admin Varindo, saya ingin bertanya mengenai produk EDL.'
+  );
 
   return (
     <div>
@@ -67,7 +71,7 @@ export default function ContactPage() {
             <p className="label mb-4">WhatsApp</p>
             <h2 className="display text-edl-ink text-3xl sm:text-4xl mb-4">{t('contact', 'waTitle', lang)}</h2>
             <p className="text-[14px] leading-7 text-edl-500 mb-8">{t('contact', 'waBody', lang)}</p>
-            <a href="https://wa.me/62811945224" target="_blank" rel="noopener noreferrer"
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer"
               className="btn-primary w-full justify-center mb-3">
               Chat → 0811 945 224
             </a>

@@ -16,7 +16,6 @@ export function buildProductEnquiryMessage(product: Product) {
     'Halo Admin Varindo, saya tertarik dengan produk berikut:',
     '',
     `Produk: *${product.name}*`,
-    `Kode: *${product.code}*`,
     `Harga: *${formatIDR(product.price)}* (Termasuk PPN)`,
     '',
     'Terima kasih.',
