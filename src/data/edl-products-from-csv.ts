@@ -194,9 +194,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL PHANTOM BLACK — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -212,9 +210,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL EARTH ALU BRUSH — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -230,9 +226,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL IVORY BRUSH — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -248,9 +242,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL LINE BLACK — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -267,7 +259,6 @@ export const edlProductsFromCsv: Product[] = [
     "currency": "IDR",
     "active": true,
     "badges": [
-      "NEW",
       "BESTSELLER"
     ],
     "description": "EDL BARLEY GREY LINE — a versatile solid-colour HPL for clean modern interiors."
@@ -285,9 +276,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL POLISH GREY LINE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -303,9 +292,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL STEELY GREY LINE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -321,9 +308,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL PIXIE DUST LINE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -339,9 +324,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL DUSTY BLUE LINE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -357,9 +340,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL LINE WHITE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
@@ -375,9 +356,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL CREAM GRAPHIC — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
@@ -393,9 +372,7 @@ export const edlProductsFromCsv: Product[] = [
     "price": 700000,
     "currency": "IDR",
     "active": true,
-    "badges": [
-      "NEW"
-    ],
+    "badges": [],
     "description": "EDL DARK GRAPHIC — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {

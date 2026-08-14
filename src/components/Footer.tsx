@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLang } from '@/lib/LangContext';
 import { t } from '@/lib/i18n';
 
@@ -18,12 +19,12 @@ export function Footer() {
         {/* Brand */}
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <img src="/varindo-logo-transparent.png" alt="Varindo"
-              style={{ width: '72px', filter: 'brightness(0) invert(1)' }}
+            <Image src="/varindo-logo-transparent.png" alt="Varindo" width={72} height={11}
+              style={{ filter: 'brightness(0) invert(1)' }}
               className="h-auto object-contain opacity-80" />
             <div className="h-8 w-px bg-white/20" />
-            <img src="/edl-logo-level03.png" alt="EDL"
-              style={{ width: '42px', filter: 'brightness(0) invert(1)' }}
+            <Image src="/edl-logo-level03.png" alt="EDL" width={42} height={17}
+              style={{ filter: 'brightness(0) invert(1)' }}
               className="h-auto object-contain opacity-80" />
             <p className="border-l border-white/20 pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-white/80">
               Authorized<br />Dealer

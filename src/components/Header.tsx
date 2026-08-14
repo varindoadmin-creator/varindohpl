@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter, usePathname } from 'next/navigation';
 import { FormEvent, useState, useEffect } from 'react';
 import { useLang } from '@/lib/LangContext';
@@ -120,11 +121,11 @@ export function Header() {
 
             {/* Logo + EDL badge */}
             <Link href="/" className="shrink-0 flex items-center gap-3" aria-label="Varindo EDL">
-              <img src="/varindo-logo-transparent.png" alt="CV. Varindo Forma Hutama"
-                style={{ width: '76px' }} className="h-auto object-contain" />
+              <Image src="/varindo-logo-transparent.png" alt="CV. Varindo Forma Hutama" width={76} height={12}
+                className="h-auto object-contain" />
               <div className="h-8 w-px bg-edl-line" />
-              <img src="/edl-logo-level03.png" alt="EDL"
-                style={{ width: '44px' }} className="h-auto object-contain" />
+              <Image src="/edl-logo-level03.png" alt="EDL" width={44} height={18}
+                className="h-auto object-contain" />
               <span className="hidden sm:block border-l border-edl-line pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-edl-700">
                 Authorized<br />Dealer
               </span>

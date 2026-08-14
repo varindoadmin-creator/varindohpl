@@ -4,8 +4,9 @@ import { PriceListPageClient } from './PriceListPageClient';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'EDL Price List',
-  description: 'Request access to the latest EDL price list from Varindo.',
+  title: 'Daftar Harga EDL HPL',
+  description: 'Ajukan akses ke daftar harga EDL HPL terbaru dari Varindo. Harga produk pada website ditampilkan termasuk PPN.',
+  alternates: { canonical: '/price-list' },
 };
 
 export default function PriceListPage() {

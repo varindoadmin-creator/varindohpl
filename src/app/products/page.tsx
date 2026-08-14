@@ -8,7 +8,13 @@ export const revalidate = 600;
 
 export const metadata: Metadata = {
   title: 'Katalog Produk EDL',
-  description: 'Cari produk EDL HPL dari Varindo di Indonesia berdasarkan kode, nama desain, koleksi, dan finishing.'
+  description: 'Cari katalog produk EDL HPL Indonesia berdasarkan kode, desain, koleksi, ukuran, ketebalan, dan finishing. Harga tampil sudah termasuk PPN.',
+  alternates: { canonical: '/products' },
+  openGraph: {
+    title: 'Katalog Produk EDL HPL Indonesia',
+    description: 'Jelajahi produk EDL HPL lengkap dengan gambar, spesifikasi, dan harga termasuk PPN.',
+    url: '/products',
+  },
 };
 
 export default async function ProductsPage() {

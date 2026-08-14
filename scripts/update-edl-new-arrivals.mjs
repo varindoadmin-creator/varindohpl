@@ -4,7 +4,7 @@ const csvPath = 'public/data/edl-products.csv';
 const newArrivalPrefixes = new Set([
   'L-YW', 'L-YP', 'L-YS', 'L-YM', 'L-MG',
   'DD', 'DDM', 'DMC', 'DHT', 'DH', 'DY',
-  'DWD', 'DWM', 'DB', 'DWA',
+  'DWD', 'DWM', 'DWA',
 ]);
 
 function parseCsvLine(line) {

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Product } from '@/types/product';
 import { ProductGrid } from '@/components/ProductGrid';
 import { useLang } from '@/lib/LangContext';
@@ -40,15 +41,9 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
         <div className="relative min-h-[680px] overflow-hidden rounded-[2rem] bg-[#e7eee6] lg:min-h-[720px]">
           <div className="grid min-h-[inherit] lg:grid-cols-[0.92fr_1.08fr]">
             <div className="relative z-10 flex flex-col justify-center px-7 py-16 sm:px-12 lg:px-16">
-              <div className="mb-8 flex items-center gap-3">
-                <span className="h-2.5 w-2.5 rounded-full bg-[#ef785f]" />
-                <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-edl-700">
-                  {t('home', 'heroBadge', lang)}
-                </p>
-              </div>
               <h1 className="display max-w-[650px] text-[clamp(3.5rem,7vw,7.8rem)] leading-[0.84] text-edl-ink">
-                {t('home', 'heroLine1', lang)}
-                <span className="block font-serif font-normal italic text-[#4f765f]">{t('home', 'heroLine2', lang)}</span>
+                {t('home', 'heroLine1', lang)}{' '}
+                <span className="block font-serif font-normal italic text-[#4f765f]">{t('home', 'heroLine2', lang)}{' '}</span>
                 {t('home', 'heroLine3', lang)}
               </h1>
               <p className="mt-8 max-w-md text-[15px] leading-7 text-edl-600">
@@ -63,7 +58,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
             </div>
 
             <div className="relative min-h-[400px] overflow-hidden lg:m-4 lg:ml-0 lg:rounded-[1.5rem]">
-              <div className="absolute inset-0 bg-[url('/hero-edl-wt-62.jpg')] bg-cover bg-center" />
+              <Image src="/hero-edl-wt-62.jpg" alt="Interior finished with timeless EDL decorative surfaces" fill priority sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-center" />
               <div className="absolute inset-0 bg-gradient-to-t from-edl-ink/20 via-transparent to-white/10" />
               <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between rounded-2xl border border-white/40 bg-white/80 p-5 shadow-lg backdrop-blur-md">
                 <div>
@@ -115,7 +110,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
           {collections.map((item, index) => (
             <Link key={item.href} href={item.href} className={`group relative min-h-[480px] overflow-hidden rounded-[1.6rem] ${item.tone}`}>
               <div className="absolute inset-x-3 top-3 h-[70%] overflow-hidden rounded-[1.2rem]">
-                <div className="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: `url('${item.image}')` }} />
+                <Image src={item.image} alt={`${item[lang]} EDL HPL collection`} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover object-center transition-transform duration-700 group-hover:scale-105" />
               </div>
               <div className="absolute inset-x-7 bottom-7 flex items-end justify-between">
                 <div>
@@ -133,7 +128,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
         <div className="shell">
           <div className="grid items-stretch gap-6 lg:grid-cols-[0.9fr_1.1fr]">
             <div className="relative min-h-[520px] overflow-hidden rounded-[2rem] bg-white sm:min-h-[640px]">
-              <div className="absolute inset-0 bg-[url('/edl-ecru-core-detail.jpg')] bg-cover bg-center" />
+              <Image src="/edl-ecru-core-detail.jpg" alt="Close-up of an EDL Ecru Core laminate edge" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-center" />
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-edl-ink/40 to-transparent" />
               <div className="absolute bottom-6 left-6 rounded-full border border-white/50 bg-white/85 px-4 py-2 backdrop-blur-md">
                 <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-edl-700">
@@ -209,7 +204,7 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
             </div>
 
             <div className="relative min-h-[420px] overflow-hidden sm:min-h-[560px] lg:min-h-full">
-              <div className="absolute inset-0 bg-[url('/edl-aptico-feature.jpg')] bg-cover bg-center" />
+              <Image src="/edl-aptico-feature.jpg" alt="EDL Aptico-Matt super-matt surface palette" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover object-center" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent lg:bg-gradient-to-r lg:from-[#2a2927]/30 lg:to-transparent" />
               <div className="absolute bottom-6 right-6 rounded-full border border-white/30 bg-black/25 px-4 py-2 backdrop-blur-md">
                 <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-white">Aptico · Made in Austria</p>
@@ -249,7 +244,9 @@ export function HomeClient({ allCount, newProducts, bestSellers }: Props) {
 
       <section className="shell pb-16 sm:pb-24">
         <div className="grid overflow-hidden rounded-[2rem] bg-[#e9e2ef] lg:grid-cols-2">
-          <div className="min-h-[420px] bg-[url('/edl-catalogue-2027-cover.jpg')] bg-cover bg-center" />
+          <div className="relative min-h-[420px]">
+            <Image src="/edl-portfolio-gallery.webp" alt="Entrance to the EDL Gallery showcasing decorative surface materials" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-center" />
+          </div>
           <div className="flex flex-col justify-center px-8 py-14 sm:px-14 lg:px-16">
             <p className="label mb-5">{t('home', 'portfolioLabel', lang)}</p>
             <h2 className="display text-4xl text-edl-ink sm:text-6xl">

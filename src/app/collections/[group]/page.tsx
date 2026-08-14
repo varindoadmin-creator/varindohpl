@@ -24,7 +24,17 @@ const groupMeta: Partial<Record<CollectionGroup, { titleEN: string; descEN: stri
 export function generateMetadata({ params }: { params: { group: string } }): Metadata {
   const meta = groupMeta[params.group as CollectionGroup];
   if (!meta) return { title: 'Koleksi' };
-  return { title: meta.titleEN, description: meta.descEN };
+  const canonicalGroup = params.group === 'new-collections' ? 'new-arrivals' : params.group;
+  return {
+    title: `${meta.titleEN} EDL HPL`,
+    description: `${meta.descEN} Browse specifications, images, and tax-inclusive prices from Varindo Indonesia.`,
+    alternates: { canonical: `/collections/${canonicalGroup}` },
+    openGraph: {
+      title: `${meta.titleEN} EDL HPL | Varindo`,
+      description: meta.descEN,
+      url: `/collections/${canonicalGroup}`,
+    },
+  };
 }
 
 export default async function CollectionPage({ params }: { params: { group: string } }) {
