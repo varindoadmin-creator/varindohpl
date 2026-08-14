@@ -101,12 +101,9 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/[0.07]">
-        <div className="shell py-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+        <div className="shell py-5">
           <p className="text-[11px] text-edl-600">
             {t('footer', 'copyright', lang, { year })}
-          </p>
-          <p className="text-[11px] text-edl-600">
-            {t('footer', 'dealerBadge', lang)}
           </p>
         </div>
       </div>
