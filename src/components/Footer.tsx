@@ -69,7 +69,6 @@ export function Footer() {
               { href: '/contact',            label: t('footer', 'contactLink', lang) },
               { href: '/price-list',         label: lang === 'id' ? 'Daftar Harga' : 'Price List' },
               { href: '/request-catalogue',  label: t('footer', 'catalogueLink', lang) },
-              { href: '/request-quote',      label: t('footer', 'quoteLink', lang) },
               { href: '/request-sample',     label: t('footer', 'sampleLink', lang) },
               { href: '/privacy',            label: lang === 'id' ? 'Kebijakan Privasi' : 'Privacy Policy' },
             ].map((item) => (

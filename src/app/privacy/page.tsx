@@ -49,7 +49,7 @@ export default function PrivacyPage() {
                   ))}
                 </ul>
                 <p className="mt-4">
-                  Informasi ini dikumpulkan hanya melalui formulir Permintaan Penawaran, Permintaan Sampel, dan Permintaan Katalog, dan digunakan semata-mata untuk menindaklanjuti permintaan Anda.
+                  Informasi ini dikumpulkan hanya melalui formulir Permintaan Sampel dan Permintaan Katalog, dan digunakan semata-mata untuk menindaklanjuti permintaan Anda.
                 </p>
               </section>
 
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
                 <p>Informasi yang Anda berikan digunakan untuk:</p>
                 <ul className="mt-3 space-y-2 list-none pl-0">
                   {[
-                    'Memproses dan menindaklanjuti permintaan penawaran, sampel, atau katalog',
+                    'Memproses dan menindaklanjuti permintaan sampel atau katalog',
                     'Menghubungi Anda mengenai permintaan yang telah diajukan',
                     'Mengirimkan produk atau katalog ke alamat yang Anda berikan'
                   ].map((item) => (
@@ -132,7 +132,7 @@ export default function PrivacyPage() {
                   ))}
                 </ul>
                 <p className="mt-4">
-                  This information is collected only through the Quote Request, Sample Request, and Catalogue Request forms, and is used solely to follow up on your request.
+                  This information is collected only through the Sample Request and Catalogue Request forms, and is used solely to follow up on your request.
                 </p>
               </section>
 
@@ -141,7 +141,7 @@ export default function PrivacyPage() {
                 <p>Information you provide is used to:</p>
                 <ul className="mt-3 space-y-2 list-none pl-0">
                   {[
-                    'Process and follow up on quote, sample, or catalogue requests',
+                    'Process and follow up on sample or catalogue requests',
                     'Contact you regarding your submitted request',
                     'Deliver products or catalogues to your provided address'
                   ].map((item) => (
