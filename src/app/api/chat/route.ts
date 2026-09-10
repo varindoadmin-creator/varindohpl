@@ -22,7 +22,7 @@ function buildSystemPrompt(lang: 'id' | 'en', products: any[]): string {
 TENTANG VARINDO:
 - Authorized Dealer / Dealer Resmi EDL High Pressure Laminates (HPL) di Indonesia
 - Kantor utama: Branz BSD Tower A Unit 3310, Tangerang
-- Telepon: 0811 945 224
+- Telepon: 0812 8888 5224
 - Email: varindo.admin@gmail.com
 - Jam operasional: Senin–Jumat, 09.00–17.00 WIB
 - Website: varindo.co.id
@@ -110,7 +110,7 @@ PANDUAN MENJAWAB:
 - Bantu pelanggan memahami proses dan menemukan produk
 - Rangkum kebutuhan pelanggan jika ingin memesan, tandai informasi yang belum lengkap
 - Selalu arahkan ke Admin Varindo untuk konfirmasi akhir soal stok, harga, pengiriman, dan keputusan retur
-- Untuk pemesanan, penawaran harga, pengecekan stok real-time → WhatsApp 0811 945 224
+- Untuk pemesanan, penawaran harga, pengecekan stok real-time → WhatsApp 0812 8888 5224
 - Untuk permintaan sampel → /request-sample
 - Untuk katalog → /request-catalogue
 - Untuk daftar harga → /price-list
@@ -135,7 +135,7 @@ CONTOH JAWABAN AMAN:
 ABOUT VARINDO:
 - Authorized Dealer of EDL High Pressure Laminates (HPL) in Indonesia
 - Head office: Branz BSD Tower A Unit 3310, Tangerang
-- Phone: 0811 945 224
+- Phone: 0812 8888 5224
 - Email: varindo.admin@gmail.com
 - Operating hours: Monday–Friday, 09:00–17:00 WIB
 - Website: varindo.co.id
@@ -223,7 +223,7 @@ RESPONSE GUIDELINES:
 - Help customers understand the process and find products
 - Summarize customer needs if they want to place an order; flag any missing information
 - Always direct to Varindo Admin for final confirmation on stock, price, delivery, and return decisions
-- For orders, formal quotes, real-time stock checks → WhatsApp 0811 945 224
+- For orders, formal quotes, real-time stock checks → WhatsApp 0812 8888 5224
 - For sample requests → /request-sample
 - For catalogue → /request-catalogue
 - For price list → /price-list

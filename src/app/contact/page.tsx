@@ -48,7 +48,7 @@ export default function ContactPage() {
                   Jl. BSD Boulevard Parcel 55-F<br />
                   Tangerang 15339<br />
                   Banten, Indonesia<br />
-                  <span className="font-semibold text-edl-ink">T. 0811 945 224</span>
+                  <span className="font-semibold text-edl-ink">T. 0812 8888 5224</span>
                 </address>
               </div>
               <div className="grid sm:grid-cols-2 gap-px bg-edl-line border-t border-edl-line">
@@ -73,7 +73,7 @@ export default function ContactPage() {
             <p className="text-[14px] leading-7 text-edl-500 mb-8">{t('contact', 'waBody', lang)}</p>
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer"
               className="btn-primary w-full justify-center mb-3">
-              Chat → 0811 945 224
+              Chat → 0812 8888 5224
             </a>
             <div className="mt-8 pt-6 border-t border-edl-line">
               <p className="label mb-3">{t('contact', 'browseCatalog', lang)}</p>

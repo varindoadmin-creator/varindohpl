@@ -58,7 +58,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     url: 'https://varindohpl.com',
     logo: 'https://varindohpl.com/varindo-logo-transparent.png',
     email: 'varindo.admin@gmail.com',
-    telephone: '+62-811-945-224',
+    telephone: '+62-812-8888-5224',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Branz BSD Tower A Unit 3310, Jl. BSD Boulevard Parcel 55-F',
@@ -69,7 +69,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+62-811-945-224',
+      telephone: '+62-812-8888-5224',
       contactType: 'sales',
       areaServed: 'ID',
       availableLanguage: ['Indonesian', 'English'],

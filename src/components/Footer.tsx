@@ -89,7 +89,7 @@ export function Footer() {
               <span className="block text-edl-500 text-[10px] tracking-[0.16em] uppercase mb-1">
                 {t('footer', 'phone', lang)}
               </span>
-              0811 945 224
+              0812 8888 5224
             </p>
             <p className="text-[13px] text-edl-400">
               <span className="block text-edl-500 text-[10px] tracking-[0.16em] uppercase mb-1">Email</span>
