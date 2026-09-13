@@ -25,6 +25,19 @@ const nextConfig = {
         destination: '/collections/new-arrivals',
         permanent: true,
       },
+      // Price List requests were removed from the site. /price-list was in
+      // the sitemap, so send remaining links and crawlers to the nearest
+      // equivalent rather than a 404.
+      {
+        source: '/price-list',
+        destination: '/request-catalogue',
+        permanent: true,
+      },
+      {
+        source: '/price-list/download',
+        destination: '/request-catalogue',
+        permanent: true,
+      },
     ];
   },
   images: {

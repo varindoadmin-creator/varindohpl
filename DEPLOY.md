@@ -41,23 +41,14 @@ gcloud run deploy $SERVICE \
   filesystem is in-memory, so the ISR cache counts against this too.
 
 Both secrets already exist in the project and are shared with the other
-services.
-
-**Price List requests** still write to Supabase (`src/app/api/submit-request`).
-Until `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set, that form
-returns "Submission service is not configured"; Sample and Catalogue requests
-go to VIABooks and are unaffected. Once the Supabase project is confirmed:
-
-```bash
-gcloud run services update $SERVICE --region $REGION --project $PROJECT \
-  --update-secrets "SUPABASE_URL=SUPABASE_URL:latest,SUPABASE_SERVICE_ROLE_KEY=SUPABASE_SERVICE_ROLE_KEY:latest"
-```
+services. The site has no database of its own: Sample and Catalogue requests
+go to VIABooks, whose organization ID is `VIABOOKS_ORGANIZATION_ID`.
 
 ## Verifying a deploy
 
 ```bash
 URL=$(gcloud run services describe $SERVICE --region $REGION --project $PROJECT --format='value(status.url)')
-for p in / /products /contact /price-list /sitemap.xml /robots.txt /.well-known/assetlinks.json; do
+for p in / /products /contact /request-sample /sitemap.xml /robots.txt /.well-known/assetlinks.json; do
   curl -s -o /dev/null -w "$p %{http_code}\n" $URL$p
 done
 ```
@@ -65,7 +56,6 @@ done
 - [ ] Product pages and images load (`/_next/image` exercises sharp).
 - [ ] AI chat replies (`/api/chat` → Anthropic).
 - [ ] Sample and Catalogue requests reach VIABooks; the notification email arrives.
-- [ ] Price List request is stored (once Supabase is configured).
 
 ## Domain
 

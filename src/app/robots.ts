@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/', '/price-list/download'],
+      disallow: ['/api/'],
     },
     sitemap: 'https://varindohpl.com/sitemap.xml',
     host: 'https://varindohpl.com',

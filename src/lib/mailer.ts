@@ -11,7 +11,7 @@ function getTransporter() {
   return nodemailer.createTransport({ host, port, secure: port === 465, auth: { user, pass } });
 }
 
-type RequestType = 'sample' | 'catalogue' | 'price-list';
+type RequestType = 'sample' | 'catalogue';
 
 interface NotifyParams {
   type: RequestType;
@@ -24,7 +24,6 @@ interface NotifyParams {
 const LABEL: Record<RequestType, string> = {
   sample:    'Sample Request',
   catalogue: 'Catalogue Request',
-  'price-list': 'Price List Download',
 };
 
 function escapeHtml(value: string) {

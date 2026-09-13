@@ -10,7 +10,7 @@ A responsive Node.js / Next.js catalog for Varindo's EDL public product browsing
 - Clean product cards: product image, exact product name, and price only
 - WhatsApp-first enquiry flow instead of cart checkout
 - Cloudinary-hosted EDL product images
-- Supabase-backed catalogue, quote, and sample requests
+- Catalogue and sample requests sent to VIABooks
 - Optional Anthropic-powered customer chat and SMTP notifications
 
 ## Run locally
@@ -60,11 +60,11 @@ node scripts/import-edl-products-from-csv.mjs
 
 ## Environment variables
 
-Catalogue, quote, and sample persistence:
+Catalogue and sample requests (both have in-code defaults):
 
 ```text
-SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
+VIABOOKS_API_URL=
+VIABOOKS_ORGANIZATION_ID=
 ```
 
 Optional AI chat and email notifications:

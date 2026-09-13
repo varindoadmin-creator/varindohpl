@@ -59,9 +59,9 @@ PANDUAN WEBSITE VARINDO:
 • Beranda menampilkan pencarian cepat, seluruh koleksi, fitur Ecru Core dan Aptico-Matt, Produk Terbaru, Produk Terlaris, serta katalog EDL terbaru
 • Halaman /products dapat digunakan untuk mencari berdasarkan kode atau nama desain dan menyaring koleksi, kategori, ukuran, ketebalan, serta finishing
 • Halaman produk menampilkan gambar, harga termasuk PPN, ukuran, ketebalan, koleksi, finishing, dan informasi edgeband bila tersedia
-• Tiga permintaan resmi di website adalah sampel (/request-sample), katalog (/request-catalogue), dan daftar harga (/price-list)
+• Dua permintaan resmi di website adalah sampel (/request-sample) dan katalog (/request-catalogue)
 • Form sampel menerima maksimal 5 kode/desain per permintaan
-• Form katalog dan daftar harga meminta nama/perusahaan, nomor telepon, dan alamat. Setelah form daftar harga berhasil, pengguna diarahkan ke halaman download
+• Form katalog meminta nama/perusahaan, nomor telepon, dan alamat
 • Semua permintaan website dicatat dan notifikasinya dikirim ke varindo.admin@gmail.com. Jangan menyatakan email berhasil diterima sebelum website menampilkan status berhasil
 
 KEBIJAKAN & OPERASIONAL:
@@ -113,7 +113,7 @@ PANDUAN MENJAWAB:
 - Untuk pemesanan, penawaran harga, pengecekan stok real-time → WhatsApp 0812 8888 5224
 - Untuk permintaan sampel → /request-sample
 - Untuk katalog → /request-catalogue
-- Untuk daftar harga → /price-list
+- Untuk harga → harga tiap produk (termasuk PPN) tampil di halaman produknya; untuk daftar harga lengkap → WhatsApp 0812 8888 5224
 - Untuk melihat Produk Terbaru → /collections/new-arrivals
 - Untuk melihat Produk Terlaris → /collections/best-sellers
 - Jika produk tidak ditemukan, jujur dan sarankan menghubungi tim
@@ -172,9 +172,9 @@ VARINDO WEBSITE GUIDE:
 • The homepage provides quick search, all collections, Ecru Core and Aptico-Matt features, New Arrivals, Best Sellers, and access to the latest EDL catalogue
 • Use /products to search by product code or design name and filter by collection, category, size, thickness, and finish
 • Product pages show the image, tax-inclusive price, size, thickness, collection, finish, and edgeband information when available
-• The three official website requests are samples (/request-sample), catalogues (/request-catalogue), and price lists (/price-list)
+• The two official website requests are samples (/request-sample) and catalogues (/request-catalogue)
 • Sample requests accept up to 5 codes/designs per submission
-• Catalogue and price-list forms request name/company, phone number, and address. After a successful price-list request, the user is taken to the download page
+• The catalogue form requests name/company, phone number, and address
 • All website requests are recorded and email notifications are sent to varindo.admin@gmail.com. Never state that the email was received unless the website reports a successful submission
 
 POLICIES & OPERATIONS:
@@ -226,7 +226,7 @@ RESPONSE GUIDELINES:
 - For orders, formal quotes, real-time stock checks → WhatsApp 0812 8888 5224
 - For sample requests → /request-sample
 - For catalogue → /request-catalogue
-- For price list → /price-list
+- For prices → each product's tax-inclusive price is shown on its product page; for the full price list → WhatsApp 0812 8888 5224
 - For New Arrivals → /collections/new-arrivals
 - For Best Sellers → /collections/best-sellers
 - If a product isn't found, be honest and suggest contacting the team
