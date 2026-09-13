@@ -59,22 +59,44 @@ done
 
 ## Domain
 
-`varindohpl.com` is registered at Hostinger. The domain has no MX records,
-so moving its DNS cannot affect email.
+Live on Cloud Run since 13 Sep 2026. `varindohpl.com` is registered at
+Hostinger, and Hostinger still serves its DNS (nameservers
+`artemis.dns-parking.com` and `hermes.dns-parking.com`). The domain has no MX
+records, so DNS changes cannot affect email.
 
-Point it at the service with a domain mapping for the apex and `www`, then
-serve the records the mapping asks for — from a Cloud DNS zone, delegated
-by changing the nameservers at Hostinger:
+Records at Hostinger (Domains → varindohpl.com → DNS / Nameservers):
+
+| Type  | Name | Value |
+|-------|------|-------|
+| A     | @    | `216.239.32.21`, `216.239.34.21`, `216.239.36.21`, `216.239.38.21` |
+| CNAME | www  | `ghs.googlehosted.com` |
+| TXT   | @    | `google-site-verification=…` |
+| A     | ftp  | `46.202.138.17` (Hostinger's; the site doesn't use it) |
+
+- **Keep the TXT record.** It keeps `varindohpl.com` verified in Search
+  Console for contact@varindo.co.id, and Cloud Run domain mappings require
+  the domain to stay verified for the account that manages them.
+- **No AAAA records.** Cloud Run also lists
+  `2001:4860:4802:{32,34,36,38}::15`; without them the site is IPv4-only,
+  which every client can reach.
+- **Hostinger quirks.** It rejects an A record on `@` while an ALIAS exists
+  there, so the ALIAS has to be deleted first, and each additional A record
+  on the same name asks for confirmation.
+
+Both hosts are mapped to the service:
 
 ```bash
-gcloud beta run domain-mappings create --service $SERVICE --domain varindohpl.com --region $REGION --project $PROJECT
-gcloud beta run domain-mappings create --service $SERVICE --domain www.varindohpl.com --region $REGION --project $PROJECT
 gcloud beta run domain-mappings describe --domain varindohpl.com --region $REGION --project $PROJECT \
-    --format="yaml(status.resourceRecords)"
+    --format="yaml(status.conditions)"
 ```
 
-**Certificate trap** (hit during the `varindo.co.id` move): Google's first
-certificate challenge fires within minutes of the mapping being created. If
-DNS hasn't propagated by then, the retry can take over an hour. Once DNS is
-confirmed propagated, delete and recreate the mapping to force a fresh
-challenge.
+**Certificate trap** (hit on both moves): Google's first certificate
+challenge fires within minutes of a mapping being created. If DNS doesn't
+point at Google by then, the retry can be an hour away and HTTPS stays down
+meanwhile. Once DNS points at Google, delete and recreate the mapping to force
+a fresh challenge; here both certificates issued about 20 minutes later.
+
+**Rolling back to Hostinger** (while its Node.js app still exists): delete the
+four A records, add `ALIAS @ → varindohpl.com.cdn.hstgr.net`, and set the
+`www` CNAME back to `www.varindohpl.com.cdn.hstgr.net`. With 300s TTLs the old
+site is back within about five minutes.
