@@ -9,7 +9,7 @@ A responsive Node.js / Next.js catalog for Varindo's EDL public product browsing
 - Responsive mobile, tablet, and desktop layouts
 - Clean product cards: product image, exact product name, and price only
 - WhatsApp-first enquiry flow instead of cart checkout
-- Cloudinary-hosted EDL product images
+- EDL swatch images mirrored from edleuro.com into Cloud Storage
 - Catalogue and sample requests sent to VIABooks
 - Optional Anthropic-powered customer chat and SMTP notifications
 
@@ -77,7 +77,9 @@ SMTP_USER=
 SMTP_PASS=
 ```
 
-`CLOUDINARY_URL` is only needed by image-import tooling; public image delivery uses the generated Cloudinary URLs.
+Swatch images live in `gs://varindo-product-images/edl-swatches/`, one WebP per
+product code. After catalogue changes, run `node scripts/sync-edl-swatches.mjs`
+and publish with the `gcloud storage cp` command it prints.
 
 
 ## Typography

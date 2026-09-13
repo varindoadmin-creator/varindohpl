@@ -1,7 +1,6 @@
 import { edlProductsFromCsv } from '@/data/edl-products-from-csv';
-import { edlCloudinaryMap } from '@/data/edl-cloudinary-map';
 import type { Product } from '@/types/product';
-import { getEdlImageUrl, getEdlImageUrlCandidates } from './cloudinary';
+import { getSwatchUrl, getSwatchUrlCandidates } from './productImages';
 import { normalizeCode, slugify, uniq } from './utils';
 
 export type CollectionGroup =
@@ -24,19 +23,15 @@ function addPpn(price?: number | null) {
 
 function enrichProduct(product: Product): Product {
   const priceIncludingPpn = addPpn(product.price);
-  const knownUrl = edlCloudinaryMap[product.code];
-  const guessedCandidates = product.imageUrlCandidates?.length
+  const imageUrlCandidates = product.imageUrlCandidates?.length
     ? product.imageUrlCandidates
-    : getEdlImageUrlCandidates(product.code, product.design || '');
-  const imageUrlCandidates = knownUrl
-    ? uniq([knownUrl, ...guessedCandidates])
-    : guessedCandidates;
+    : getSwatchUrlCandidates(product.code);
 
   return {
     ...product,
     price: priceIncludingPpn,
     slug: product.slug || slugify(`${product.code} ${product.name}`),
-    imageUrl: product.imageUrl || knownUrl || imageUrlCandidates[0] || getEdlImageUrl(product.code, product.design || ''),
+    imageUrl: product.imageUrl || imageUrlCandidates[0] || getSwatchUrl(product.code),
     imageUrlCandidates,
     taxIncluded: true,
     badges: product.badges || []

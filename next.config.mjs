@@ -44,8 +44,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        pathname: '/varindo/image/upload/**'
+        hostname: 'storage.googleapis.com',
+        pathname: '/varindo-product-images/**'
       }
     ]
   }
