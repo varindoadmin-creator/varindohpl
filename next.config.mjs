@@ -15,6 +15,14 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Site paused: every URL goes to varindo.co.id. Temporary (307) so search
+      // engines treat it as a pause and resuming needs no cleanup. Delete this
+      // rule and deploy to bring the site back.
+      {
+        source: '/:path*',
+        destination: 'https://varindo.co.id',
+        permanent: false,
+      },
       {
         source: '/request-catalog',
         destination: '/request-catalogue',

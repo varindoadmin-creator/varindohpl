@@ -13,6 +13,16 @@ REGION=asia-southeast1          # Cloud Run domain mappings don't exist in asia-
 SERVICE=varindohpl
 ```
 
+## Paused (since 13 Sep 2026)
+
+Every URL on `varindohpl.com` and `www.varindohpl.com` redirects to
+`https://varindo.co.id` with a temporary 307, set by the first rule in
+`redirects()` in `next.config.mjs`. The service, domain mappings,
+certificates, DNS records and Search Console verification all stay in place,
+so resuming avoids the certificate wait described under Domain.
+
+To resume: delete that rule, build, and deploy.
+
 ## Deploying a change
 
 ```bash
