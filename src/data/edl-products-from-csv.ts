@@ -166,22 +166,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL CRYSTAL SATIN — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
-    "slug": "da-9713d-glacist-black",
-    "code": "DA 9713D",
-    "name": "DA 9713D - EDL HPL 4'x8' | GLACIST BLACK",
-    "design": "GLACIST BLACK",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Abstract",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 730000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL GLACIST BLACK — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
     "slug": "db-1204n-phantom-black",
     "code": "DB 1204N",
     "name": "DB 1204N - EDL HPL 4'x8' | PHANTOM BLACK",
@@ -342,38 +326,6 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL LINE WHITE — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
-    "slug": "db-7147sm-cream-graphic",
-    "code": "DB 7147SM",
-    "name": "DB 7147SM - EDL HPL 4'x8' | CREAM GRAPHIC",
-    "design": "CREAM GRAPHIC",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Abstract",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 700000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL CREAM GRAPHIC — a decorative HPL surface for feature walls and distinctive interior panels."
-  },
-  {
-    "slug": "db-7149sm-dark-graphic",
-    "code": "DB 7149SM",
-    "name": "DB 7149SM - EDL HPL 4'x8' | DARK GRAPHIC",
-    "design": "DARK GRAPHIC",
-    "brand": "EDL",
-    "collection": "Pattern",
-    "category": "Abstract",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "price": 700000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL DARK GRAPHIC — a decorative HPL surface for feature walls and distinctive interior panels."
   },
   {
     "slug": "dc-4545lun-shiro",
@@ -5029,22 +4981,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL HABSBURG OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "dwv-4538ae-white-elm",
-    "code": "DWV 4538AE",
-    "name": "DWV 4538AE - EDL HPL 4'x10' | WHITE ELM",
-    "design": "WHITE ELM",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Aleve",
-    "size": "1300 x 3050 mm",
-    "thickness": "0.8mm",
-    "price": 1100000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL WHITE ELM — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "dwv-4585ae-rovere-rock",
     "code": "DWV 4585AE",
     "name": "DWV 4585AE - EDL HPL 4'x10' | ROVERE ROCK",
@@ -8349,22 +8285,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL THE WHITE — a versatile solid-colour HPL for clean modern interiors."
   },
   {
-    "slug": "esg-5230n-dark-magenta",
-    "code": "ESG 5230N",
-    "name": "ESG 5230N - EDL HPL 4'x8' | DARK MAGENTA",
-    "design": "DARK MAGENTA",
-    "brand": "EDL",
-    "collection": "Solid",
-    "category": "Textured",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.7mm",
-    "price": 600000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL DARK MAGENTA — a versatile solid-colour HPL for clean modern interiors."
-  },
-  {
     "slug": "esg-5266n-handy-grey",
     "code": "ESG 5266N",
     "name": "ESG 5266N - EDL HPL 4'x8' | HANDY GREY",
@@ -9403,26 +9323,6 @@ export const edlProductsFromCsv: Product[] = [
     "description": "EDL LIGHT BATONNET OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
-    "slug": "ewn-6890r-batonnet-oak",
-    "code": "EWN 6890R",
-    "name": "EWN 6890R - EDL HPL 4'x8' | BATONNET OAK",
-    "design": "BATONNET OAK",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Super Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "edgebandCode": "DEW 06890",
-    "edgebandSizes": [
-      "23 x 1.0mm"
-    ],
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL BATONNET OAK — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
     "slug": "ewn-6926r-duero-walnut",
     "code": "EWN 6926R",
     "name": "EWN 6926R - EDL HPL 4'x8' | DUERO WALNUT",
@@ -9575,27 +9475,6 @@ export const edlProductsFromCsv: Product[] = [
     "active": true,
     "badges": [],
     "description": "EDL VIENNA ASH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
-  },
-  {
-    "slug": "ewp-2682m-brown-ash",
-    "code": "EWP 2682M",
-    "name": "EWP 2682M - EDL HPL 4'x8' | BROWN ASH",
-    "design": "BROWN ASH",
-    "brand": "EDL",
-    "collection": "Wood",
-    "category": "Fine Matt",
-    "size": "1220 x 2440 mm",
-    "thickness": "0.8mm",
-    "edgebandCode": "DEW 02682",
-    "edgebandSizes": [
-      "23 x 1.0mm",
-      "45 x 1.0mm"
-    ],
-    "price": 710000,
-    "currency": "IDR",
-    "active": true,
-    "badges": [],
-    "description": "EDL BROWN ASH — an authentic wood-inspired HPL surface for cabinetry, furniture, and wall panels."
   },
   {
     "slug": "ewp-3023t-wood-art",
