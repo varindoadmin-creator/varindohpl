@@ -12,7 +12,7 @@ const SUPABASE_KEY      = process.env.SUPABASE_SERVICE_ROLE_KEY;
 // Forma Hutama. Price List download requests are unaffected and still go
 // to Supabase.
 const VIABOOKS_API_URL = process.env.VIABOOKS_API_URL || 'https://viabooks-601025884976.asia-southeast2.run.app';
-const VIABOOKS_ORGANIZATION_ID = process.env.VIABOOKS_ORGANIZATION_ID || 'cmts823pu000jt761mx48ltsq';
+const VIABOOKS_ORGANIZATION_ID = process.env.VIABOOKS_ORGANIZATION_ID || 'cmtn75jst0001w12y30bcrr6h';
 
 type RequestBody = {
   type: 'catalogue' | 'price-list' | 'sample';
