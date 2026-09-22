@@ -11,10 +11,8 @@ export function Footer() {
 
   return (
     <footer className="bg-edl-ink text-white">
-      {/* Top accent bar */}
-      <div className="h-1 bg-edl-blue" />
 
-      <div className="shell pt-14 pb-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
+      <div className="shell grid gap-10 pb-12 pt-16 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
 
         {/* Brand */}
         <div>
@@ -26,18 +24,18 @@ export function Footer() {
             <Image src="/edl-logo-level03.png" alt="EDL" width={42} height={17}
               style={{ filter: 'brightness(0) invert(1)' }}
               className="h-auto object-contain opacity-80" />
-            <p className="border-l border-white/20 pl-3 text-[9px] font-bold uppercase leading-tight tracking-[0.18em] text-white/80">
+            <p className="border-l border-white/20 pl-3 text-[9px] font-medium uppercase leading-tight tracking-[0.18em] text-white/70">
               Authorized<br />Dealer
             </p>
           </div>
-          <p className="text-[13px] leading-7 text-edl-400 max-w-xs">
+          <p className="max-w-xs text-[13px] leading-7 text-white/55">
             {t('footer', 'tagline', lang)}
           </p>
         </div>
 
         {/* Collections */}
         <div>
-          <p className="label text-edl-500 mb-5">{t('footer', 'collections', lang)}</p>
+          <p className="label mb-5 text-white/40">{t('footer', 'collections', lang)}</p>
           <ul className="space-y-3">
             {[
               { href: '/collections/new-arrivals', id: 'Produk Terbaru',  en: 'New Arrivals' },
@@ -52,7 +50,7 @@ export function Footer() {
               { href: '/collections/aptico-matt',  id: 'Aptico-Matt',     en: 'Aptico-Matt' },
             ].map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-[13px] text-edl-400 hover:text-white transition-colors">
+                <Link href={item.href} className="text-[13px] text-white/55 transition-colors hover:text-white">
                   {item[lang]}
                 </Link>
               </li>
@@ -62,7 +60,7 @@ export function Footer() {
 
         {/* Company */}
         <div>
-          <p className="label text-edl-500 mb-5">{t('footer', 'company', lang)}</p>
+          <p className="label mb-5 text-white/40">{t('footer', 'company', lang)}</p>
           <ul className="space-y-3">
             {[
               { href: '/about',              label: t('footer', 'aboutLink', lang) },
@@ -73,7 +71,7 @@ export function Footer() {
               { href: '/privacy',            label: lang === 'id' ? 'Kebijakan Privasi' : 'Privacy Policy' },
             ].map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-[13px] text-edl-400 hover:text-white transition-colors">
+                <Link href={item.href} className="text-[13px] text-white/55 transition-colors hover:text-white">
                   {item.label}
                 </Link>
               </li>
@@ -83,16 +81,16 @@ export function Footer() {
 
         {/* Contact */}
         <div>
-          <p className="label text-edl-500 mb-5">{t('footer', 'contact', lang)}</p>
+          <p className="label mb-5 text-white/40">{t('footer', 'contact', lang)}</p>
           <address className="not-italic space-y-3">
-            <p className="text-[13px] text-edl-400">
-              <span className="block text-edl-500 text-[10px] tracking-[0.16em] uppercase mb-1">
+            <p className="text-[13px] text-white/70">
+              <span className="mb-1 block text-[10px] uppercase tracking-[0.16em] text-white/40">
                 {t('footer', 'phone', lang)}
               </span>
               0812 8888 5224
             </p>
-            <p className="text-[13px] text-edl-400">
-              <span className="block text-edl-500 text-[10px] tracking-[0.16em] uppercase mb-1">Email</span>
+            <p className="text-[13px] text-white/70">
+              <span className="mb-1 block text-[10px] uppercase tracking-[0.16em] text-white/40">Email</span>
               varindo.admin@gmail.com
             </p>
           </address>
@@ -101,7 +99,7 @@ export function Footer() {
 
       <div className="border-t border-white/[0.07]">
         <div className="shell py-5">
-          <p className="text-[11px] text-edl-600">
+          <p className="text-[11px] text-white/40">
             {t('footer', 'copyright', lang, { year })}
           </p>
         </div>

@@ -49,7 +49,7 @@ export default function RequestCatalogPage() {
                 'Preferred designs or product codes, if any'
               ].map((item) => (
                 <div key={item} className="bg-white p-4">
-                  <div className="w-4 h-[1.5px] bg-edl-blue mb-2" />
+                  <div className="mb-2 h-px w-4 bg-edl-ink" />
                   <p className="text-[12px] font-medium text-edl-700">{item}</p>
                 </div>
               ))}

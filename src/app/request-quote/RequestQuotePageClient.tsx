@@ -14,7 +14,7 @@ export function RequestQuotePage({ products }: { products: ProductOption[] }) {
 
   return (
     <div>
-      <div className="relative overflow-hidden bg-[#e7eee6]">
+      <div className="relative overflow-hidden bg-edl-raised">
         <div className="shell py-14 sm:py-20">
           <p className="label mb-4">{t('forms', 'quoteBadge', lang)}</p>
           <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl whitespace-pre-line">
@@ -39,7 +39,7 @@ export function RequestQuotePage({ products }: { products: ProductOption[] }) {
             <div className="divide-y divide-edl-line/50">
               {infoItems.map((item) => (
                 <div key={item} className="flex items-center gap-3 px-6 py-4">
-                  <div className="w-4 h-[1.5px] bg-edl-blue shrink-0" />
+                  <div className="h-px w-4 shrink-0 bg-edl-ink" />
                   <p className="text-[13px] font-medium text-edl-700">{item}</p>
                 </div>
               ))}

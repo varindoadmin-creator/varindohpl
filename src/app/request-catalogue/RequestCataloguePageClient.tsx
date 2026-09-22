@@ -8,7 +8,7 @@ export function RequestCataloguePage() {
   const { lang } = useLang();
   return (
     <div>
-      <div className="relative overflow-hidden bg-[#e9e2ef]">
+      <div className="relative overflow-hidden bg-edl-raised">
         <div className="shell py-14 sm:py-20">
           <p className="label mb-4">{t('forms', 'catalogueBadge', lang)}</p>
           <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl whitespace-pre-line">

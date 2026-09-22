@@ -23,17 +23,13 @@ export function ProductsClient({ products }: { products: Product[] }) {
   const { lang } = useLang();
   return (
     <div>
-      <div className="relative overflow-hidden bg-[#e9e2ef]">
-        <div className="absolute -right-20 -top-32 h-80 w-80 rounded-full bg-white/50" />
+      <div className="border-b border-edl-line bg-edl-raised">
         <div className="shell py-16 sm:py-24">
-          <div className="inline-flex items-center gap-2 mb-4">
-            <div className="w-5 h-[2px] bg-edl-blue" />
-            <p className="label text-[#745f83]">{t('products', 'badge', lang)}</p>
-          </div>
-          <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl mb-5">
+          <p className="label mb-5">{t('products', 'badge', lang)}</p>
+          <h1 className="display mb-6 text-5xl text-edl-ink sm:text-7xl">
             {t('products', 'title', lang)}
           </h1>
-          <p className="text-[14px] leading-7 text-edl-600 max-w-xl">
+          <p className="max-w-xl text-[14px] leading-7 text-edl-600">
             {t('products', 'subtitle', lang)}
           </p>
         </div>

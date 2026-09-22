@@ -52,32 +52,31 @@ export function CollectionClient({ group, products }: Props) {
   return (
     <div>
       {/* Header */}
-      <div className="relative overflow-hidden bg-[#e7eee6]">
-        <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
+      <div className="border-b border-edl-line bg-edl-raised">
         <div className="shell py-12 sm:py-16">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-[11px] tracking-[0.12em] uppercase mb-8">
-            <Link href="/products" className="text-edl-500 hover:text-edl-300 transition-colors">
+            <Link href="/products" className="text-edl-500 transition-colors hover:text-edl-ink">
               {t('collections', 'breadcrumbCatalog', lang)}
             </Link>
-            <span className="text-edl-600">·</span>
-            <span className="text-edl-400">{title}</span>
+            <span className="h-px w-3 bg-edl-300" aria-hidden="true" />
+            <span className="text-edl-ink">{title}</span>
           </div>
 
           <div className="flex items-start justify-between gap-6 flex-wrap">
             <div>
               {accent && (
                 <div className="inline-flex items-center gap-2 mb-4">
-                  <div className="w-5 h-[2px] bg-edl-blue" />
+                  <div className="h-px w-5 bg-edl-ink" />
                   <p className="label">{accent}</p>
                 </div>
               )}
               <h1 className="display text-edl-ink text-5xl sm:text-7xl lg:text-8xl mb-4">{title}</h1>
-              <p className="text-[14px] leading-7 text-edl-400 max-w-xl">{desc}</p>
+              <p className="max-w-xl text-[14px] leading-7 text-edl-600">{desc}</p>
             </div>
-            <div className="border border-edl-blue/30 bg-edl-blue/10 px-6 py-4 text-center shrink-0">
-              <p className="display text-4xl text-white">{products.length}</p>
-              <p className="text-[10px] tracking-[0.2em] uppercase text-edl-400 mt-1">
+            <div className="shrink-0 border-l border-edl-line pl-6">
+              <p className="display text-5xl text-edl-ink">{products.length}</p>
+              <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-edl-500">
                 {t('collections', 'products', lang)}
               </p>
             </div>
@@ -90,9 +89,9 @@ export function CollectionClient({ group, products }: Props) {
         <div className="shell flex gap-0">
           {tabOrder.filter(g => groupConfig[g]).map((g) => (
             <Link key={g} href={`/collections/${g}`}
-              className={`shrink-0 px-5 py-3.5 text-[10px] font-bold tracking-[0.18em] uppercase transition-all border-b-2 ${
+              className={`shrink-0 border-b-2 px-5 py-3.5 text-[10px] font-medium uppercase tracking-[0.18em] transition-all ${
                 g === group
-                  ? 'border-edl-blue text-edl-blue'
+                  ? 'border-edl-ink text-edl-ink'
                   : 'border-transparent text-edl-500 hover:text-edl-ink hover:border-edl-300'
               }`}>
               {t('collections', groupConfig[g]!.titleKey, lang)}

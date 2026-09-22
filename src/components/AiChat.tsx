@@ -162,8 +162,8 @@ export function AiChat() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"
                     fill="#2563eb"/>
-                  <circle cx="12" cy="12" r="10" stroke="#2563eb" strokeWidth="1.5" fill="none"/>
-                  <path d="M8 10h8M8 14h5" stroke="#2563eb" strokeWidth="1.5" strokeLinecap="round"/>
+                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+                  <path d="M8 10h8M8 14h5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
               <div>

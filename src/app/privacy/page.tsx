@@ -7,7 +7,7 @@ export default function PrivacyPage() {
 
   return (
     <div>
-      <div className="border-b border-edl-line bg-[#e9e2ef]">
+      <div className="border-b border-edl-line bg-edl-raised">
         <div className="shell py-14 sm:py-20">
           <p className="label text-edl-400 mb-4">
             {lang === 'id' ? 'Legal' : 'Legal'}
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
                 <ul className="mt-3 space-y-2 list-none pl-0">
                   {['Nama atau nama perusahaan', 'Alamat pengiriman', 'Nomor telepon'].map((item) => (
                     <li key={item} className="flex items-center gap-3">
-                      <div className="w-4 h-[1.5px] bg-edl-blue shrink-0" />
+                      <div className="h-px w-4 shrink-0 bg-edl-ink" />
                       {item}
                     </li>
                   ))}
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
                     'Mengirimkan produk atau katalog ke alamat yang Anda berikan'
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <div className="w-4 h-[1.5px] bg-edl-blue shrink-0 mt-4" />
+                      <div className="mt-4 h-px w-4 shrink-0 bg-edl-ink" />
                       {item}
                     </li>
                   ))}
@@ -126,7 +126,7 @@ export default function PrivacyPage() {
                 <ul className="mt-3 space-y-2 list-none pl-0">
                   {['Name or company name', 'Delivery address', 'Phone number'].map((item) => (
                     <li key={item} className="flex items-center gap-3">
-                      <div className="w-4 h-[1.5px] bg-edl-blue shrink-0" />
+                      <div className="h-px w-4 shrink-0 bg-edl-ink" />
                       {item}
                     </li>
                   ))}
@@ -146,7 +146,7 @@ export default function PrivacyPage() {
                     'Deliver products or catalogues to your provided address'
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <div className="w-4 h-[1.5px] bg-edl-blue shrink-0 mt-4" />
+                      <div className="mt-4 h-px w-4 shrink-0 bg-edl-ink" />
                       {item}
                     </li>
                   ))}

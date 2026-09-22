@@ -1,9 +1,28 @@
 import type { Metadata } from 'next';
+import { Inter, Instrument_Serif } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { LangProvider } from '@/lib/LangContext';
 import { AiChat } from '@/components/AiChat';
+
+// Both faces are self-hosted by next/font. The previous build named Inter in
+// the CSS but never loaded it, so anyone without Inter installed locally saw
+// system-ui — which is most visitors.
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-ui',
+  display: 'swap',
+});
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ['latin'],
+  weight: '400',
+  style: ['normal', 'italic'],
+  variable: '--font-display',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -90,7 +109,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   };
 
   return (
-    <html lang="id">
+    <html lang="id" className={`${inter.variable} ${instrumentSerif.variable}`}>
       <body className="min-h-screen font-sans antialiased">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationSchema, websiteSchema]).replace(/</g, '\\u003c') }} />
         <LangProvider>

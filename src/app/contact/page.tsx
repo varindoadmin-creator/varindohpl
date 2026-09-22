@@ -14,11 +14,10 @@ export default function ContactPage() {
   return (
     <div>
       {/* Page hero */}
-      <div className="relative overflow-hidden bg-[#f5e6df]">
-        <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
+      <div className="border-b border-edl-line bg-edl-raised">
         <div className="shell py-16 sm:py-24">
           <div className="inline-flex items-center gap-2 mb-6">
-            <div className="w-6 h-[2px] bg-edl-blue" />
+            <div className="h-px w-6 bg-edl-ink" />
             <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-edl-blue">
               {t('contact', 'badge', lang)}
             </p>
@@ -35,7 +34,7 @@ export default function ContactPage() {
             <p className="text-[14px] leading-7 text-edl-500 max-w-lg mb-10">{t('contact', 'intro', lang)}</p>
             <div className="border border-edl-line bg-white">
               <div className="border-b border-edl-line px-6 py-5 bg-edl-50 flex items-center gap-3">
-                <div className="w-1 h-8 bg-edl-blue shrink-0" />
+                <div className="h-8 w-px shrink-0 bg-edl-ink" />
                 <div>
                   <p className="text-[10px] font-bold tracking-[0.2em] uppercase text-edl-500">{t('contact', 'companyLabel', lang)}</p>
                   <p className="mt-0.5 text-[15px] font-bold text-edl-ink">CV. Varindo Forma Hutama</p>
@@ -67,7 +66,7 @@ export default function ContactPage() {
           </div>
 
           <aside className="border border-edl-line bg-white p-8">
-            <div className="w-8 h-[3px] bg-edl-blue mb-5" />
+            <div className="mb-5 h-px w-8 bg-edl-ink" />
             <p className="label mb-4">WhatsApp</p>
             <h2 className="display text-edl-ink text-3xl sm:text-4xl mb-4">{t('contact', 'waTitle', lang)}</h2>
             <p className="text-[14px] leading-7 text-edl-500 mb-8">{t('contact', 'waBody', lang)}</p>

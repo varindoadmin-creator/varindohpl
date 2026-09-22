@@ -15,8 +15,8 @@ export function ProductImage({ src, alt, priority = false, imageUrls = [] }: {
 
   if (!currentSrc || index >= candidates.length) {
     return (
-      <div className="flex h-full min-h-[220px] w-full flex-col items-center justify-center bg-edl-50 p-8 text-center gap-2">
-        <div className="w-12 h-12 bg-edl-line/60 mb-2" />
+      <div className="flex h-full min-h-[220px] w-full flex-col items-center justify-center bg-edl-100 p-8 text-center gap-2">
+        <div className="mb-2 h-10 w-10 border border-edl-300" />
         <p className="text-[11px] tracking-[0.14em] uppercase text-edl-400">
           {t('imagePlaceholder', 'label', lang)}
         </p>
@@ -27,7 +27,7 @@ export function ProductImage({ src, alt, priority = false, imageUrls = [] }: {
   return (
     <Image key={currentSrc} src={currentSrc} alt={alt} fill priority={priority}
       sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 480px) 50vw, 100vw"
-      className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+      className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.04]"
       onError={() => setIndex((i) => i + 1)} />
   );
 }

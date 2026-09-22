@@ -106,18 +106,17 @@ export function Header() {
 
   return (
     <>
-      {/* Announcement bar — EDL blue */}
-      <div className="bg-[#f5e6df] text-center py-2 px-4">
-        <p className="text-[10px] tracking-[0.22em] uppercase font-bold text-[#8f5145]">
+      {/* Announcement bar — ink on paper; it states a fact, it does not shout */}
+      <div className="border-b border-edl-line bg-edl-ink px-4 py-2 text-center">
+        <p className="text-[10px] font-medium uppercase tracking-[0.24em] text-edl-paper/85">
           {t('nav', 'announcementBar', lang)}
         </p>
       </div>
 
-      <header className={`sticky top-0 z-50 bg-[#fbfaf6]/95 backdrop-blur-xl transition-shadow duration-300 ${scrolled ? 'shadow-[0_12px_40px_rgba(32,48,42,0.07)]' : ''}`}>
-        <div className="rule" />
+      <header className={`sticky top-0 z-50 bg-edl-paper/95 backdrop-blur-xl transition-colors duration-300 ${scrolled ? 'border-b border-edl-line' : 'border-b border-transparent'}`}>
 
         <div className="shell">
-          <div className="flex h-[68px] items-center justify-between gap-6">
+          <div className="flex h-[76px] items-center justify-between gap-6">
 
             {/* Logo + EDL badge */}
             <Link href="/" className="shrink-0 flex items-center gap-3" aria-label="Varindo EDL">
@@ -132,39 +131,39 @@ export function Header() {
             </Link>
 
             {/* Desktop nav */}
-            <nav className="hidden lg:flex items-center gap-8 text-[11px] font-bold tracking-[0.16em] uppercase text-edl-600">
-              <Link href="/" className="hover:text-edl-blue transition-colors">
+            <nav className="hidden lg:flex items-center gap-9 text-[11px] font-medium tracking-[0.18em] uppercase text-edl-600">
+              <Link href="/" className="transition-colors hover:text-edl-ink">
                 {t('nav', 'home', lang)}
               </Link>
 
               <div className="group relative py-6">
-                <button className="flex items-center gap-1 hover:text-edl-blue transition-colors cursor-pointer">
+                <button className="flex cursor-pointer items-center gap-1.5 transition-colors hover:text-edl-ink">
                   {t('nav', 'collections', lang)}
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true" className="translate-y-px">
                     <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </button>
                 <div className="invisible absolute left-1/2 top-full -translate-x-1/2 w-52 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 z-[100]">
-                  <div className="mt-2 border border-edl-line bg-white shadow-luxury py-1">
+                  <div className="mt-3 border border-edl-line bg-white py-1 shadow-luxury">
                     {collectionItems.map((item) => (
                       <Link key={item.href} href={item.href}
-                        className="block px-5 py-3 text-[11px] font-semibold tracking-[0.1em] uppercase text-edl-600 hover:bg-edl-50 hover:text-edl-blue transition-colors">
+                        className="block px-5 py-3 text-[11px] font-medium tracking-[0.12em] uppercase text-edl-600 transition-colors hover:bg-edl-100 hover:text-edl-ink">
                         {collectionLabels[item.key][lang]}
                       </Link>
                     ))}
                     <div className="rule mx-4 my-1" />
                     <Link href="/products"
-                      className="block px-5 py-3 text-[11px] font-bold tracking-[0.1em] uppercase text-edl-blue hover:bg-edl-50 transition-colors">
+                      className="block px-5 py-3 text-[11px] font-medium tracking-[0.12em] uppercase text-edl-ink transition-colors hover:bg-edl-100">
                       {t('nav', 'allProducts', lang)} →
                     </Link>
                   </div>
                 </div>
               </div>
 
-              <Link href="/about" className="hover:text-edl-blue transition-colors">
+              <Link href="/about" className="transition-colors hover:text-edl-ink">
                 {t('nav', 'about', lang)}
               </Link>
-              <Link href="/contact" className="hover:text-edl-blue transition-colors">
+              <Link href="/contact" className="transition-colors hover:text-edl-ink">
                 {t('nav', 'contact', lang)}
               </Link>
             </nav>
@@ -207,7 +206,7 @@ export function Header() {
                 { href: '/contact', label: t('nav', 'contact', lang) },
               ].map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setIsOpen(false)}
-                  className="block py-3 text-[11px] font-bold tracking-[0.18em] uppercase text-edl-600 hover:text-edl-blue transition-colors border-b border-edl-line/50 last:border-0">
+                  className="block border-b border-edl-line/60 py-3.5 text-[11px] font-medium tracking-[0.18em] uppercase text-edl-600 transition-colors last:border-0 hover:text-edl-ink">
                   {item.label}
                 </Link>
               ))}
@@ -218,7 +217,7 @@ export function Header() {
               <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                 {collectionItems.map((item) => (
                   <Link key={item.href} href={item.href} onClick={() => setIsOpen(false)}
-                    className="border border-edl-line bg-edl-50 px-3 py-3 text-center text-[10px] font-bold tracking-[0.14em] uppercase text-edl-600 hover:border-edl-blue hover:text-edl-blue transition-colors">
+                    className="border border-edl-line bg-white px-3 py-3 text-center text-[10px] font-medium tracking-[0.14em] uppercase text-edl-600 transition-colors hover:border-edl-ink hover:text-edl-ink">
                     {collectionLabels[item.key][lang]}
                   </Link>
                 ))}

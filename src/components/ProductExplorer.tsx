@@ -107,7 +107,7 @@ export function ProductExplorer({ products, filterOptions, showCollectionTabs = 
         </div>
       )}
 
-      <div className="mb-8 overflow-hidden rounded-2xl border border-edl-line bg-white">
+      <div className="mb-8 overflow-hidden border border-edl-line bg-white">
         <div className="flex items-center justify-between px-5 py-3.5 border-b border-edl-line">
           <div className="flex items-center gap-2">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="text-edl-500">

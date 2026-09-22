@@ -9,11 +9,10 @@ export default function AboutPage() {
   return (
     <div>
       {/* Page hero */}
-      <div className="relative overflow-hidden bg-[#e7eee6]">
-        <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
+      <div className="border-b border-edl-line bg-edl-raised">
         <div className="shell py-16 sm:py-24">
           <div className="inline-flex items-center gap-2 mb-6">
-            <div className="w-6 h-[2px] bg-edl-blue" />
+            <div className="h-px w-6 bg-edl-ink" />
             <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-edl-blue">
               {t('about', 'badge', lang)}
             </p>
@@ -31,7 +30,7 @@ export default function AboutPage() {
         <section className="border border-edl-line bg-white mb-6">
           <div className="grid lg:grid-cols-[0.4fr_0.6fr]">
             <div className="border-b lg:border-b-0 lg:border-r border-edl-line bg-edl-50 px-8 py-10 flex flex-col justify-center">
-              <div className="w-8 h-[3px] bg-edl-blue mb-5" />
+              <div className="mb-5 h-px w-8 bg-edl-ink" />
               <p className="label mb-4">{t('about', 'missionLabel', lang)}</p>
               <h2 className="display text-edl-ink text-3xl sm:text-4xl">
                 {t('about', 'missionTitle1', lang)}<br />
@@ -47,8 +46,7 @@ export default function AboutPage() {
         </section>
 
         {/* Vision */}
-        <section className="relative mb-6 overflow-hidden rounded-[1.5rem] border border-edl-line bg-[#e9e2ef] px-8 py-10">
-          <div className="absolute left-0 top-0 bottom-0 w-1 bg-edl-blue" />
+        <section className="relative mb-6 overflow-hidden border border-edl-line bg-edl-raised px-8 py-10">
           <p className="label mb-4">{t('about', 'visionLabel', lang)}</p>
           <h2 className="display text-edl-ink text-3xl sm:text-4xl mb-5">
             {t('about', 'visionTitle', lang)}
@@ -69,7 +67,7 @@ export default function AboutPage() {
                   {String(n).padStart(2, '0')}
                 </span>
                 <div className="relative z-10">
-                  <div className="w-8 h-[3px] bg-edl-blue mb-4" />
+                  <div className="mb-4 h-px w-8 bg-edl-ink" />
                   <h3 className="text-[14px] font-bold text-edl-ink mb-2">{t('about', `val${n}Title`, lang)}</h3>
                   <p className="text-[13px] leading-7 text-edl-500">{t('about', `val${n}Body`, lang)}</p>
                 </div>
