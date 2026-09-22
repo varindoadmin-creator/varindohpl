@@ -86,14 +86,27 @@ Records at Hostinger (Domains → varindohpl.com → DNS / Nameservers):
 | A     | @    | `216.239.32.21`, `216.239.34.21`, `216.239.36.21`, `216.239.38.21` |
 | CNAME | www  | `ghs.googlehosted.com` |
 | TXT   | @    | `google-site-verification=…` |
-| A     | ftp  | `46.202.138.17` (Hostinger's; the site doesn't use it) |
+
+That is the whole zone — four A records, one CNAME, one TXT. Anything else on
+`@` is a leftover pointing at Hostinger and breaks the site for a share of
+visitors; see the warning below.
 
 - **Keep the TXT record.** It keeps `varindohpl.com` verified in Search
   Console for contact@varindo.co.id, and Cloud Run domain mappings require
   the domain to stay verified for the account that manages them.
-- **No AAAA records.** Cloud Run also lists
+- **No AAAA records, and no other A record on `@`.** Cloud Run also lists
   `2001:4860:4802:{32,34,36,38}::15`; without them the site is IPv4-only,
-  which every client can reach.
+  which every client can reach. Leftover Hostinger records on `@` are the
+  failure mode to watch for — on 22 Sep 2026 the zone still carried
+  `A @ 46.202.138.17` and `AAAA @ 2a02:4780:6:1885:0:2b54:d562:5`, both
+  Hostinger's. A visitor routed to either got a TLS handshake rejection, not
+  a page, and resolvers tend to pin one address rather than rotate evenly, so
+  it failed *every* time for some people and never for others. The AAAA was
+  the worse of the two: clients with IPv6 prefer it over any A record, so
+  they never reached Cloud Run at all. Check with `dig varindohpl.com A` and
+  `dig varindohpl.com AAAA` against a resolver you have not queried recently
+  — a stale local cache will keep showing the old answer for up to the 1800s
+  TTL after the records are gone.
 - **Hostinger quirks.** It rejects an A record on `@` while an ALIAS exists
   there, so the ALIAS has to be deleted first, and each additional A record
   on the same name asks for confirmation.
