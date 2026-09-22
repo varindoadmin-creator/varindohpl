@@ -13,15 +13,20 @@ REGION=asia-southeast1          # Cloud Run domain mappings don't exist in asia-
 SERVICE=varindohpl
 ```
 
-## Paused (since 13 Sep 2026)
+## Pausing the site
 
-Every URL on `varindohpl.com` and `www.varindohpl.com` redirects to
-`https://varindo.co.id` with a temporary 307, set by the first rule in
-`redirects()` in `next.config.mjs`. The service, domain mappings,
-certificates, DNS records and Search Console verification all stay in place,
-so resuming avoids the certificate wait described under Domain.
+The site was paused from 13 Sep 2026 to 22 Sep 2026 by a first rule in
+`redirects()` in `next.config.mjs` sending `/:path*` to
+`https://varindo.co.id` with a temporary 307:
 
-To resume: delete that rule, build, and deploy.
+```js
+{ source: '/:path*', destination: 'https://varindo.co.id', permanent: false },
+```
+
+307 rather than 308 so search engines treat it as a pause and resuming needs
+no cleanup. Leave the service, domain mappings, certificates, DNS records and
+Search Console verification in place while paused — tearing them down means
+sitting through the certificate wait described under Domain on the way back.
 
 ## Deploying a change
 
