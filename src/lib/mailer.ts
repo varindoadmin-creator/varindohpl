@@ -11,7 +11,9 @@ function getTransporter() {
   return nodemailer.createTransport({ host, port, secure: port === 465, auth: { user, pass } });
 }
 
-type RequestType = 'sample' | 'catalogue';
+type RequestType = 'sample' | 'catalogue' | 'quote';
+
+export type QuoteItem = { code: string; qty: number };
 
 interface NotifyParams {
   type: RequestType;
@@ -19,11 +21,14 @@ interface NotifyParams {
   phone?: string;
   address?: string;
   samples?: string[];
+  items?: QuoteItem[];
+  notes?: string;
 }
 
 const LABEL: Record<RequestType, string> = {
   sample:    'Sample Request',
   catalogue: 'Catalogue Request',
+  quote:     'Quote Request',
 };
 
 function escapeHtml(value: string) {
@@ -40,11 +45,37 @@ function buildHtml(p: NotifyParams): string {
   const rows = (pairs: [string, string][]) =>
     pairs.map(([k, v]) => `<tr><td style="padding:6px 12px 6px 0;color:#6b6560;font-size:13px;white-space:nowrap">${escapeHtml(k)}</td><td style="padding:6px 0;font-size:13px;color:#1a1714">${escapeHtml(v)}</td></tr>`).join('');
 
-  const itemsHtml = p.type === 'sample' && p.samples?.length
+  const samplesHtml = p.type === 'sample' && p.samples?.length
     ? `<h3 style="margin:24px 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6b6560">Samples</h3>
        <ul style="margin:0;padding-left:18px">
          ${p.samples.map(s => `<li style="font-size:13px;padding:3px 0">${escapeHtml(s)}</li>`).join('')}
        </ul>`
+    : '';
+
+  // The quantities are the point of a quote request, so they get a table with
+  // a total rather than a bare list. This email is the only place they are
+  // guaranteed to appear — see the note in the submit-request route.
+  const quoteHtml = p.type === 'quote' && p.items?.length
+    ? `<h3 style="margin:24px 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6b6560">Products</h3>
+       <table style="border-collapse:collapse;width:100%">
+         <tr>
+           <td style="padding:6px 12px 6px 0;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#a8a49f;border-bottom:1px solid #e8e4df">Code</td>
+           <td style="padding:6px 0;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#a8a49f;text-align:right;border-bottom:1px solid #e8e4df">Sheets</td>
+         </tr>
+         ${p.items.map(item => `<tr>
+           <td style="padding:7px 12px 7px 0;font-size:13px;color:#1a1714;border-bottom:1px solid #f2efec">${escapeHtml(item.code)}</td>
+           <td style="padding:7px 0;font-size:13px;color:#1a1714;text-align:right;border-bottom:1px solid #f2efec">${escapeHtml(String(item.qty))}</td>
+         </tr>`).join('')}
+         <tr>
+           <td style="padding:8px 12px 0 0;font-size:13px;font-weight:600;color:#1a1714">Total</td>
+           <td style="padding:8px 0 0;font-size:13px;font-weight:600;color:#1a1714;text-align:right">${p.items.reduce((sum, item) => sum + item.qty, 0)}</td>
+         </tr>
+       </table>`
+    : '';
+
+  const notesHtml = p.notes
+    ? `<h3 style="margin:24px 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6b6560">Notes</h3>
+       <p style="margin:0;font-size:13px;line-height:1.6;color:#1a1714;white-space:pre-line">${escapeHtml(p.notes)}</p>`
     : '';
 
   return `
@@ -62,7 +93,9 @@ function buildHtml(p: NotifyParams): string {
         ['Address', p.address || '—'],
       ])}
     </table>
-    ${itemsHtml}
+    ${samplesHtml}
+    ${quoteHtml}
+    ${notesHtml}
     <p style="margin:28px 0 0;font-size:11px;color:#a8a49f">Sent from varindo.co.id</p>
   </div>
 </div>`;

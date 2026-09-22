@@ -348,6 +348,7 @@ export const translations = {
     contactLink:  { id: 'Kontak', en: 'Contact' },
     catalogueLink:{ id: 'Permintaan Katalog', en: 'Request Catalogue' },
     sampleLink:   { id: 'Permintaan Sampel', en: 'Request Sample' },
+    quoteLink:    { id: 'Permintaan Penawaran', en: 'Request Quote' },
     copyright:    { id: '© {year} CV. Varindo Forma Hutama. Hak cipta dilindungi.', en: '© {year} CV. Varindo Forma Hutama. All rights reserved.' },
     dealerBadge:  { id: 'Dealer Resmi EDL · Indonesia', en: 'Authorized EDL Dealer · Indonesia' }
   },
@@ -419,7 +420,45 @@ export const translations = {
     samplesRequested: { id: 'Sampel yang Diminta', en: 'Samples Requested' },
     readySample:      { id: 'Siap — {n} sampel dengan data Anda.', en: 'Ready — {n} samples with your details.' },
     fillSample:       { id: 'Isi minimal satu produk dan data kontak.', en: 'Fill in at least one product and your contact details.' },
-    itemsOf:          { id: '{n} / {max} item', en: '{n} / {max} items' }
+    itemsOf:          { id: '{n} / {max} item', en: '{n} / {max} items' },
+
+    // Quote form
+    quoteBadge:       { id: 'Permintaan Penawaran', en: 'Quote Request' },
+    quoteTitle:       { id: 'Permintaan\nPenawaran EDL', en: 'Request an\nEDL Quote' },
+    quoteSubtitle:    {
+      id: 'Pilih produk EDL yang Anda butuhkan beserta jumlah lembarnya. Tim kami akan menyiapkan penawaran harga dan menghubungi Anda.',
+      en: 'Choose the EDL products you need and how many sheets of each. Our team will prepare a quote and get back to you.'
+    },
+    quoteInfoTitle:   { id: 'Informasi yang Perlu Disiapkan', en: 'Information to Prepare' },
+    quoteMaxNote:     {
+      id: 'Maksimal {n} produk per permintaan. Jumlah dihitung dalam lembar.',
+      en: 'Maximum {n} products per request. Quantities are counted in sheets.'
+    },
+    quoteFormTitle:   { id: 'Form Permintaan Penawaran', en: 'Quote Request Form' },
+    quoteItemsLabel:  { id: 'Produk dan Jumlah', en: 'Products and Quantities' },
+    quoteItemPlaceholder: { id: 'Cari kode atau nama desain…', en: 'Search code or design name…' },
+    quoteProductCol:  { id: 'Produk', en: 'Product' },
+    quoteQtyLabel:    { id: 'Jumlah', en: 'Qty' },
+    quoteQtyUnit:     { id: 'lembar', en: 'sheets' },
+    quoteAddRow:      { id: '+ Tambah produk', en: '+ Add product' },
+    quoteRemoveRow:   { id: 'Hapus baris', en: 'Remove row' },
+    quoteNotesLabel:  { id: 'Catatan (opsional)', en: 'Notes (optional)' },
+    quoteNotesPlaceholder: {
+      id: 'Ukuran, ketebalan, jadwal kebutuhan, atau keterangan lain',
+      en: 'Size, thickness, timeline, or anything else we should know'
+    },
+    quoteMaxLabel:    { id: 'Maksimal {n} produk per permintaan.', en: 'Maximum {n} products per request.' },
+    quoteTotalSheets: { id: 'Total {n} lembar', en: '{n} sheets total' },
+    quoteItemsRequested: { id: 'Produk yang Diminta', en: 'Products Requested' },
+    quoteSuccessTitle: { id: 'Permintaan penawaran terkirim.', en: 'Quote request submitted.' },
+    quoteSuccessBody: {
+      id: 'Permintaan penawaran untuk {n} produk telah dicatat. Tim kami akan menghubungi Anda di {phone} dalam 1 hari kerja.',
+      en: 'Your quote request for {n} products has been recorded. Our team will contact you at {phone} within 1 business day.'
+    },
+    readyQuote:       { id: 'Siap — {n} produk dengan data Anda.', en: 'Ready — {n} products with your details.' },
+    fillQuote:        { id: 'Isi minimal satu produk dengan jumlah, dan data kontak.', en: 'Add at least one product with a quantity, plus your contact details.' },
+    quoteQtyInvalid:  { id: 'Jumlah harus minimal 1 lembar.', en: 'Quantity must be at least 1 sheet.' },
+    quoteDuplicate:   { id: 'Produk yang sama dipilih lebih dari sekali.', en: 'The same product is selected more than once.' }
   },
 
   // ── Product search autocomplete ───────────────────────────────
