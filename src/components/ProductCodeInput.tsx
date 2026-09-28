@@ -106,8 +106,8 @@ export function ProductCodeInput({ products, value, onChange, placeholder, input
                 onMouseDown={(e) => { e.preventDefault(); commit(p); }}
                 onMouseEnter={() => setCursor(i)}
                 className={`flex items-baseline gap-3 px-4 py-2.5 cursor-pointer transition-colors ${i === cursor ? 'bg-edl-50' : 'hover:bg-edl-50/60'}`}>
-                <span className="text-[12px] font-semibold text-edl-ink shrink-0">{p.code}</span>
-                <span className="text-[11px] text-edl-500 truncate">{p.design || p.name}</span>
+                {/* The full item name leads with the code, so it stands alone */}
+                <span className="text-[12px] font-semibold text-edl-ink truncate">{p.name || p.code}</span>
                 {p.collection && (
                   <span className="ml-auto text-[10px] tracking-[0.1em] uppercase text-edl-300 shrink-0">{p.collection}</span>
                 )}
