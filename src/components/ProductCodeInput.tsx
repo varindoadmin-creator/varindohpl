@@ -73,9 +73,11 @@ export function ProductCodeInput({ products, value, onChange, placeholder, input
   }
 
   if (value) {
+    // The form still stores and submits the code; this only changes what's shown.
+    const selectedName = products.find((p) => p.code === value)?.name || value;
     return (
       <div className={`flex items-center gap-2 h-10 px-3 bg-edl-50 ${inputClassName ?? ''}`}>
-        <span className="text-[12px] font-semibold text-edl-ink truncate flex-1">{value}</span>
+        <span className="text-[12px] font-semibold text-edl-ink truncate flex-1" title={selectedName}>{selectedName}</span>
         <button type="button" onClick={clear} aria-label="Hapus"
           className="shrink-0 w-5 h-5 flex items-center justify-center text-edl-400 hover:text-edl-ink transition-colors">
           <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
