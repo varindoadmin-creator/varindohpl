@@ -12,10 +12,9 @@ export function ProductDetailClient({ product }: { product: Product }) {
   const { lang } = useLang();
   const enquiryUrl = buildWhatsAppUrl(buildProductEnquiryMessage(product));
 
-  // `name` is the SKU string ("DA 2081N - EDL HPL 4'x8' | TITAN I"). Setting
-  // that as the H1 put pipes and feet-marks into display type and repeated the
-  // code that already sits in the spec table. The design name is the title.
-  const title = product.design || product.name;
+  // `name` is the full item name ("DA 2081N - EDL HPL 4'x8' | TITAN I"), which
+  // is how customers quote and order a sheet, so it is the title.
+  const title = product.name;
 
   const specs = [
     [t('detail', 'specCode', lang),          product.code],
@@ -61,8 +60,7 @@ export function ProductDetailClient({ product }: { product: Product }) {
           <div>
             <p className="label mb-4">{product.brand || 'EDL'}</p>
             {/* Product name — NEVER translated */}
-            <h1 className="display mb-3 text-5xl text-edl-ink sm:text-6xl">{title}</h1>
-            <p className="spec tracking-[0.12em] uppercase text-edl-500">{product.code}</p>
+            <h1 className="display text-3xl text-edl-ink sm:text-4xl">{title}</h1>
 
             <div className="mb-8 mt-7 flex items-baseline gap-3 border-y border-edl-line py-5">
               <span className="spec text-[17px] font-medium text-edl-ink">{formatIDR(product.price)}</span>
