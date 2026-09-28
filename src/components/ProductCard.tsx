@@ -11,13 +11,13 @@ import { t } from '@/lib/i18n';
  * The swatch is the card. Chrome is a hairline and small-caps metadata, so
  * nothing frames the material with a colour that would shift how it reads.
  *
- * `name` is the raw SKU string ("DA 2081N - EDL HPL 4'x8' | TITAN I"), which is
- * a database field, not a title. `design` holds what a specifier actually
- * remembers, so that leads and the code sits under it as reference.
+ * `name` is the full item name ("DA 2081N - EDL HPL 4'x8' | TITAN I"), which is
+ * how customers quote and order a sheet, so it is the title. It already leads
+ * with the code, so the code isn't repeated underneath.
  */
 export function ProductCard({ product }: { product: Product }) {
   const { lang } = useLang();
-  const title = product.design || product.name;
+  const title = product.name;
 
   return (
     <article className="group">
@@ -36,22 +36,14 @@ export function ProductCard({ product }: { product: Product }) {
       <div className="pt-3.5">
         <Link
           href={`/products/${product.slug}`}
-          className="block font-display text-[19px] leading-[1.2] text-edl-ink transition-colors group-hover:text-edl-accent"
+          className="block font-display text-[15px] leading-[1.3] text-edl-ink transition-colors group-hover:text-edl-accent"
         >
           {title}
         </Link>
 
-        <div className="mt-1.5 flex flex-wrap items-baseline gap-x-2.5 gap-y-1">
-          {product.code && (
-            <span className="spec tracking-[0.1em] uppercase text-edl-500">{product.code}</span>
-          )}
-          {product.finish && (
-            <>
-              <span className="h-px w-3 bg-edl-300" aria-hidden="true" />
-              <span className="text-[11px] tracking-[0.1em] uppercase text-edl-400">{product.finish}</span>
-            </>
-          )}
-        </div>
+        {product.finish && (
+          <p className="mt-1.5 text-[11px] tracking-[0.1em] uppercase text-edl-400">{product.finish}</p>
+        )}
 
         {/* Price is reference information, not the headline: specifiers choose
             by design and finish first, then check cost. */}
