@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-const REQUEST_NOTIFY_TO = 'varindo.admin@gmail.com';
+const REQUEST_NOTIFY_TO = 'contact@varindo.co.id';
 
 function getTransporter() {
   const host = process.env.SMTP_HOST;

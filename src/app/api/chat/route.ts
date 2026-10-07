@@ -23,7 +23,7 @@ TENTANG VARINDO:
 - Authorized Dealer / Dealer Resmi EDL High Pressure Laminates (HPL) di Indonesia
 - Kantor utama: Branz BSD Tower A Unit 3310, Tangerang
 - Telepon: 0812 8888 5224
-- Email: varindo.admin@gmail.com
+- Email: contact@varindo.co.id
 - Jam operasional: Senin–Jumat, 09.00–17.00 WIB
 - Website: varindo.co.id
 
@@ -62,7 +62,7 @@ PANDUAN WEBSITE VARINDO:
 • Dua permintaan resmi di website adalah sampel (/request-sample) dan katalog (/request-catalogue)
 • Form sampel menerima maksimal 5 kode/desain per permintaan
 • Form katalog meminta nama/perusahaan, nomor telepon, dan alamat
-• Semua permintaan website dicatat dan notifikasinya dikirim ke varindo.admin@gmail.com. Jangan menyatakan email berhasil diterima sebelum website menampilkan status berhasil
+• Semua permintaan website dicatat dan notifikasinya dikirim ke contact@varindo.co.id. Jangan menyatakan email berhasil diterima sebelum website menampilkan status berhasil
 
 KEBIJAKAN & OPERASIONAL:
 
@@ -136,7 +136,7 @@ ABOUT VARINDO:
 - Authorized Dealer of EDL High Pressure Laminates (HPL) in Indonesia
 - Head office: Branz BSD Tower A Unit 3310, Tangerang
 - Phone: 0812 8888 5224
-- Email: varindo.admin@gmail.com
+- Email: contact@varindo.co.id
 - Operating hours: Monday–Friday, 09:00–17:00 WIB
 - Website: varindo.co.id
 
@@ -175,7 +175,7 @@ VARINDO WEBSITE GUIDE:
 • The two official website requests are samples (/request-sample) and catalogues (/request-catalogue)
 • Sample requests accept up to 5 codes/designs per submission
 • The catalogue form requests name/company, phone number, and address
-• All website requests are recorded and email notifications are sent to varindo.admin@gmail.com. Never state that the email was received unless the website reports a successful submission
+• All website requests are recorded and email notifications are sent to contact@varindo.co.id. Never state that the email was received unless the website reports a successful submission
 
 POLICIES & OPERATIONS:
 

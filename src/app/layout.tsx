@@ -76,7 +76,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     alternateName: 'Varindo',
     url: 'https://varindohpl.com',
     logo: 'https://varindohpl.com/varindo-logo-transparent.png',
-    email: 'varindo.admin@gmail.com',
+    email: 'contact@varindo.co.id',
     telephone: '+62-812-8888-5224',
     address: {
       '@type': 'PostalAddress',
