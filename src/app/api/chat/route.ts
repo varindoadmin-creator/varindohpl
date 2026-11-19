@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getPublicProducts } from '@/lib/products';
+import { AI_CHAT_ENABLED } from '@/lib/features';
 
 export const dynamic = 'force-dynamic';
 
@@ -243,6 +244,10 @@ SAFE RESPONSE EXAMPLES:
 }
 
 export async function POST(req: NextRequest) {
+  // Paused: nothing reaches Claude.
+  if (!AI_CHAT_ENABLED) {
+    return NextResponse.json({ error: 'paused' }, { status: 503 });
+  }
   try {
     const { messages, lang = 'id' } = await req.json();
 

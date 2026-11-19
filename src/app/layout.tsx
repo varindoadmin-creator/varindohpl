@@ -5,6 +5,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { LangProvider } from '@/lib/LangContext';
 import { AiChat } from '@/components/AiChat';
+import { AI_CHAT_ENABLED } from '@/lib/features';
 
 // Both faces are self-hosted by next/font. The previous build named Inter in
 // the CSS but never loaded it, so anyone without Inter installed locally saw
@@ -116,7 +117,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <Header />
           <main>{children}</main>
           <Footer />
-          <AiChat />
+          {AI_CHAT_ENABLED && <AiChat />}
         </LangProvider>
       </body>
     </html>
