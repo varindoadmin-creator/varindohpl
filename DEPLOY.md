@@ -30,6 +30,33 @@ sitting through the certificate wait described under Domain on the way back.
 
 ## Deploying a change
 
+**Push to `main`.** Cloud Build trigger `varindohpl-deploy-main` builds the
+`Dockerfile` from the pushed commit and deploys it (`cloudbuild.yaml`), the
+same way varindo.co.id deploys. Watch a build with:
+
+```bash
+gcloud builds list --region asia-southeast2 --project $PROJECT --limit 5
+```
+
+The trigger lives in `asia-southeast2` because that is where the GitHub
+connection (`viabooks-github`, shared with VIABooks and varindo-catalog) is; it
+deploys to the service in `$REGION`. Never add `--set-env-vars`/`--set-secrets`
+to `cloudbuild.yaml` — they replace the whole set; use `--update-*` by hand.
+
+One-time setup, for reference:
+
+```bash
+gcloud builds repositories create varindohpl --region asia-southeast2 --project $PROJECT \
+  --connection viabooks-github --remote-uri https://github.com/varindoadmin-creator/varindohpl.git
+gcloud builds triggers create github --name varindohpl-deploy-main \
+  --region asia-southeast2 --project $PROJECT \
+  --repository projects/$PROJECT/locations/asia-southeast2/connections/viabooks-github/repositories/varindohpl \
+  --branch-pattern '^main$' --build-config cloudbuild.yaml \
+  --service-account projects/$PROJECT/serviceAccounts/601025884976-compute@developer.gserviceaccount.com
+```
+
+A manual deploy still works, e.g. for a change you don't want to push yet:
+
 ```bash
 gcloud run deploy $SERVICE --source . --region $REGION --project $PROJECT
 ```
